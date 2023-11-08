@@ -6,17 +6,17 @@ const productLinkCardsData = [
   {
     text1: "POLY",
     text2: "Crystalline",
-    link: "/poly-crystalline",
+    link: "/raaj-solar/poly-crystalline",
   },
   {
     text1: "mono",
     text2: "perc",
-    link: "/mono-perc   ",
+    link: "/raaj-solar/mono-perc   ",
   },
   {
     text1: "MONO",
     text2: "BI-Facial",
-    link: "/mono-bi-facial",
+    link: "/raaj-solar/mono-bi-facial",
   },
 ];
 

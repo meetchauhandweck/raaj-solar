@@ -25,15 +25,15 @@ const Navbar = () => {
       <div className={`navbar_wrapper ${showMenu ? "active" : null}`}>
         <ul>
           <li onClick={() => setShowMenu(!showMenu)}>
-            <Link to="/">Home</Link>
+            <Link to="/raaj-solar">Home</Link>
           </li>
           <li onClick={() => setShowMenu(!showMenu)}>
-            <Link to="/about-us">
+            <Link to="/raaj-solar/about-us">
               About<span style={{ paddingLeft: "5px" }}>us</span>
             </Link>
           </li>
           <li onClick={() => setShowMenu(!showMenu)}>
-            <Link to="/products">Products</Link>
+            <Link to="/raaj-solar/products">Products</Link>
           </li>
           {/* <li>
             <Link to="/management">Management</Link>
@@ -42,10 +42,10 @@ const Navbar = () => {
             <Link to="/center">Center</Link>
           </li> */}
           <li onClick={() => setShowMenu(!showMenu)}>
-            <Link to="/blog">Blog</Link>
+            <Link to="/raaj-solar/blog">Blog</Link>
           </li>
           <li onClick={() => setShowMenu(!showMenu)}>
-            <Link to="/contact-us">
+            <Link to="/raaj-solar/contact-us">
               Contact<span style={{ paddingLeft: "5px" }}>Us</span>
             </Link>
           </li>
