@@ -15,6 +15,7 @@ import { useEffect, useRef } from "react";
 import PolyCrystalline from "./pages/products/productsInnerPages/polyCrystalline/PolyCrystalline";
 import MonoPerc from "./pages/products/productsInnerPages/monoPerc/MonoPerc";
 import MonoBiFacial from "./pages/products/productsInnerPages/monoBiFacial/MonoBiFacial";
+import BlogSingleItem from "./components/blogSingleItem/BlogSingleItem";
 
 function App() {
   useEffect(() => {
@@ -33,10 +34,17 @@ function App() {
         <Route path="/raaj-solar/experience" element={<Experience />} />
         <Route path="/raaj-solar/center" element={<Center />} />
         <Route path="/raaj-solar/blog" element={<Blog />} />
+        <Route
+          path="/raaj-solar/blog/:title"
+          element={<BlogSingleItem />}
+        />
         <Route path="/raaj-solar/contact-us" element={<ContactUs />} />
         <Route path="/raaj-solar/about-us" element={<AboutUs />} />
         <Route path="/raaj-solar/management" element={<Management />} />
-        <Route path="/raaj-solar/poly-crystalline" element={<PolyCrystalline />} />
+        <Route
+          path="/raaj-solar/poly-crystalline"
+          element={<PolyCrystalline />}
+        />
         <Route path="/raaj-solar/mono-perc" element={<MonoPerc />} />
         <Route path="/raaj-solar/mono-bi-facial" element={<MonoBiFacial />} />
       </Routes>

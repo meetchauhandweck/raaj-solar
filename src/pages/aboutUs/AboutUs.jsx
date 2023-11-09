@@ -8,6 +8,7 @@ import InnerPageBanner from "../../components/innerPageBanner/InnerPageBanner";
 import TimelineComponent from "../../components/timeline/Timeline";
 import aboutInnerFormImage from "../../images/aboutInnerImage.png";
 import bannerImage from "../../images/aboutUsBanner.png";
+import Form from "../../components/form/Form";
 
 const AboutUs = () => {
   return (
@@ -20,6 +21,7 @@ const AboutUs = () => {
       {/* <NewTimeLine /> */}
       <OurCommitment />
       <ImageWithForm image={aboutInnerFormImage} />
+      <Form />
     </>
   );
 };

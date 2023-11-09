@@ -3,6 +3,9 @@
 .commitment {
   background-color: #d9d9d9;
   padding: 100px 0 199px;
+  @media(max-width:767px){
+    padding: 80px 0 120px;
+  }
   .commitment_container {
     max-width: 1600px;
     padding: 0 20px;
@@ -43,7 +46,7 @@
       margin: 30px 0 0;
       flex-wrap: wrap;
       @media (max-width: 575px) {
-        flex-direction: column;
+        // flex-direction: column;
       }
       .container_circle {
         display: flex;
@@ -54,9 +57,9 @@
         @media (max-width: 991px) {
           width: 50%;
         }
-        @media (max-width: 767px) {
-          width: 100%;
-        }
+        // @media (max-width: 767px) {
+        //   width: 100%;
+        // }
 
         .circle {
           width: 100px;
@@ -68,7 +71,7 @@
           align-items: center;
           justify-content: center;
           @media (max-width: 575px) {
-            padding: 20px;
+            padding: 0;
           }
         }
 
@@ -77,6 +80,7 @@
           max-height: 100%;
           border-radius: 50%;
           align-items: center;
+          width: 65px;
         }
 
         .container_text {
@@ -94,6 +98,7 @@
           }
           @media (max-width: 767px) {
             margin: 20px 0 0;
+            font-size: 20px;
           }
         }
       }

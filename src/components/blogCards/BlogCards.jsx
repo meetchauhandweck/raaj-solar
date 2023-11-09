@@ -9,6 +9,7 @@ import "./blogCards.scss";
 
 const blogCardsData = [
   {
+    name: "Don’t-Fall-for-These-Solar-Panel-Traps-What-to-Know-Before-Buying-From-RAAJ-Solar",
     image: blogimg1,
     heading:
       "Don’t Fall for These Solar Panel Traps: What to Know Before Buying From RAAJ Solar",
@@ -17,6 +18,7 @@ const blogCardsData = [
     buttonText: "Read More",
   },
   {
+    name: "RAAJ-Solar-Energizing-the-Future-at-REI-Expo-2023",
     image: blogimg2,
     heading: "RAAJ Solar : Energizing the Future at REI Expo 2023",
     date: "September 28, 2023",
@@ -25,6 +27,7 @@ const blogCardsData = [
     buttonText: "Read More",
   },
   {
+    name: "Powering-Profit-How-Commercial-Solar-Panels-Supercharge-Businesses",
     image: blogimg3,
     heading:
       "Powering Profit: How Commercial Solar Panels Supercharge Businesses",
@@ -34,6 +37,7 @@ const blogCardsData = [
     buttonText: "Read More",
   },
   {
+    name: "Residential-Solar-Panels-Everything-You-Need-to-Know-Before-Going-Solar",
     image: blogimg4,
     heading:
       "Residential Solar Panels: Everything You Need to Know Before Going Solar",
@@ -43,6 +47,7 @@ const blogCardsData = [
     buttonText: "Read More",
   },
   {
+    name: "Top-10-Solar-Panel-Companies-in-India-you-should-know-them!",
     image: blogimg5,
     heading: "Top 10 Solar Panel Companies in India, you should know them!",
     date: "July 22, 2023",
@@ -51,6 +56,7 @@ const blogCardsData = [
     buttonText: "Read More",
   },
   {
+    name: "Solar-Panels-in-Ahmedabad-Prices-and-Installation-Guide",
     image: blogimg6,
     heading: "Solar Panels in Ahmedabad: Prices and Installation Guide",
     date: "June 14, 2023",
@@ -67,6 +73,7 @@ const BlogCards = () => {
           {blogCardsData.map((card, index) => (
             <BlogCardsItem
               key={index}
+              name={card.name}
               image={card.image}
               heading={card.heading}
               date={card.date}
