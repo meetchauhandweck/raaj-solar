@@ -1,9 +1,6 @@
 import BlogSingleBanner from "../blogSingleBanner/blogSingleBanner";
-// import InnerPageBanner from "../innerPageBanner/InnerPageBanner";
 import "./blogSingleItem.scss";
-import blogImage from "../../images/blogimg1.png";
 import Form from "../form/Form";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
@@ -30,15 +27,9 @@ const BlogSingleItem = ({ image, heading, date }) => {
     <div className="blogSingleItem">
       <div className="blogSingleItem_wrapper">
         <div className="blogSingleItem_wrapper_banner">
-          <BlogSingleBanner
-            image={blogImage}
-            subHeading={
-              "Don't Fall For These Solar Panel Traps: What To Know Before Buying From RAAJ Solar"
-            }
-            date={"October 3, 2023"}
-          />
+          <BlogSingleBanner image={image} subHeading={heading} date={date} />
         </div>
-        <div className="blogSingleItem_wrapper_content_sec" ref={refs}>
+        <div className="blogSingleItem_wrapper_content_sec">
           <div className="container">
             <div className="blogSingleItem_wrapper_content_sec_wrapper">
               <div className="blogSingleItem_wrapper_content_sec_wrapper_inner">
@@ -225,7 +216,7 @@ const BlogSingleItem = ({ image, heading, date }) => {
                   </div>
                 </section>
               </div>
-              <div className="blog_single_form">
+              <div className="blog_single_form" ref={refs}>
                 <div className="blog_single_form_wrapper" ref={container}>
                   <Form />
                 </div>

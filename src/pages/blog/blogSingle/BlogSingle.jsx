@@ -14,14 +14,17 @@ const singleBlogData = [
     image: blogimg1,
     heading:
       "Don’t Fall for These Solar Panel Traps: What to Know Before Buying From RAAJ Solar",
+    date: "October 3, 2023",
   },
   {
+    name: "RAAJ-Solar-Energizing-the-Future-at-REI-Expo-2023",
     id: 1,
     image: blogimg2,
     heading: "RAAJ Solar : Energizing the Future at REI Expo 2023",
     date: "September 28, 2023",
   },
   {
+    name: "Powering-Profit-How-Commercial-Solar-Panels-Supercharge-Businesses",
     id: 2,
     image: blogimg3,
     heading:
@@ -29,6 +32,7 @@ const singleBlogData = [
     date: "September 19, 2023",
   },
   {
+    name: "Residential-Solar-Panels-Everything-You-Need-to-Know-Before-Going-Solar",
     id: 3,
     image: blogimg4,
     heading:
@@ -36,12 +40,14 @@ const singleBlogData = [
     date: "August 18, 2023",
   },
   {
+    name: "Top-10-Solar-Panel-Companies-in-India-you-should-know-them!",
     id: 4,
     image: blogimg5,
     heading: "Top 10 Solar Panel Companies in India, you should know them!",
     date: "July 22, 2023",
   },
   {
+    name: "Solar-Panels-in-Ahmedabad-Prices-and-Installation-Guide",
     id: 5,
     image: blogimg6,
     heading: "Solar Panels in Ahmedabad: Prices and Installation Guide",
@@ -51,7 +57,6 @@ const singleBlogData = [
 
 const BlogSingle = () => {
   const { name } = useParams();
-  console.log("demo");
   console.log(name);
 
   return (
@@ -59,16 +64,14 @@ const BlogSingle = () => {
       <div className="blogSingle_wrapper">
         {singleBlogData
           .filter((item) => item.name === name)
-
-          .map(
-            (item, index) => console.log(name)
-            // <BlogSingleItem
-            //   key={index}
-            //   heading={item.heading}
-            //   image={item.image}
-            //   date={item.date}
-            // />
-          )}
+          .map((item, index) => (
+            <BlogSingleItem
+              key={index}
+              heading={item.heading}
+              image={item.image}
+              date={item.date}
+            />
+          ))}
       </div>
     </div>
   );

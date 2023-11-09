@@ -1,5 +1,5 @@
 import AboutExperience from "../../components/aboutExperience/AboutExperience";
-import AboutUsBanner from "../../components/aboutUsBanner/AboutUsBanner";
+// import AboutUsBanner from "../../components/aboutUsBanner/AboutUsBanner";
 import AboutUsCard from "../../components/aboutUsCard/Aboutuscard";
 import OurCommitment from "../../components/commitment/Commitment";
 import ImageWithForm from "../../components/imageWithForm/ImageWithForm";
