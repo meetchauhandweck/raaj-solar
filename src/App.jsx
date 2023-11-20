@@ -10,12 +10,12 @@ import ContactUs from "./pages/contactUs/ContactUs";
 import Layout from "./components/layout/Layout";
 import AboutUs from "./pages/aboutUs/AboutUs";
 import Management from "./pages/management/Management";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 // import LocomotiveScroll from "locomotive-scroll";
 import PolyCrystalline from "./pages/products/productsInnerPages/polyCrystalline/PolyCrystalline";
 import MonoPerc from "./pages/products/productsInnerPages/monoPerc/MonoPerc";
 import MonoBiFacial from "./pages/products/productsInnerPages/monoBiFacial/MonoBiFacial";
-import BlogSingleItem from "./components/blogSingleItem/BlogSingleItem";
+// import BlogSingleItem from "./components/blogSingleItem/BlogSingleItem";
 import BlogSingle from "./pages/blog/blogSingle/BlogSingle";
 
 function App() {

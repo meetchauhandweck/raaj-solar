@@ -8,10 +8,9 @@
     }
     .productSliderCardItem {
       display: flex;
-      // justify-content: space-between;
       height: 100%;
       @media (max-width: 767px) {
-        flex-direction: column;
+        flex-direction: column-reverse;
       }
       .card1 {
         display: flex;
@@ -21,15 +20,19 @@
         padding: 88px 0 75px;
         @media (max-width: 767px) {
           width: 100%;
+          padding: 0;
+        }
+        .homePageCommonHeading {
+          @media (max-width: 767px) {
+            display: none;
+          }
         }
         .card1_inner {
-          // padding: 10px 88px 88px 135px;
           padding-left: 70px;
           max-width: 500px;
           margin: 0 auto;
           display: flex;
           flex-direction: column;
-          // padding-bottom: 150px;
           position: relative;
           z-index: 1;
           @media (max-width: 1199px) {
@@ -47,7 +50,6 @@
             padding: 0 20px 100px;
           }
           .info {
-            // display: flex;
             margin-top: 271px;
             font-size: 86px;
             font-weight: 600;
@@ -68,7 +70,7 @@
               line-height: 63px;
             }
             @media (max-width: 767px) {
-              margin-top: 100px;
+              margin-top: 0;
               font-size: 40px;
               letter-spacing: -2.02px;
               line-height: 45px;
@@ -76,10 +78,12 @@
           }
           .details {
             margin: 20px 0 50px;
+            @media (max-width: 767px) {
+              font-size: 13px;
+              margin: 15px 0 30px;
+            }
           }
           .link {
-            border: 1px solid $black;
-            padding: 18px 30px;
             width: fit-content;
             a {
               color: $black;
@@ -88,10 +92,25 @@
               font-weight: 400;
               line-height: normal;
               text-decoration: none;
+              border: 1px solid $black;
+              padding: 15px 25px;
+              width: fit-content;
+              transition: all 0.3s;
+              &:hover {
+                color: $darkBlue;
+                img {
+                  transform: translateX(10px) rotate(90deg);
+                }
+              }
+              @media (max-width: 767px) {
+                font-size: 15px;
+                padding: 5px 20px;
+              }
             }
             img {
               transform: rotate(90deg);
-              margin-left: 20px;
+              margin-left: 12px;
+              transition: all 0.3s;
             }
           }
           .index {
@@ -114,6 +133,7 @@
             }
             @media (max-width: 575px) {
               font-size: 340px;
+              top: 20%;
             }
           }
         }
@@ -128,14 +148,16 @@
         padding: 0 20px;
         @media (max-width: 767px) {
           width: 100%;
-          padding: 20px 0;
           height: 100%;
+          background-color: #ebebeb;
+          display: block;
+          text-align: left;
         }
         img {
           max-width: 100%;
           padding: 100px;
           @media (max-width: 767px) {
-            width: 90%;
+            width: 35%;
             padding: 50px 0;
           }
         }
@@ -152,7 +174,9 @@
         transform: translate(-60%, -50%);
       }
       @media (max-width: 767px) {
-        display: none;
+        top: 50px;
+        left: 65%;
+        transform: translate(0, 0);
       }
       .right {
         background-color: $white;

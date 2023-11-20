@@ -78,6 +78,15 @@
         font-weight: 200;
         line-height: 35px;
         letter-spacing: 0.3px;
+        a {
+          color: $white;
+          text-decoration: none;
+          transition: all 0.3s;
+          font-weight: 400;
+          &:hover {
+            color: $blue;
+          }
+        }
       }
       .link a {
         color: $white;
@@ -87,6 +96,10 @@
         font-weight: 400;
         line-height: 35px;
         letter-spacing: 0.3px;
+        transition: all 0.3s;
+        &:hover {
+          color: $blue;
+        }
       }
       @media (max-width: 767px) {
         width: 100%;
@@ -107,13 +120,20 @@
     }
   }
   .f3 {
-    cursor: pointer;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 35px;
-    letter-spacing: 0.3px;
-    text-transform: capitalize;
+    a {
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 35px;
+      letter-spacing: 0.3px;
+      text-transform: capitalize;
+      color: $white;
+      text-decoration: none;
+      transition: all 0.3s;
+      &:hover {
+        color: $blue;
+      }
+    }
   }
 
   .contact {
@@ -146,6 +166,11 @@
       }
       span a {
         color: $lightBlue4;
+        transition: all 0.3s;
+        margin: 0 0 0 5px;
+        &:hover {
+          color: $blue;
+        }
       }
     }
   }
@@ -166,6 +191,10 @@
     font-weight: 700;
     border-radius: 50%;
     display: flex;
+    transition: all 0.3s;
+    &:hover {
+      transform: translateY(-10px);
+    }
   }
   .contact_form {
     background: white;

@@ -2,6 +2,8 @@ import PropTypes from "prop-types";
 import "./leftRightImageContentItem.scss";
 import arrowIcon from "../../../images/rightArrow.svg";
 import { Link } from "react-router-dom";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 const LeftRightImageContentItem = ({
   image,
@@ -11,8 +13,21 @@ const LeftRightImageContentItem = ({
   order,
   link,
 }) => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1 1"],
+  });
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
   return (
-    <div className={`leftRightImageContentItem ${order}`}>
+    <motion.div
+      className={`leftRightImageContentItem ${order}`}
+      ref={ref}
+      style={{
+        scale: scaleProgress,
+        opacity: scrollYProgress,
+      }}
+    >
       <div className="content_left">
         <div className="content_image1">
           <img src={image} alt={title} />
@@ -42,7 +57,7 @@ const LeftRightImageContentItem = ({
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default LeftRightImageContentItem;

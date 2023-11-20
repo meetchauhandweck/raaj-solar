@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .contactUsForm {
   .contact-container {
     display: flex;
@@ -89,14 +91,27 @@
     border-radius: 5px;
     cursor: pointer;
     background-color: white;
-    color: black;
-    transition: background-color 0.3s;
+    color: $darkBlue;
     font-family: Poppins;
     font-size: 17px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.015em;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    &:hover {
+      color: $blue;
+      img {
+        transform: translateX(10px);
+      }
+    }
+    img {
+      padding: 0 0 0 10px;
+      transition: all 0.3s;
+    }
   }
 
   .contactformtitle {

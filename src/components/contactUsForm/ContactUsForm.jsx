@@ -1,6 +1,7 @@
 import { Formik, Form, Field } from "formik";
 import "./contactUsForm.scss";
 import { ContactSchema } from "../../schemas";
+import arrow from "../../images/submitArrow.svg";
 
 function ContactUsForm() {
   return (
@@ -71,7 +72,9 @@ function ContactUsForm() {
                     <div className="error">{errors.message}</div>
                   ) : null} */}
                 </div>
-                <button type="submit">Send Message →</button>
+                <button type="submit">
+                  Send Message <img src={arrow} alt="submitArrow" />
+                </button>
               </Form>
             )}
           </Formik>

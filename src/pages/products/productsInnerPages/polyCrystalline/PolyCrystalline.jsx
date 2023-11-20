@@ -15,17 +15,17 @@ const productModuleData = {
     {
       src: moduleImage,
       caption: "R325P",
-      link: "/mono-perc",
+      link: "/raaj-solar/mono-perc",
     },
     {
       src: moduleImage,
       caption: "R330P",
-      link: "/mono-perc",
+      link: "/raaj-solar/mono-perc",
     },
     {
       src: moduleImage,
       caption: "R335P",
-      link: "/mono-perc",
+      link: "/raaj-solar/mono-perc",
     },
   ],
 };

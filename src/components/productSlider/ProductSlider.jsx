@@ -49,7 +49,7 @@ const ProductSlider = () => {
                     }
                   </div>
                   <div className="link">
-                    <Link to="/">
+                    <Link to="/raaj-solar/poly-crystalline">
                       See more
                       <span>
                         <img src={arrow} alt="arrow" />
@@ -80,7 +80,7 @@ const ProductSlider = () => {
                     }
                   </div>
                   <div className="link">
-                    <Link to="/">
+                    <Link to="/raaj-solar/mono-perc">
                       See more
                       <span>
                         <img src={arrow} alt="arrow" />
@@ -111,7 +111,7 @@ const ProductSlider = () => {
                     }
                   </div>
                   <div className="link">
-                    <Link to="/">
+                    <Link to="/raaj-solar/mono-bi-facial">
                       See more
                       <span>
                         <img src={arrow} alt="arrow" />

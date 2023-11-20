@@ -18,7 +18,7 @@ const propductCardData = [
     description:
       "With the development of Technology Poly Modules efficiency has increased up to 18% , where we can make Modules up to 345 WP.Poly Modules are ideally used for Ground Mounted , Industrial ,Commercial , Residential , Water Pumping system &…",
     image2: smallImage1,
-    link: "/poly-crystalline",
+    link: "/raaj-solar/poly-crystalline",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const propductCardData = [
     description:
       "Assembled with MBB PERC cells, the half-cell configuration of the modules offers the advantages of higher power output, better temperature-dependent performance, reduced shading effect on the energy generation, lower risk of hot spot, as well as enhanced tolerance for mechanical…",
     image2: smallImage2,
-    link: "/mono-perc",
+    link: "/raaj-solar/mono-perc",
   },
   {
     id: 3,
@@ -36,44 +36,11 @@ const propductCardData = [
     description:
       "Assembled with MBB PERC cells, the half-cell configuration of the modules offers the advantages of higher power output, better temperature-dependent performance, reduced shading effect on the energy generation, lower risk of hot spot, as well as enhanced tolerance for mechanical…",
     image2: smallImage3,
-    link: "/mono-bi-facial",
+    link: "/raaj-solar/mono-bi-facial",
   },
 ];
 
 function LeftRightImageContent() {
-  //   useEffect(() => {
-  //     AOS.init();
-  //   }, []);
-
-  //   const renderContentLeft = (item) => (
-  //     <div className="content_left" key={item.id}>
-  //       <div className="content_image1">
-  //         <img src={item.image1} alt={item.title} />
-  //       </div>
-  //     </div>
-  //   );
-
-  //   const renderContentRight = (item) => (
-  //     <div className="content_right" key={item.id}>
-  //       <div data-aos="fade-up" data-aos-duration="2000">
-  //         <h2>{item.title}</h2>
-  //         <div className="content_text">
-  //           <p>{item.description}</p>
-  //         </div>
-  //         <div>
-  //           <p className="button_text">
-  //             Read more
-  //             {/* <img src={arrow} alt="Read more arrow" /> */}
-  //           </p>
-  //         </div>
-  //       </div>
-
-  //       <div className="content_image2">
-  //         <img src={item.image2} alt={`Image for ${item.title}`} />
-  //       </div>
-  //     </div>
-  //   );
-
   return (
     <div className="leftRightImageContent">
       <div className="container">
