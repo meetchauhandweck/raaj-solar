@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./navbar.scss";
 import { useState } from "react";
-import downloadLogo from "../../../images/downloadLogo.svg";
+import downloadLogo from "../../../images/downloadLogo1.svg";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);

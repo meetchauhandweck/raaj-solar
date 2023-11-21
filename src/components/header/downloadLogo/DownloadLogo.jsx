@@ -1,4 +1,4 @@
-import icon from "../../../images/downloadLogo.svg";
+import icon from "../../../images/downloadLogo1.svg";
 import "./downloadLogo.scss";
 
 const DownloadLogo = () => {
