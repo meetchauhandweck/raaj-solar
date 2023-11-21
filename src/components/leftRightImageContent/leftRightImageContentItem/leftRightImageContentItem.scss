@@ -102,14 +102,22 @@
         }
         .button_text {
           display: flex;
-          border: 1px solid black;
+          border: 1px solid $black;
           padding: 9px;
           width: 8rem;
           margin: 1.5rem 0 2rem;
           justify-content: space-between;
 
+          &:hover {
+            color: $darkBlue;
+            img {
+              transform: translateX(10px);
+            }
+          }
+
           img {
             margin-right: 10px;
+            transition: all 0.3s;
           }
           a {
             color: $black;

@@ -124,6 +124,7 @@
     z-index: 9999;
     display: flex;
     align-items: center;
+    justify-content: center;
     &_wrapper {
       position: relative;
       margin: 0 auto;
@@ -131,6 +132,7 @@
       z-index: 999;
       background-color: $grey11;
       padding: 100px 50px;
+      margin: 65px 0 0;
       @media (max-width: 1199px) {
         width: 60%;
       }
@@ -139,11 +141,11 @@
         padding: 50px;
       }
       @media (max-width: 767px) {
-        width: 70%;
+        width: 75%;
         padding: 50px;
       }
       @media (max-width: 575px) {
-        padding: 40px;
+        padding: 25px;
       }
       &_text {
         p {
@@ -166,6 +168,9 @@
         cursor: pointer;
         img {
           width: 40px;
+          @media (max-width: 575px) {
+            width: 30px;
+          }
         }
       }
     }
