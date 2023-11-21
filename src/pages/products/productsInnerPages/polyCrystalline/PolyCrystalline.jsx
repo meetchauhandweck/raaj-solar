@@ -8,6 +8,7 @@ import Table from "../../../../components/table/Table";
 import Warranty from "../../../../components/warranty/Warranty";
 import bannerImage from "../../../../images/productImage1.png";
 import moduleImage from "../../../../images/productImage2.png";
+import file from "../../../../files/product-poly.pdf";
 
 const productModuleData = {
   title: "OTHER PRODUCT MONO PERC PV MODULES",
@@ -39,7 +40,7 @@ const PolyCrystalline = () => {
         text={
           "With the development of Technology Poly Modules efficiency has increased up to 18% , where we can make Modules up to 345 WP.Poly Modules are ideally used for Ground Mounted , Industrial ,Commercial , Residential , Water Pumping system &…"
         }
-        link={"/"}
+        link={file}
       />
       <Table />
       <ProductInnerCards />

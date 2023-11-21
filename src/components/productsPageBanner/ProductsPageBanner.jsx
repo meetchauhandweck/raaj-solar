@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./productsPageBanner.scss";
 import arrow from "../../images/whiteArrow.svg";
 import PropTypes from "prop-types";
-// productImage1.png
 
 function ProductsPageBanner({ image, heading, text, link }) {
   return (
@@ -17,7 +16,7 @@ function ProductsPageBanner({ image, heading, text, link }) {
               <h2>{heading}</h2>
               <div className="content">{text}</div>
               <div className="link">
-                <Link to={link}>
+                <Link to={link} target={`_blank`}>
                   BROCHURE <img src={arrow} alt="whiteArrow" />
                 </Link>
               </div>

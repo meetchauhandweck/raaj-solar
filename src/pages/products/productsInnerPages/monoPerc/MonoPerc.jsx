@@ -8,6 +8,7 @@ import Table from "../../../../components/table/Table";
 import Warranty from "../../../../components/warranty/Warranty";
 import bannerImage from "../../../../images/productImage2.png";
 import moduleImage from "../../../../images/productImage4.png";
+import file from "../../../../files/product-mono.pdf"
 
 const productModuleData = {
   title: "OTHER PRODUCT Mono Bi Facial PV MODULES",
@@ -39,7 +40,7 @@ const MonoPerc = () => {
         text={
           "Assembled with MBB PERC cells, the half-cell configuration of the modules offers the advantages of higher power output, better temperature-dependent performance, reduced shading effect on the energy generation, lower risk of hot spot, as well as enhanced tolerance for mechanical…"
         }
-        link={"/"}
+        link={file}
       />
       <Table />
       <ProductInnerCards />

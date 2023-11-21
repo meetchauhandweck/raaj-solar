@@ -79,6 +79,12 @@
         flex-direction: column;
         margin: 40px 0;
       }
+      .mobile_home {
+        display: none;
+        @media (max-width: 991px) {
+          display: block;
+        }
+      }
       li {
         padding: 0 40px;
         &.downloadLogoMObile {

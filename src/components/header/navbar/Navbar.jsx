@@ -7,7 +7,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   console.log(showMenu);
 
-  if (showMenu) {
+  if (showMenu && window.innerWidth < 992) {
     document.body.classList.add("mobile_menu_open");
   } else {
     document.body.classList.remove("mobile_menu_open");
@@ -24,13 +24,16 @@ const Navbar = () => {
       </div>
       <div className={`navbar_wrapper ${showMenu ? "active" : null}`}>
         <ul>
-          <li onClick={() => setShowMenu(!showMenu)}>
+          <li onClick={() => setShowMenu(!showMenu)} className="mobile_home">
             <Link to="/raaj-solar">Home</Link>
           </li>
           <li onClick={() => setShowMenu(!showMenu)}>
             <Link to="/raaj-solar/about-us">
               About<span style={{ paddingLeft: "5px" }}>us</span>
             </Link>
+          </li>
+          <li onClick={() => setShowMenu(!showMenu)}>
+            <Link to="/raaj-solar/management">Management</Link>
           </li>
           <li onClick={() => setShowMenu(!showMenu)}>
             <Link to="/raaj-solar/products">Products</Link>

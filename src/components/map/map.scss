@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .map {
   position: relative;
   &_wrapper {
@@ -10,10 +12,11 @@
       height: 100%;
       filter: grayscale(1);
       float: left;
-      @media(max-width:991px){
+      border-bottom: 1px solid $darkBlue;
+      @media (max-width: 991px) {
         min-height: 780px;
       }
-      @media(max-width:767px){
+      @media (max-width: 767px) {
         min-height: 610px;
       }
     }

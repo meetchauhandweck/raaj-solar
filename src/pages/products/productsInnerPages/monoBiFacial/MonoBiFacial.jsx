@@ -9,6 +9,7 @@ import ProductLinkCards from "../../../../components/productLinkCards/ProductLin
 import moduleImage from "../../../../images/productImage1.png";
 import ProductModule from "../../../../components/productModule/ProductModule";
 import Table2 from "../../../../components/table2/Table2";
+import file from "../../../../files/product-bi-facial.pdf";
 
 const productModuleData = {
   title: "OTHER PRODUCT Poly Crystalline PV MODULES",
@@ -40,7 +41,7 @@ const MonoBiFacial = () => {
         text={
           "Assembled with MBB PERC cells, the half-cell configuration of the modules offers the advantages of higher power output, better temperature-dependent performance, reduced shading effect on the energy generation, lower risk of hot spot, as well as enhanced tolerance for mechanical…"
         }
-        link={"/"}
+        link={file}
       />
       <Table />
       <Table2 />

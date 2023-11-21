@@ -83,3 +83,135 @@
     }
   }
 }
+
+.container {
+  padding: 0px 160px;
+  display: flex;
+}
+main {
+  background-color: #f6f6f6;
+  padding: 16px;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+.Tablecontent {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  color: #545964;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+nav {
+  margin: 8px 8px 8px 30px;
+  align-self: flex-start;
+  position: sticky;
+  top: 48px;
+  max-height: calc(100vh - 70px);
+  overflow: auto;
+  min-width: 28%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.text {
+  margin: 100px;
+  padding: 100px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+.elementor-element-text span {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+li.active a {
+  color: blue;
+}
+.active {
+  color: blue;
+  /* margin: 10px 9px 10px 2px; */
+}
+li > a:hover {
+  color: blue;
+}
+/* li > a:active {
+  color: blue;
+}  */
+/*  Gives a little bit of buffer when header is navigated to */
+h2,
+h3 {
+  padding-top: 16px;
+  margin-top: -16px;
+}
+.elementor-element-image {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+.btn {
+  outline: none;
+  border: none;
+  background-color: #fdfdfd;
+}
+.elementor-element-heading {
+  /* display: block; */
+  font-size: 38px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 700;
+  /* color: red; */
+}
+.section122 {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+.icon {
+  color: #0080c6;
+  margin-right: 10px;
+}
+.section122list {
+  margin-left: 20px;
+}
+.elementor-element-title {
+  color: #0080c6;
+  font-size: 22px;
+  font-weight: 800;
+}
+.elementor-element-border {
+  border-bottom: 1px solid black;
+}
+.elementor-element-text {
+  font-size: 14px;
+  line-height: 25.2px;
+  font-weight: 400;
+  font-style: normal;
+  color: #232323;
+}
+.tableofcontentbackground {
+  background-color: red;
+  padding: 20px;
+}
+.tableofborder {
+  border: 1px solid black;
+}
+.elementor-element-title-black {
+  color: black;
+}

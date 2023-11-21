@@ -61,16 +61,23 @@
           margin: 0 0 20px;
         }
         .link {
+          width: fit-content;
           a {
             width: 150px;
             color: $lightBlue4;
             text-decoration: none;
             display: flex;
             align-items: center;
-            justify-content: space-between;
             border: 1px solid $lightBlue4;
             padding: 10px;
+            &:hover {
+              img {
+                transform: translateX(10px);
+              }
+            }
             img {
+              padding: 0 0 0 20px;
+              transition: all 0.3s;
             }
           }
         }

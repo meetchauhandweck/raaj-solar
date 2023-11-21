@@ -25,57 +25,80 @@
       max-width: 100%;
     }
     .card-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      /* 3 cards per row */
-      gap: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -14px;
       @media (max-width: 1199px) {
-        gap: 1rem;
+        margin: 0 -8px;
       }
       @media (max-width: 991px) {
-        grid-template-columns: repeat(2, 1fr);
+        margin: 0 -10px;
       }
       @media (max-width: 767px) {
-        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
       }
     }
 
     .card {
+      width: 33.33%;
       margin: 0 0 40px;
-      color: $white;
-      background-color: $darkBlue;
-      position: relative;
-      &::before {
-        position: absolute;
-        content: "";
-        width: 90%;
-        height: 92%;
-        border: 1px solid $white;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        @media (max-width: 767px) {
-          width: 94%;
-        }
-        @media (max-width: 575px) {
-          width: 91%;
-        }
+      @media (max-width: 991px) {
+        width: 50%;
       }
       @media (max-width: 767px) {
-        margin: 0 0 30px;
-      }
-      &:nth-child(2n) {
-        background-color: $blue;
-      }
-      .card_image {
-        max-width: 100%;
-        display: block;
         width: 100%;
       }
-    }
+      &_wrapper {
+        position: relative;
+        height: 100%;
+        padding: 0 14px;
+        @media (max-width: 1199px) {
+          padding: 0 8px;
+        }
+        @media (max-width: 991px) {
+          padding: 0 10px;
+        }
+        @media (max-width: 767px) {
+          padding: 0;
+        }
+        &_inner {
+          height: 100%;
+          color: $white;
+          background-color: $darkBlue;
+          display: flex;
+          flex-direction: column;
+        }
+        &::before {
+          position: absolute;
+          content: "";
+          width: 86%;
+          height: 92%;
+          border: 1px solid $white;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          @media (max-width: 767px) {
+            width: 94%;
+          }
+          @media (max-width: 575px) {
+            width: 91%;
+          }
+        }
+        @media (max-width: 767px) {
+          margin: 0 0 30px;
+        }
 
-    img {
-      max-width: 100%;
+        .card_image {
+          max-width: 100%;
+          display: block;
+          width: 100%;
+        }
+      }
+      &:nth-child(2n) {
+        .card_wrapper_inner {
+          background-color: $blue;
+        }
+      }
     }
 
     a {
@@ -87,11 +110,20 @@
       text-decoration: none;
       width: 156px;
       display: flex;
-      justify-content: space-between;
       text-transform: uppercase;
       position: relative;
       z-index: 1;
       margin-left: auto;
+      margin-top: auto;
+      &:hover {
+        img {
+          transform: translateX(10px);
+        }
+      }
+      img {
+        padding: 0 0 0 20px;
+        transition: all 0.3s;
+      }
     }
 
     .cardcolor {

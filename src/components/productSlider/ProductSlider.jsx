@@ -23,7 +23,7 @@ const ProductSlider = () => {
           fadeEffect={{
             crossFade: true,
           }}
-          speed={1000}
+          speed={800}
           navigation={{
             nextEl: ".productSlider .right",
             prevEl: ".productSlider .left",
