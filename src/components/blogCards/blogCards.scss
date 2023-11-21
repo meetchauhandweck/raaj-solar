@@ -91,10 +91,14 @@
       text-transform: uppercase;
       position: relative;
       z-index: 1;
+      margin-left: auto;
     }
 
     .cardcolor {
       padding: 1rem 2rem 3rem 2rem;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
     }
 
     .heading {

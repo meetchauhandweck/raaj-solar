@@ -8,6 +8,13 @@
   position: relative;
   display: flex;
   align-items: end;
+  &::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 47%);
+  }
   @media (max-width: 1199px) {
     min-height: 600px;
   }
@@ -22,6 +29,7 @@
   }
   &_wrapper {
     margin: 0 0 183px 131px;
+    position: absolute;
     @media (max-width: 1199px) {
       margin: 0 0 140px 110px;
     }

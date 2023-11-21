@@ -44,11 +44,11 @@ function TimelineComponent() {
       let parentST = ScrollTrigger.create({
         id: "parent-timeline",
         trigger: parent_container,
-        start: "top top",
+        start: "top 50%",
         toggleClass: "started",
-        pin: true,
+        // pin: true,
         // markers: true,
-        end: () => "+=" + (sections.length - 2) * vh(25),
+        end: "end 40%",
       });
 
       let currentSection;
