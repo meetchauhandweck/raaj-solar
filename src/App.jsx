@@ -29,7 +29,7 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route exact path="/raaj-solar" element={<Home />} />
+        <Route index path="/raaj-solar" element={<Home />} />
         <Route path="/raaj-solar/company" element={<Company />} />
         <Route path="/raaj-solar/products" element={<Products />} />
         <Route path="/raaj-solar/experience" element={<Experience />} />
