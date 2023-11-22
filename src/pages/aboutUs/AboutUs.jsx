@@ -9,6 +9,7 @@ import TimelineComponent from "../../components/timeline/Timeline";
 import aboutInnerFormImage from "../../images/aboutInnerImage.png";
 import bannerImage from "../../images/aboutUsBanner.png";
 import Form from "../../components/form/Form";
+import TimelineNew from "../../components/timelineNew/TimelineNew";
 
 const AboutUs = () => {
   return (
@@ -17,7 +18,8 @@ const AboutUs = () => {
       <InnerPageBanner heading={"About us"} image={bannerImage} />
       <AboutExperience />
       <AboutUsCard />
-      <TimelineComponent />
+      <TimelineNew />
+      {/* <TimelineComponent /> */}
       {/* <NewTimeLine /> */}
       <OurCommitment />
       <ImageWithForm image={aboutInnerFormImage} />

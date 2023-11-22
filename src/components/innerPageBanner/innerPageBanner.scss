@@ -8,7 +8,7 @@
   position: relative;
   display: flex;
   align-items: end;
-  &::before{
+  &::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -30,6 +30,7 @@
   &_wrapper {
     margin: 0 0 183px 131px;
     position: absolute;
+    width: 80%;
     @media (max-width: 1199px) {
       margin: 0 0 140px 110px;
     }
@@ -74,22 +75,22 @@
       line-height: 87.5px;
       width: 1155px;
       text-transform: uppercase;
-      @media(max-width:1199px){
+      @media (max-width: 1199px) {
         width: 980px;
         font-size: 60px;
         line-height: 70px;
       }
-      @media(max-width:991px){
+      @media (max-width: 991px) {
         width: 750px;
         font-size: 50px;
         line-height: 55px;
       }
-      @media(max-width:767px){
+      @media (max-width: 767px) {
         width: 520px;
         font-size: 35px;
         line-height: 40px;
       }
-      @media(max-width:575px){
+      @media (max-width: 575px) {
         width: 275px;
         font-size: 20px;
         line-height: 30px;
