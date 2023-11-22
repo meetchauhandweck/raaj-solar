@@ -28,12 +28,12 @@ const Navbar = () => {
             <Link to="/raaj-solar">Home</Link>
           </li>
           <li onClick={() => setShowMenu(!showMenu)}>
-            <Link to="/about-us">
+            <Link to="/raaj-solar/about-us">
               About<span style={{ paddingLeft: "5px" }}>us</span>
             </Link>
           </li>
           <li onClick={() => setShowMenu(!showMenu)}>
-            <Link to="/management">Management</Link>
+            <Link to="/raaj-solar/management">Management</Link>
           </li>
           <li onClick={() => setShowMenu(!showMenu)}>
             <Link to="/raaj-solar/products">Products</Link>
