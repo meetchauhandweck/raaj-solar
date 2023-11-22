@@ -30,15 +30,15 @@ function App() {
     <Layout>
       <Routes>
         <Route exact path="/raaj-solar" element={<Home />} />
-        <Route path="/raaj-solar/company" element={<Company />} />
-        <Route path="/raaj-solar/products" element={<Products />} />
-        <Route path="/raaj-solar/experience" element={<Experience />} />
-        <Route path="/raaj-solar/center" element={<Center />} />
-        <Route path="/raaj-solar/blog" element={<Blog />} />
-        <Route path="/raaj-solar/blog/:name" element={<BlogSingle />} />
-        <Route path="/raaj-solar/contact-us" element={<ContactUs />} />
-        <Route path="/raaj-solar/about-us" element={<AboutUs />} />
-        <Route path="/raaj-solar/management" element={<Management />} />
+        <Route path="/company" element={<Company />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/center" element={<Center />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:name" element={<BlogSingle />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/management" element={<Management />} />
         <Route
           path="/raaj-solar/poly-crystalline"
           element={<PolyCrystalline />}
