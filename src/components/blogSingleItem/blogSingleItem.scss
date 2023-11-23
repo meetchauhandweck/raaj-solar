@@ -219,3 +219,13 @@ h3 {
 .headingBottomList li {
   font-size: 15px;
 }
+.listBtn {
+  width: fit-content;
+  margin: 40px 0 ;
+}
+.listBtn a {
+  color: white;
+  text-decoration: none;
+  background: $blue;
+  padding: 10px 20px;
+}

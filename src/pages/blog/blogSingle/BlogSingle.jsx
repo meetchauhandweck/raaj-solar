@@ -94,6 +94,25 @@ const singleBlogData = [
     l5: "Stay informed about the latest technological innovations in renewable energy sector.",
     l6: "Gain profound insights into current global trends in the renewable energy industry.",
     l7: "Attend world-class conference programs with industry experts & renowned speakers.",
+    listBottomContent1:
+      "According to experts, we may only have until 2040 to reverse the effects of climate change before irreparable damage is done. Here’s why:",
+    listBottomContent2:
+      "experts believe we have between 53 and 110 years before  nonrenewable sources will be scarce and therefore unable to power our world.",
+    listBottomContent3:
+      "they pay for themselves over time (both financially and environmentally!), and that means cheaper electricity for the consumer.",
+    listBottomContent4:
+      "in 2019 alone, 12,000 new jobs were created across all 50 US states thanks to wind energy.",
+    listBottomContent5:
+      "Plus, clean energy reduces the risk of respiratory health problems. According to the World Health Organization, household and ambient air pollution caused 7 million deaths globally in 2016. About 94% of these deaths occurred in low- and middle‐income countries, with South East Asia and the Western Pacific regions bearing most of that burden. These and other health issues could be drastically reduced if we were more reliant on energy sources that did not involve the burning of fossil fuels.",
+    listBottomContent6:
+      "According to the latest report, India aims for 500 GW of renewable energy installed capacity by 2030. India aims to produce five million tonnes of green hydrogen by 2030. This will be supported by 125 GW of renewable energy capacity.",
+    listBottomContent7:
+      "Thus, as we move towards the sustainable development of our future, we will adopt the use of renewable energy reserves that will help us control climate change and leave a better environment for our future generations.",
+    listBottomContent2Heading: "Fossil fuels will run out : ",
+    listBottomContent3Heading:
+      "Sustainable energy sources are much more affordable : ",
+    listBottomContent4Heading:
+      "Renewable energy infrastructure creates jobs : ",
   },
   {
     name: "Powering-Profit-How-Commercial-Solar-Panels-Supercharge-Businesses",
@@ -130,17 +149,33 @@ const singleBlogData = [
     blueForthHeading: "Top 5 Commercial Solar Panel Companies to Consider!",
     blueForthHeadingContent1:
       "The commercial solar industry has exploded in recent years, with many new companies entering the market. Here are 5 of the top commercial solar panel companies to consider for your business:",
-    // blueForthHeadingContent2Heading,
-    // blueForthHeadingContent2,
-    // blueForthHeadingContent3,
-    // blueForthHeadingContent3Heading,
-    // blueForthHeadingContent4,
-    // blueForthHeadingContent4Heading,
-    // blueForthHeadingContent5_1,
-    // blueForthHeadingContent5_2,
-    // blueForthHeadingContent5Heading,
-    // blueForthHeadingContent6,
-    // blueForthHeadingContent6Heading,
+    blueForthHeadingContent2Heading: "RAAJ Solar Panels : ",
+    blueForthHeadingContent2:
+      " RAAJ Solar is one of the reliable commercial and Industrial solar panel manufacturers, with over 13 years of experience installing systems for businesses. They offer high-efficiency, premium panels to maximize energy production. RAAJ Solar provides latest Bi-facial Solar Panels that maximizes the power generation capacity of your Solar Energy System",
+    blueForthHeadingContent3Heading: "TATA Solar : ",
+    blueForthHeadingContent3:
+      "TATA Solar is a pioneer in the solar industry and is known for manufacturing some of the most efficient and reliable commercial solar panels available. The company manufactures solar modules, solar cells, and other solar products, and provides EPC services for solar power projects.",
+    blueForthHeadingContent4Heading: "Waaree Energies LTD : ",
+    blueForthHeadingContent4:
+      "WAAREE is one of India’s largest Solar PV Module manufacturer with capacity of 1.5 GW’s. The company also provides EPC services, project development, rooftop solutions, solar water pumps and also as an Independent Power Producer.",
+    blueForthHeadingContent5Heading: "Adani Solar : ",
+    blueForthHeadingContent5_1:
+      " is developing the world’s largest greenfield solar manufacturing plant with a capacity of 1.2 GW at a single location. Adani Solar is also one of the 15 largest utility solar power developers in the world. The company is India’s largest solar cell and module manufacturer with 1.5 GW+ of cell and module capacity.",
+    // blueForthHeadingContent5_2:"",
+    blueForthHeadingContent6Heading: "Goldi Solar : ",
+    blueForthHeadingContent6:
+      "Gujarat-based Goldi Solar was started in 2011. It offers solar energy products in the domestic market as well as in 20 other countries. Goldi Solar has achieved a record growth from 10 MW to 500 MW manufacturing capacity in a span of just 10 years. Goldi Solar has annual manufacturing capabilities of 2.5 GW and currently planning to add another 2000 MW by the end of 2023.",
+    blueFifthHeading: "How Solar Panels Can Reduce Business Energy Costs",
+    blueFifthHeadingContent1:
+      "One of the biggest benefits of solar panels for businesses is reducing your energy bills. Those expensive utility costs really add up over time and cut into your profits. With solar panels installed, you can generate your own electricity and save thousands per year.",
+    blueFifthHeadingContent2:
+      "Solar panels work by absorbing sunlight and converting it into energy to power your building. After the initial investment, the energy from the sun is free. You’ll produce your own electricity during the day when the sun is shining the brightest, which is also typically when your business requires the most power. Any excess energy also gets exported back to the grid, and you get credits for what you produce.",
+    blueFifthHeadingContent3:
+      "Over the lifetime of a commercial solar panel system, which is typically 25-30 years, you can expect to save well over 50% on your electricity bills. The more panels you install, the more you’ll save. Many businesses are able to slash utility costs by 70-90% or more by going  solar.",
+    blueFifthHeadingContent4:
+      "Those savings drop straight to your bottom line and can be used to pay off the system, hire more staff, market your business or increase your profits. And since energy prices are only going up, your savings will likely increase over time. Commercial solar panels are really one of the smartest investments a forward-thinking business owner can make.",
+    blueFifthHeadingContent5:
+      "Reducing and stabilizing your energy bills with solar panels gives you more control over your costs and a competitive advantage. Your customers and clients will also appreciate your commitment to sustainability. It’s really a win-win for your business and the planet.",
   },
   {
     name: "Residential-Solar-Panels-Everything-You-Need-to-Know-Before-Going-Solar",
@@ -225,6 +260,16 @@ const BlogSingle = () => {
               l5={item.l5}
               l6={item.l6}
               l7={item.l7}
+              listBottomContent1={item.listBottomContent1}
+              listBottomContent2={item.listBottomContent2}
+              listBottomContent3={item.listBottomContent3}
+              listBottomContent4={item.listBottomContent4}
+              listBottomContent5={item.listBottomContent5}
+              listBottomContent6={item.listBottomContent6}
+              listBottomContent7={item.listBottomContent7}
+              listBottomContent2Heading={item.listBottomContent2Heading}
+              listBottomContent3Heading={item.listBottomContent3Heading}
+              listBottomContent4Heading={item.listBottomContent4Heading}
               blackHeading1={item.blackHeading1}
               blackHeading1Content={item.blackHeading1Content}
               blackHeading2={item.blackHeading2}
@@ -274,6 +319,12 @@ const BlogSingle = () => {
               blueForthHeadingContent5_1={item.blueForthHeadingContent5_1}
               blueForthHeadingContent5_2={item.blueForthHeadingContent5_2}
               blueForthHeadingContent6={item.blueForthHeadingContent6}
+              blueFifthHeading={item.blueFifthHeading}
+              blueFifthHeadingContent1={item.blueFifthHeadingContent1}
+              blueFifthHeadingContent2={item.blueFifthHeadingContent2}
+              blueFifthHeadingContent3={item.blueFifthHeadingContent3}
+              blueFifthHeadingContent4={item.blueFifthHeadingContent4}
+              blueFifthHeadingContent5={item.blueFifthHeadingContent5}
             />
           ))}
       </div>

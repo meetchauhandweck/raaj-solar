@@ -2,6 +2,7 @@ import BlogSingleBanner from "../blogSingleBanner/blogSingleBanner";
 import "./blogSingleItem.scss";
 import { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Headings = ({ headings, activeId }) => (
   <ul>
@@ -185,6 +186,22 @@ const BlogSingleItem = ({
   blueForthHeadingContent5Heading,
   blueForthHeadingContent6,
   blueForthHeadingContent6Heading,
+  blueFifthHeading,
+  blueFifthHeadingContent1,
+  blueFifthHeadingContent2,
+  blueFifthHeadingContent3,
+  blueFifthHeadingContent4,
+  blueFifthHeadingContent5,
+  listBottomContent1,
+  listBottomContent2,
+  listBottomContent3,
+  listBottomContent4,
+  listBottomContent5,
+  listBottomContent6,
+  listBottomContent7,
+  listBottomContent2Heading,
+  listBottomContent3Heading,
+  listBottomContent4Heading,
 }) => {
   return (
     <div className="blogSingle_inner">
@@ -204,21 +221,51 @@ const BlogSingleItem = ({
               <div>
                 <img src={image} className="elementor-element-image" />
               </div>
-              <p className="elementor-element-border">
-                <h2 id="second-header" className="elementor-element-title">
-                  {blueSecondHeading}
-                </h2>
-              </p>
+              {blueSecondHeading && (
+                <p className="elementor-element-border">
+                  <h2 id="second-header" className="elementor-element-title">
+                    {blueSecondHeading}
+                  </h2>
+                </p>
+              )}
               {l1 || l2 || l3 || l4 || l5 || l6 || l7 ? (
-                <ul className="headingBottomList">
-                  <li>{l1}</li>
-                  <li>{l2}</li>
-                  <li>{l3}</li>
-                  <li>{l4}</li>
-                  <li>{l5}</li>
-                  <li>{l6}</li>
-                  <li>{l7}</li>
-                </ul>
+                <>
+                  <ul className="headingBottomList">
+                    <li>{l1}</li>
+                    <li>{l2}</li>
+                    <li>{l3}</li>
+                    <li>{l4}</li>
+                    <li>{l5}</li>
+                    <li>{l6}</li>
+                    <li>{l7}</li>
+                  </ul>
+                  <div className="listBtn">
+                    <Link
+                      to={
+                        "https://visitor-registration.renewableenergyindiaexpo.com/registration/?ref=exhibitors"
+                      }
+                      target="_blank"
+                    >
+                      Register now to visit
+                    </Link>
+                  </div>
+                  <p className="elementor-element-text">{listBottomContent1}</p>
+                  <p className="elementor-element-text">
+                    <span>{listBottomContent2Heading}</span>
+                    {listBottomContent2}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{listBottomContent3Heading}</span>
+                    {listBottomContent3}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{listBottomContent4Heading}</span>
+                    {listBottomContent4}
+                  </p>
+                  <p className="elementor-element-text">{listBottomContent5}</p>
+                  <p className="elementor-element-text">{listBottomContent6}</p>
+                  <p className="elementor-element-text">{listBottomContent7}</p>
+                </>
               ) : null}
               <p className="elementor-element-text">
                 {blueSecondHeadingContent}
@@ -257,7 +304,7 @@ const BlogSingleItem = ({
                   {blackHeading3Content2}
                 </p>
               )}
-              <h2 id="sixth-header" className="elementor-element-title">
+              <h2 id="second-header" className="elementor-element-title">
                 <span className="elementor-element-border">
                   {blueThirdHeading}
                 </span>
@@ -284,7 +331,35 @@ const BlogSingleItem = ({
               <p className="elementor-element-text">
                 {blueThirdHeadingContent6}
               </p>
-
+              {blueFifthHeading ||
+              blueFifthHeadingContent1 ||
+              blueFifthHeadingContent2 ||
+              blueFifthHeadingContent3 ||
+              blueFifthHeadingContent4 ||
+              blueFifthHeadingContent5 ? (
+                <>
+                  <p className="elementor-element-border">
+                    <h2 id="eighth-header" className="elementor-element-title">
+                      {blueFifthHeading}
+                    </h2>
+                  </p>
+                  <p className="elementor-element-text">
+                    {blueFifthHeadingContent1}
+                  </p>
+                  <p className="elementor-element-text">
+                    {blueFifthHeadingContent2}
+                  </p>
+                  <p className="elementor-element-text">
+                    {blueFifthHeadingContent3}
+                  </p>
+                  <p className="elementor-element-text">
+                    {blueFifthHeadingContent4}
+                  </p>
+                  <p className="elementor-element-text">
+                    {blueFifthHeadingContent5}
+                  </p>
+                </>
+              ) : null}
               <p className="elementor-element-border">
                 <h2 id="seventh-header" className="elementor-element-title">
                   {blueForthHeading}
@@ -292,37 +367,6 @@ const BlogSingleItem = ({
               </p>
               <p className="elementor-element-text">
                 {blueForthHeadingContent1}
-              </p>
-              <p className="elementor-element-text">
-                <span>{blueForthHeadingContent2Heading}</span>
-                {blueForthHeadingContent2}
-              </p>
-              <p className="elementor-element-text">
-                <span>{blueForthHeadingContent3Heading}</span>{" "}
-                {blueForthHeadingContent3}
-              </p>
-              <p className="elementor-element-text">
-                <span>{blueForthHeadingContent4Heading}</span>{" "}
-                {blueForthHeadingContent4}
-              </p>
-              <p className="elementor-element-text">
-                <span>{blueForthHeadingContent5Heading}</span>
-                {blueForthHeadingContent5_1}
-              </p>
-              <p className="elementor-element-text">
-                {blueForthHeadingContent5_2}
-              </p>
-              <p className="elementor-element-text">
-                <span>{blueForthHeadingContent6Heading}</span>
-                {blueForthHeadingContent6}
-              </p>
-              <p className="elementor-element-border">
-                <h2 id="eighth-header" className="elementor-element-title">
-                  {/* {blueFifthHeading} */}
-                </h2>
-              </p>
-              <p className="elementor-element-text">
-                {/* {blueFifthHeadingContent1} */}
               </p>
               <p className="elementor-element-text">
                 <span>{blueForthHeadingContent2Heading}</span>
