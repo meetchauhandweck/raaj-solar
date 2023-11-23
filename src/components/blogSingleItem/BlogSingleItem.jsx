@@ -318,11 +318,11 @@ const BlogSingleItem = ({
               </p>
               <p className="elementor-element-border">
                 <h2 id="eighth-header" className="elementor-element-title">
-                  {blueFifthHeading}
+                  {/* {blueFifthHeading} */}
                 </h2>
               </p>
               <p className="elementor-element-text">
-                {blueFifthHeadingContent1}
+                {/* {blueFifthHeadingContent1} */}
               </p>
               <p className="elementor-element-text">
                 <span>{blueForthHeadingContent2Heading}</span>
