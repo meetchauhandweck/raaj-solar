@@ -24,6 +24,18 @@ function App() {
       const LocomotiveScroll = (await import("locomotive-scroll")).default;
       const locomotiveScroll = new LocomotiveScroll();
     })();
+
+    var prevScrollpos = window.pageXOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("hide-header").style.top = "0";
+      } else {
+        document.getElementById("hide-header").style.top =
+          "-140px"; /* adjust this value to the height of your header */
+      }
+      prevScrollpos = currentScrollPos;
+    };
   }, []);
 
   return (

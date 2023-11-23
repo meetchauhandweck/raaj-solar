@@ -152,7 +152,6 @@
 @media (max-width: 575px) {
   .contentX {
     width: 100%;
-    width: calc(0);
     /* color: #26aca5; */
     font-size: 20px;
     opacity: 0;

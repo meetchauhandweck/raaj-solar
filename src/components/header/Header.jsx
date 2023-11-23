@@ -6,7 +6,7 @@ import DownloadLogo from "./downloadLogo/DownloadLogo";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="hide-header">
       {/* <div className="big_container"> */}
         <div className="header_wrapper">
           <Logo />
