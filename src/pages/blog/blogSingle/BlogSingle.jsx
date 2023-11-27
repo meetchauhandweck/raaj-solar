@@ -6,6 +6,20 @@ import blogimg3 from "../../../images/blogimg3.png";
 import blogimg4 from "../../../images/blogimg4.png";
 import blogimg5 from "../../../images/blogimg5.png";
 import blogimg6 from "../../../images/blogimg6.png";
+import image1_id3 from "../../../images/benefitsOfInstallingSolar.jpg";
+import image2_id3 from "../../../images/stepByStepGuid.jpg";
+import image3_id3 from "../../../images/choosingSolarPanel.jpg";
+import image4_id3 from "../../../images/raajSolarPanel.jpg";
+import image1_id4 from "../../../images/whenChoosingSolarPanel.png";
+import constuctionWorldImage from "../../../images/construction-world.png";
+import image_id5 from "../../../images/blueSecondHeadingImage.png";
+import poly_crystalline_panel from "../../../images/poly_crystalline_panel.png";
+import poly_cristalline_advantages from "../../../images/poly_cristalline_advantages.png";
+import mono_perc_panel from "../../../images/mono_perc_panel.png";
+import mono_perc_advantages from "../../../images/mono_perc_advantages.png";
+import thin_film_panel from "../../../images/thin_film_panel.png";
+import bi_facial_panel from "../../../images/bi_facial_panel.png";
+import hybrid_panel from "../../../images/hybrid_panel.png";
 
 const singleBlogData = [
   {
@@ -205,6 +219,89 @@ const singleBlogData = [
       " There are federal tax credits and state rebates available for going solar. You can also finance your solar panels with a loan, lease, or power purchase agreement so you can start saving money right away. ",
     blueThirdHeadingContent6:
       "Going solar is a big step, but with the environmental and financial benefits, it’s worth considering. Do some research on costs and incentives in your area to determine if residential solar panels are right for you. The sun is shining – now get out there and harness the power!",
+    blueSixthHeading: "Top Benefits of Installing Solar Panels on Your Home",
+    blueSixthHeadingImage: image1_id3,
+    blueSixthHeadingContent1:
+      "Going solar has some major benefits for homeowners. Here are some of the top reasons why you should consider residential solar panels:",
+    blueSixthHeadingContent2Heading: "Lower Energy Bills : ",
+    blueSixthHeadingContent2:
+      "By harnessing energy from the sun, you can generate your own electricity and significantly lower your energy bills. Solar panels can save you thousands per year and tens of thousands over their lifetime.",
+    blueSixthHeadingContent3Heading: "Tax Incentives and Rebates : ",
+    blueSixthHeadingContent3:
+      "The federal government and many states offer tax credits, rebates, and other incentives for going solar that can offset 30% or more of installation costs. These solar incentives won’t last forever, so take advantage of them.",
+    blueSixthHeadingContent4Heading: "Energy Independence : ",
+    blueSixthHeadingContent4:
+      "With residential solar panels, you can gain independence from the traditional energy grid and utility companies. The electricity you generate is under your control. This also makes you less vulnerable to power outages.",
+    blueSixthHeadingContent5Heading: "Environmentally Friendly : ",
+    blueSixthHeadingContent5:
+      "Using solar energy instead of fossil fuels can reduce your carbon footprint and environmental impact. A typical residential solar system can eliminate three to four tons of carbon emissions yearly.",
+    blueSixthHeadingContent6Heading: "Increase Home Value : ",
+    blueSixthHeadingContent6:
+      "Solar panels can increase the value of your home. According to recent studies, homes with solar panels sell for 4.1% more on average. Solar energy appeals to today’s eco-conscious market and locks in energy costs for potential buyers.",
+    blueSixthHeadingContent7Heading: "Low Maintenance : ",
+    blueSixthHeadingContent7:
+      " Once installed, residential solar panels require little maintenance and last for decades. They operate silently with no moving parts. The only maintenance needed is keeping panels relatively clean and clearing snow in some areas. Solar energy is a simple, sustainable solution.",
+    blueSixthHeadingContent8:
+      "Going solar provides both financial and environmental benefits for homeowners. If you’re looking for ways to cut energy costs, achieve energy independence, and do your part to reduce emissions, residential solar panels are a smart investment in your home and the planet.",
+    blueSeventhHeading:
+      "Step-by-step guide for installing Solar Panels at your home",
+    blueSeventhHeadingImage: image2_id3,
+    blueSeventhHeadingContent1:
+      "Installing solar panels in your home is easier than ever. If you want to go solar to save money on energy bills and help the environment, here are the basic steps to get started:",
+    blueSeventhHeadingContent2Heading: "Choose an installer : ",
+    blueSeventhHeadingContent2:
+      "First, find an experienced solar installer in your area. Get multiple quotes from different companies and compare based on price, warranties, and reviews. Look for an installer that is properly licensed and insured. They should handle securing permits and coordinating required inspections.",
+    blueSeventhHeadingContent3Heading: "Select your panels : ",
+    blueSeventhHeadingContent3:
+      "Discuss panel options with your installer to determine the right size system for your needs and budget. Standard panels are typically 250 to 365 watts. Higher-efficiency panels produce more energy but often cost more. Your installer can assess your roof and recommend how many panels will fit. They will design a customized system for your home.",
+    blueSeventhHeadingContent4Heading: "Prepare your roof : ",
+    blueSeventhHeadingContent4:
+      "Your roof needs to be in good condition, less than 10 years old, and able to support the weight of the panels. Asphalt shingle roofs are most common for residential solar installations. Roof repairs or reinforcement may be required before installation, which can add to the overall cost.",
+    blueSeventhHeadingContent5Heading: "Installation and inspection : ",
+    blueSeventhHeadingContent5:
+      "Once permits are secured, your installer will schedule the installation, which typically only takes 1-3 days for a residential system. They will mount the panels on your roof and install an inverter to convert the D.C. power to A.C. for your home’s use. Local inspectors will inspect the system to ensure proper installation before it can be turned on.",
+    blueSeventhHeadingContent6Heading: "Maintain your system : ",
+    blueSeventhHeadingContent6:
+      "Like any system, solar panels require occasional maintenance to keep working efficiently. Have your installer check the panels, wiring, and inverter annually. They can also monitor your system’s performance remotely to detect any issues. A residential solar system should last 25-30 years with proper care and maintenance.",
+    blueSeventhHeadingContent7:
+      "Going solar provides decades of free energy and reduces your carbon footprint. Following these steps carefully will ensure an affordable, high-quality solar system providing power for your home.",
+    blueEightthHeading:
+      "What to Look for When Choosing a Residential Solar Panel Company",
+    blueEightthHeadingImage: image3_id3,
+    blueEightthHeadingContent1:
+      "When going solar, choosing a reputable residential solar panel company is key. Here are some things to consider:",
+    blueEightthHeadingContent2Heading: "Licensing and Certifications : ",
+    blueEightthHeadingContent2:
+      "Make sure any company you consider is properly licensed and certified to install solar panels in your area. They should have certified installers on staff with up-to-date training. Ask if they are certified by the North American Board of Certified Energy Practitioners (NABCEP), which is the gold standard for solar installers.",
+    blueEightthHeadingContent3Heading: "Experience : ",
+    blueEightthHeadingContent3:
+      "An experienced company will have a proven track record of successful installations. Ask how long they’ve been in business and how many residential solar panel systems they’ve installed. Also, check online reviews from their customers to determine their reputation and service.",
+    blueEightthHeadingContent4Heading: "Services Offered : ",
+    blueEightthHeadingContent4:
+      "Look for a company that can provide full-service support, from an initial site evaluation and solar panel system design to installation, permits, interconnection agreements, and rebate/incentive applications. They should also offer ongoing monitoring and maintenance to ensure maximum efficiency and energy production.",
+    blueEightthHeadingContent5Heading: "Panel Types and Brands : ",
+    blueEightthHeadingContent5:
+      "High-quality solar panels from reputable brands like Panasonic, L.G., and SunPower tend to produce more energy over the system’s lifetime. Ask which panel brands and types (monocrystalline, polycrystalline, thin-film) the company installs to determine the best option for your home based on energy needs, roof space, and budget.",
+    blueEightthHeadingContent6Heading: "Warranties and Guarantees : ",
+    blueEightthHeadingContent6:
+      "A reputable company will provide strong product warranties (typically 25 years) on the solar panels and artistry warranties (around 10-25 years) on the installation. They may also guarantee a certain level of energy production for your system. These protections give you peace of mind in your solar investment.",
+    // blueEightthHeadingContent7Heading,
+    blueEightthHeadingContent7:
+      "Choosing a reputable, experienced company that offers turnkey services, high-quality components, and strong warranties maximizes your residential solar panel system’s energy production and return on investment. The right solar partner can make all the difference in your solar journey.",
+    // blueEightthHeadingContent8,
+    blueNinethHeading:
+      "RAAJ Solar Panels: The Leading Solar Panel Provider in India",
+    blueNinethHeadingImage: image4_id3,
+    blueNinethHeadingContent1:
+      "RAAJ Solar is India’s leading and reliable solar panel manufacturer, providing high-quality yet affordable photovoltaic panels to homeowners across the country. With over 13 years of experience, RAAJ Solar produces innovative, durable panels that can withstand India’s extreme heat and weather conditions.",
+    blueNinethHeadingContent2_1:
+      "Their monocrystalline and polycrystalline panels utilize state-of-the-art technology to maximize energy production in limited space. Monocrystalline panels, made of single-crystal silicon, tend to be the most efficient and expensive. Polycrystalline panels, made of multi-crystal silicon, are a more budget-friendly option with slightly lower efficiency. Depending on your needs and budget, RAAJ Solar has options for both.",
+    blueNinethHeadingContent2_2:
+      "All RAAJ Solar panels have a 25-year power output and performance warranty to ensure long-lasting, dependable energy generation. Their panels are built to last with durable, weather-resistant components and are thoroughly tested to certify power output ratings. RAAJ Solar guarantees their panels will produce at least 80% of their rated power after 25 years.",
+    blueNinethHeadingContent2_3:
+      "RAAJ Solar has a distribution network across India to provide local support and service. They work with certified installers in all major cities and regions to survey properties, design customized systems and properly install their solar panels. RAAJ Solar also has dedicated customer support teams to help you through the entire process from purchase to activation.",
+    blueNinethHeadingContent3:
+      "With high-performance, affordable panels backed by exceptional warranties and service, RAAJ Solar aims to make the benefits of solar energy accessible to all Indian homeowners. Their premium yet budget-friendly panels are a smart choice if you want to go solar. RAAJ Solar has the experience, expertise, and customer-centric approach to make your transition to solar energy seamless.",
   },
   {
     name: "Top-10-Solar-Panel-Companies-in-India-you-should-know-them!",
@@ -218,6 +315,319 @@ const singleBlogData = [
     blueSecondHeading: "India's Solar Energy Market Overview",
     blueSecondHeadingContent:
       "India’s solar energy market is booming. The government aims to install 100 GW of solar power by 2022, and companies are rushing to gain a foothold in this promising industry.",
+    blueForthHeading: "The Future of Solar Energy in India",
+    blueForthHeadingContent1:
+      "The future of solar energy in India looks bright. As the population grows, so does the energy demand. Solar power is a renewable and sustainable source that can help meet increasing energy needs without taxing the environment.",
+    blueForthHeadingContent2Heading: "Cost Competitiveness : ",
+    blueForthHeadingContent2:
+      "The cost of solar panels and installations continues to decline, making solar energy more affordable and accessible. Major companies are investing in technology and manufacturing to drive costs down further. Within the next decade, solar power is projected to reach grid parity in India, meaning it will cost the same or less than traditional power sources like coal.",
+    blueForthHeadingContent3:
+      "The Indian government offers incentives and subsidies for businesses and homeowners to adopt solar energy. Programs like the Jawaharlal Nehru National Solar Mission provide financial support, tax breaks, and low-interest loans for solar projects. The government aims to install 100 gigawatts of solar capacity by 2022, showing its commitment to accelerating India’s transition to renewable energy.",
+    blueForthHeadingContent3Heading: "Government Support : ",
+    blueForthHeadingContent4:
+      "As the solar industry expands, it will create many jobs in manufacturing, installation, and other areas. This can provide economic opportunity, especially in rural communities. The solar sector is poised to become an engine for job growth in India in the coming decades.",
+    blueForthHeadingContent4Heading: "Job Growth : ",
+    blueForthHeadingContent5_1:
+      "Solar energy can provide power to remote communities without access to reliable electricity. Standalone solar systems and microgrids can deliver energy independence to people in isolated areas. Expanding solar infrastructure will help more Indian citizens gain access to electricity for the first time.",
+    blueForthHeadingContent5_2:
+      "The sun is shining on India’s solar future. Declining costs, government support, job growth, and improved energy access point to a bright outlook for solar energy in India. Major companies are well-positioned to drive the growth of this sector and bring affordable, renewable power to more people across the country. The next decade will see India emerge as a leader in solar energy on the global stage.",
+    blueForthHeadingContent5Heading: "Improved Energy Access : ",
+    // blueForthHeadingContent6,
+    // blueForthHeadingContent6Heading,
+    blueSixthHeading: "What to Look for When Choosing a Solar Panel Company",
+    blueSixthHeadingImage: image1_id4,
+    blueSixthHeadingContent1:
+      "When choosing a solar panel company in India to install your residential or commercial solar system, there are a few key things to consider.",
+    blueSixthHeadingContent2Heading: "Reliability and experience : ",
+    blueSixthHeadingContent2:
+      "Look for a company with a proven track record of high-quality, long-lasting installations. An experienced company will be up-to-date with the latest technologies and safety standards. They should offer references from past clients.",
+    blueSixthHeadingContent3Heading: "Products and Warranties : ",
+    blueSixthHeadingContent3:
+      "The solar panels and inverters are the heart of your system, so choose a company that offers efficient, durable products with solid performance warranties. Tier 1 panels like Canadian Solar or Trina Solar, paired with inverters from SMA, Fronius, or ABB, are a good place to start.",
+    blueSixthHeadingContent4Heading: "Customer service : ",
+    blueSixthHeadingContent4:
+      "Once your system is installed, you’ll want a company that provides responsive customer service and technical support. They should offer service plans to maintain your system properly. Look for reviews mentioning helpful, friendly service.",
+    blueSixthHeadingContent5Heading: "Financing options : ",
+    blueSixthHeadingContent5:
+      "If you need help paying for your solar system upfront, choose a company that offers financing or leasing options to make solar more affordable. Some companies offer loans, solar leases, power purchase agreements (PPAs), and more.",
+    blueSixthHeadingContent6Heading: "Certifications : ",
+    blueSixthHeadingContent6:
+      "The top solar companies in India hire certified installers and maintain certain quality certifications. Look for companies certified by the Ministry of New and Renewable Energy (MNRE). Some are also certified by international groups like the North American Board of Certified Energy Practitioners (NABCEP).",
+    // blueSixthHeadingContent7Heading,
+    blueSixthHeadingContent7:
+      "By checking these factors when comparing solar companies, you’ll find an experienced, reputable company for designing and installing a high-quality solar system for your home or business. The company you choose will greatly impact your system’s performance and savings for decades, so take your time and choose wisely!",
+    // blueSixthHeadingContent8,
+    blueTenthHeading: "Top Solar Panel Manufacturing Companies in India",
+    blueTenthHeadingContent:
+      "When it comes to solar power in India, there are some major players you should know about. These top solar panel companies are helping India achieve a greener, more sustainable energy future.",
+    companies: [
+      {
+        id: "forth-header",
+        companyTitle: "Raaj Solar",
+        companyContent: [
+          {
+            id: 0,
+            text1: "An emerging leader in the solar market",
+            text2:
+              "RAAJ Solar, a subsidiary of Raajratna Ventures Ltd., is committed to quality and technological advancement in solar panel manufacturing. The company’s innovative approach and focus on sustainability are driving its growth. Its state-of-the-art manufacturing capacity is equipped with cutting-edge technology, allowing it to produce high-quality solar panels and components that meet international standards.",
+            text3:
+              "As one of India’s leading and reliable solar panel manufacturers, RAAJ Solar produces high-efficiency solar panels for residential and commercial use. They offer panels with power output up to 550 Wp so that you can find the right solution for any project. RAAJ Solar is one of India’s top 10 solar panel companies, recognized for its commitment to advancing solar technology and contributing to India’s renewable energy goals.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 0,
+            col1: "Ahmedabad, Gujarat",
+            col2: "Up to 300 MW",
+            col3: "2016",
+          },
+        ],
+      },
+      {
+        id: "fifth-header",
+        companyTitle: "Tata Power Solar Systems Ltd.",
+        companyContent: [
+          {
+            id: 1,
+            text1: "A renowned player in the solar industry",
+            text2:
+              "A subsidiary of the Tata Group, Tata Power Solar is a pioneer in the Indian solar industry. They design, manufacture, and install solar panels for homes, businesses, and utility-scale solar farms. Tata Power currently has over 2.6 gigawatts of solar projects installed across India.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 1,
+            col1: "Bangalore, Karnataka",
+            col2: "Over 1.8 GW",
+            col3: "1989",
+          },
+        ],
+      },
+      {
+        id: "sixth-header",
+        companyTitle: "Adani Solar",
+        companyContent: [
+          {
+            id: 2,
+            text1: "Leading Solar Player in India",
+            text2:
+              "Adani Solar, part of the Adani Group, is India’s largest solar panel manufacturer. They produce high-quality, cost-effective solar panels for rooftop and ground-mounted solar installations. Adani has installed over 2 gigawatts of solar capacity and will become the world’s largest solar power company by 2025.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 2,
+            col1: "Ahmedabad, Gujarat",
+            col2: "2.3 GW",
+            col3: "2015",
+          },
+        ],
+      },
+      {
+        id: "seventh-header",
+        companyTitle: "Vikram Solar",
+        companyContent: [
+          {
+            id: 3,
+            text1: "Having a Significant market presence in India",
+            text2:
+              "Vikram Solar Limited (formerly known as Vikram Solar Pvt. Ltd.) is a globally recognized leading solar energy solutions provider specializing in high-efficiency PV module manufacturing and comprehensive EPC solutions.",
+            text3:
+              "Carrying forward the rich legacy and extensive manufacturing experience of the Vikram Group, Vikram Solar Limited has been building on the success story of over 4 decades since 2006.",
+            text4:
+              "Vikram Solar Limited takes pride in its track record of installing & commissioning more than 1355 MW+ solar projects across India.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 3,
+            col1: "Kolkata, West Bengalt",
+            col2: "Over 2 GW",
+            col3: "2006",
+          },
+        ],
+      },
+      {
+        id: "eighth-header",
+        companyTitle: "Renewsys India",
+        companyContent: [
+          {
+            id: 4,
+            text1: "Steadily growing in the solar market",
+            text2:
+              "RenewSys is the first integrated manufacturer of Solar PV Modules and their key components – Encapsulants (EVA & POE), Backsheets, and Solar PV Cells.",
+            text3:
+              "RenewSys is the renewable energy arm of the ENPEE Group, a diversified global conglomerate with a heritage of nearly 60 years of manufacturing excellence.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 4,
+            col1: "Hyderabad, Telangana",
+            col2: "Over 750 MW",
+            col3: "2011",
+          },
+        ],
+      },
+      {
+        id: "nineth-header",
+        companyTitle: "Waaree Energies",
+        companyContent: [
+          {
+            id: 5,
+            text1: "A prominent player in the Indian solar market",
+            text2:
+              "Waaree Energies Ltd. is the flagship company of Waaree Group, founded in 1989 with headquarters in Mumbai, India. It has India’s largest Solar PV Module manufacturing capacity of 2 GW at its Surat and Umbergaon in Gujarat plants.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 5,
+            col1: "Surat, Gujarat",
+            col2: "Over 2 GW",
+            col3: "1989",
+          },
+        ],
+      },
+      {
+        id: "tenth-header",
+        companyTitle: "Goldi Solar",
+        companyContent: [
+          {
+            id: 6,
+            text1: "Gaining prominence in the solar market",
+            text2:
+              "Goldi Solar strongly emphasizes quality, adhering to international standards and best practices in the solar industry. The company’s products undergo rigorous testing to ensure durability, efficiency, and long-term performance. Goldi Solar maintains high-quality standards and ensures that its products contribute to a reliable and sustainable energy ecosystem.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 6,
+            col1: "Surat, Gujarat",
+            col2: "Over 500 MW",
+            col3: "2011",
+          },
+        ],
+      },
+      {
+        id: "eleventh-header",
+        companyTitle: "Premier Energies",
+        companyContent: [
+          {
+            id: 7,
+            text1: "Steadily expanding presence in the solar market",
+            text2:
+              "Over the past two and a half decades, Premier Energies has journeyed from introducing the first solar panel assembly line with a 3 MW/year capacity to establishing a fully-integrated 3.4 GW solar cell and module line.",
+            text3:
+              "Its state-of-the-art facility is equipped with the industry’s best-automated mono PERC manufacturing line (with a cell efficiency of 22.9%). It is also capable of handling upcoming technologies of cells with larger sizes.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 7,
+            col1: "Hyderabad, Telangana",
+            col2: "Over 750 MW",
+            col3: "1995",
+          },
+        ],
+      },
+      {
+        id: "twelvefth-header",
+        companyTitle: "Loom Solar",
+        companyContent: [
+          {
+            id: 8,
+            text1: "Rapidly growing presence in the solar market",
+            text2:
+              "Loom Solar Pvt. Ltd. is a mon perc solar panels and AC Module manufacturer based out of Faridabad, Haryana, having a manufacturing capacity of 100 MW. The company, which started in 2018, has become one of India’s fastest-growing solar panel manufacturers because of its wide range of solar panels from 10 watts to 450 watts super high-efficiency panels.",
+            text3:
+              "Loom Solar has the widest range of solar products in the Indian market, which no other solar company currently offers. Loom Solar ® has won the prestigious gold and silver award in the 11th Annual 2019 Golden Bridge Business and Innovation Awards in the United States of America.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 8,
+            col1: "Faridabad, Haryana",
+            col2: "Over 500 MW",
+            col3: "2018",
+          },
+        ],
+      },
+      {
+        id: "thirteenth-header",
+        companyTitle: "Satvik Green Solar",
+        companyContent: [
+          {
+            id: 9,
+            text1: "Expanding presence in the solar market",
+            text2:
+              "North India’s Largest Solar PV Manufacturing Facility. Saatvik manufactures and markets high-quality, high-efficiency solar photovoltaic modules from its advanced manufacturing facility at Ambala in Haryana.",
+            text3:
+              "With an annual capacity of 500 MW, engaging the best available technologies such as Lead automation, Jinchen, the company offers a wide range of solar PV modules, including Polycrystalline, monocrystalline, glass-glass, and bifacial modules. 40Wp to 380Wp.",
+            text4:
+              "With India’s growing demand for solar energy, these innovative companies are poised to expand the nation’s solar capacity in the coming years. By choosing a reputable India-based brand for your solar panels, you’ll support your country’s growth of renewable energy.",
+          },
+        ],
+        tableHeading: [
+          "LOCATION",
+          "MANUFACTURING CAPACITY",
+          "ESTABLISHED YEAR",
+        ],
+        tableConetnt: [
+          {
+            id: 9,
+            col1: "Ambala, Haryana",
+            col2: "Up to 500 MW",
+            col3: "2011",
+          },
+        ],
+      },
+    ],
   },
   {
     name: "Solar-Panels-in-Ahmedabad-Prices-and-Installation-Guide",
@@ -229,6 +639,111 @@ const singleBlogData = [
     introP1:
       "If you’re looking to harness the power of the sun in the bustling city of Ahmedabad, you’re in the right place! Located in the heart of Gujarat, it has a rich cultural heritage and a strong entrepreneurial spirit. But did you know that Ahmedabad is also a great place to go for solar panels?",
     blueSecondHeading: "Price list of Solar Panel in Ahmedabad",
+    blueSecondHeadingImage: image_id5,
+    blueSecondHeadingContent1:
+      "As we saw in the above price list image, the government provides subsidies for different levels of electricity usage. These subsidies are designed to encourage people to use less electricity and promote the adoption of renewable energy sources. The subsidies are based on the capacity of the electricity system you choose.",
+    blueSecondHeadingContent2:
+      "For electricity systems with a capacity of up to 3 kilowatts (KW), the government offers a generous 40% subsidy. This means that if you decide to purchase a system within this range, the government will cover 40% of the total cost.",
+    blueSecondHeadingContent3:
+      "On the other hand, if you opt for a larger electricity system with a capacity between 4 and 10 kilowatts (KW), the subsidy decreases to 20%. This means that the government will cover 20% of the overall cost for systems within this range.",
+    blueSecondHeadingContent4:
+      "It’s important to note that the actual prices may vary depending on several factors. These include the type and brand of the electricity system, its capacity, any additional installation costs, and potential government incentives that might be available at the time of purchase. Therefore, it’s always advisable to consult the most up-to-date information and consider all relevant factors before making a decision.",
+    constuctionWorldImage: constuctionWorldImage,
+    constuctionWorldText1:
+      "As we saw in the above image 34,794 customers installed solar in Ahmedabad, the demand for clean, renewable energy continues to grow, and more and more people in Ahmedabad are turning to solar panels to power their homes and businesses. And it’s no wonder – with the region’s abundant sunshine and favorable electricity rates for green energy, going solar is a smart investment that can help you save money and reduce your carbon footprint.",
+    constuctionWorldText2:
+      "In this article, we’ll give you some helpful tips to keep in mind. One crucial aspect to consider is the cost, and we’ll explore how Gujarat government subsidies can make solar power more affordable for you.",
+    constuctionWorldText3:
+      "So let’s start with the subject that brought you here.",
+      solarPanelTypesHeading:"Types of Solar Panels",
+    typesOfSolarPanels: [
+      {
+        id:"forth-header",
+        solarPanelHeading: "Poly Crystallin",
+        solarPanelImage: poly_crystalline_panel,
+        solarPanelText1:
+          "Have you ever wondered how solar panels are able to convert sunlight into usable energy? It’s all thanks to a fascinating technology called polycrystalline solar cells.",
+        solarPanelText2:
+          "Polycrystalline solar cells are made up of multiple small silicon crystals, which are arranged in a way that allows them to capture the energy from sunlight efficiently. When sunlight hits the solar cell, it excites the electrons in the silicon crystals, creating a flow of electricity that can be harnessed.",
+        solarPanelText3:
+          "Polycrystalline solar cells come in various colors, including blue. The color of the solar cell does not affect its functionality; it is merely a result of the manufacturing process and the materials used. The blue color is often seen in polycrystalline solar panels due to the way light interacts with the silicon crystals and the anti-reflective coatings applied to the cells.",
+        advantageImage: poly_cristalline_advantages,
+      },
+      {
+        id:"fifth-header",
+        solarPanelHeading: "Mono Perc",
+        solarPanelImage: mono_perc_panel,
+        solarPanelText1:
+          "Mono Perc (Monocrystalline PERC) solar panels, known for their sleek black color, are crafted from a single, high-quality crystal structure, typically made from silicon. They are an advanced version of monocrystalline solar panels, incorporating a passivated emitter rear contact (PERC) technology.",
+        solarPanelText2:
+          "One of the key advantages of Mono Perc panels is their exceptional efficiency. The PERC technology allows for improved light absorption and reduced energy losses, resulting in higher power output. These panels can convert sunlight into electricity at an impressive rate, making them highly efficient.",
+        solarPanelText3:
+          "Due to their efficiency, Mono Perc panels are a popular choice when space is limited. They can generate a significant amount of power even in smaller installations, making them suitable for residential, commercial, and industrial applications.",
+        solarPanelText4:
+          "So, whether you want to power your home, charge your electric vehicle, or meet the energy needs of your business, Mono Perc panels offer high efficiency and reliable performance.",
+        advantageImage: mono_perc_advantages,
+      },
+      {
+        id:"sixth-header",
+        solarPanelHeading: "Thin-film solar panel",
+        solarPanelImage: thin_film_panel,
+        solarPanelText1:
+          "These innovative solar panels are here to revolutionize the way we harness the power of the sun. Unlike traditional solar panels made of crystalline silicon, thin-film solar panel offer a unique construction using a thin layer of semiconductor material. This lightweight and flexible design brings a whole new level of versatility and opens up exciting possibilities for integration into various applications.",
+        solarPanelText2:
+          "Imagine a solar panel that seamlessly blends into the architecture of your building while generating clean and renewable energy. With thin-film solar panels, this becomes a reality. These panels are commonly integrated into building materials such as roofs, windows, and facades",
+        advantageHeading: "Advantages of Thin-film Solar",
+        advantages: [
+          "Flexible Design",
+          "Low-Light Performance",
+          "Durability",
+          "Cost-effective",
+          "Higher Temperature Tolerance",
+          "Imagine a solar panel that seamlessly blends into the architecture of your building while generating clean and renewable energy. With thin-film solar panels, this becomes a reality. These panels are commonly integrated into building materials such as roofs, windows, and facades",
+        ],
+      },
+      {
+        id:"seventh-header",
+        solarPanelHeading: "Bifacial Solar panel",
+        solarPanelImage: bi_facial_panel,
+        solarPanelText1:
+          "Bifacial solar panels are an innovative and efficient technology that is revolutionizing the way we harness solar energy for both home and commercial applications. These panels are designed to capture sunlight not only from the front but also from the back, maximizing their energy production potential.",
+        solarPanelText2:
+          "Unlike traditional solar panels that only capture sunlight from one side, bifacial panels have transparent back sheets or glass on the rear side, allowing them to absorb sunlight reflected from surfaces such as the ground, rooftops, or walls. This dual-sided absorption significantly increases their overall electricity generation, making them more efficient and cost-effective.",
+        advantageHeading: "Advantages of Bifacial Solar",
+        advantages: [
+          "Dual-sided absorption",
+          "Higher Energy Yield",
+          "Environmental Sustainability",
+          "Cost-effectiveness",
+          "Low-Light Performance",
+        ],
+      },
+      {
+        id:"eighth-header",
+        solarPanelHeading: "Hybrid Solar Panels",
+        solarPanelImage: hybrid_panel,
+        solarPanelText1:
+          "Hybrid solar panels are an innovative and efficient solution that combines the benefits of two different types of solar panels: photovoltaic (PV) panels and solar thermal panels. These panels are designed to generate both electricity and heat from the sun, making them highly versatile and cost-effective.",
+        solarPanelText2:
+          "In a residential setting, hybrid solar panels can be installed on rooftops or other suitable areas to harness solar energy for various purposes. They generate electricity by converting sunlight into usable power, which can be used to meet the energy needs of your home.",
+        solarPanelText3:
+          "At the same time, these panels also capture the heat from the sun, which can be utilized for heating water, space heating, or even powering certain appliances.",
+        solarPanelText4:
+          "Hybrid solar panels are an innovative and efficient solution that combines the benefits of two different types of solar panels: photovoltaic (PV) panels and solar thermal panels. These panels are designed to generate both electricity and heat from the sun, making them highly versatile and cost-effective.",
+        solarPanelText5:
+          "In a residential setting, hybrid solar panels can be installed on rooftops or other suitable areas to harness solar energy for various purposes. They generate electricity by converting sunlight into usable power, which can be used to meet the energy needs of your home.",
+        solarPanelText6:
+          "At the same time, these panels also capture the heat from the sun, which can be utilized for heating water, space heating, or even powering certain appliances.",
+        advantageHeading: "Advantages of Hybrid Solar",
+        advantages: [
+          "Load Prioritization",
+          "Integration with other Renewable Energy",
+          "Eco-friendly",
+          "Higher Temperature Tolerance",
+          "Durability",
+        ],
+      },
+    ],
   },
 ];
 
@@ -244,6 +759,7 @@ const BlogSingle = () => {
           .map((item, index) => (
             <BlogSingleItem
               key={index}
+              id={item.id}
               heading={item.heading}
               image={item.image}
               date={item.date}
@@ -252,7 +768,12 @@ const BlogSingle = () => {
               introP2={item.introP2}
               introP3={item.introP3}
               blueSecondHeading={item.blueSecondHeading}
+              blueSecondHeadingImage={item.blueSecondHeadingImage}
               blueSecondHeadingContent={item.blueSecondHeadingContent}
+              blueSecondHeadingContent1={item.blueSecondHeadingContent1}
+              blueSecondHeadingContent2={item.blueSecondHeadingContent2}
+              blueSecondHeadingContent3={item.blueSecondHeadingContent3}
+              blueSecondHeadingContent4={item.blueSecondHeadingContent4}
               l1={item.l1}
               l2={item.l2}
               l3={item.l3}
@@ -325,6 +846,102 @@ const BlogSingle = () => {
               blueFifthHeadingContent3={item.blueFifthHeadingContent3}
               blueFifthHeadingContent4={item.blueFifthHeadingContent4}
               blueFifthHeadingContent5={item.blueFifthHeadingContent5}
+              blueSixthHeading={item.blueSixthHeading}
+              blueSixthHeadingImage={item.blueSixthHeadingImage}
+              blueSixthHeadingContent1={item.blueSixthHeadingContent1}
+              blueSixthHeadingContent2Heading={
+                item.blueSixthHeadingContent2Heading
+              }
+              blueSixthHeadingContent2={item.blueSixthHeadingContent2}
+              blueSixthHeadingContent3Heading={
+                item.blueSixthHeadingContent3Heading
+              }
+              blueSixthHeadingContent3={item.blueSixthHeadingContent3}
+              blueSixthHeadingContent4Heading={
+                item.blueSixthHeadingContent4Heading
+              }
+              blueSixthHeadingContent4={item.blueSixthHeadingContent4}
+              blueSixthHeadingContent5Heading={
+                item.blueSixthHeadingContent5Heading
+              }
+              blueSixthHeadingContent5={item.blueSixthHeadingContent5}
+              blueSixthHeadingContent6Heading={
+                item.blueSixthHeadingContent6Heading
+              }
+              blueSixthHeadingContent6={item.blueSixthHeadingContent6}
+              blueSixthHeadingContent7Heading={
+                item.blueSixthHeadingContent7Heading
+              }
+              blueSixthHeadingContent7={item.blueSixthHeadingContent7}
+              blueSixthHeadingContent8={item.blueSixthHeadingContent8}
+              blueSeventhHeading={item.blueSeventhHeading}
+              blueSeventhHeadingImage={item.blueSeventhHeadingImage}
+              blueSeventhHeadingContent1={item.blueSeventhHeadingContent1}
+              blueSeventhHeadingContent2Heading={
+                item.blueSeventhHeadingContent2Heading
+              }
+              blueSeventhHeadingContent2={item.blueSeventhHeadingContent2}
+              blueSeventhHeadingContent3Heading={
+                item.blueSeventhHeadingContent3Heading
+              }
+              blueSeventhHeadingContent3={item.blueSeventhHeadingContent3}
+              bluSevenxthHeadingContent4Heading={
+                item.blueSeventhHeadingContent4Heading
+              }
+              blueSeventhHeadingContent4={item.blueSeventhHeadingContent4}
+              blueSeventhHeadingContent5Heading={
+                item.blueSeventhHeadingContent5Heading
+              }
+              blueSeventhHeadingContent5={item.blueSeventhHeadingContent5}
+              blueSeventhHeadingContent6Heading={
+                item.blueSeventhHeadingContent6Heading
+              }
+              blueSeventhHeadingContent6={item.blueSeventhHeadingContent6}
+              // blueSeventhHeadingContent7Heading={item.blueSeventhHeadingContent7Heading}
+              blueSeventhHeadingContent7={item.blueSeventhHeadingContent7}
+              // blueSeventhHeadingContent8={item.blueSeventhHeadingContent8}
+              blueEightthHeading={item.blueEightthHeading}
+              blueEightthHeadingImage={item.blueEightthHeadingImage}
+              blueEightthHeadingContent1={item.blueEightthHeadingContent1}
+              blueEightthHeadingContent2Heading={
+                item.blueEightthHeadingContent2Heading
+              }
+              blueEightthHeadingContent2={item.blueEightthHeadingContent2}
+              blueEightthHeadingContent3Heading={
+                item.blueEightthHeadingContent3Heading
+              }
+              blueEightthHeadingContent3={item.blueEightthHeadingContent3}
+              bluEightxthHeadingContent4Heading={
+                item.blueEightthHeadingContent4Heading
+              }
+              blueEightthHeadingContent4={item.blueEightthHeadingContent4}
+              blueEightthHeadingContent5Heading={
+                item.blueEightthHeadingContent5Heading
+              }
+              blueEightthHeadingContent5={item.blueEightthHeadingContent5}
+              blueEightthHeadingContent6Heading={
+                item.blueEightthHeadingContent6Heading
+              }
+              blueEightthHeadingContent6={item.blueEightthHeadingContent6}
+              // blueEightthHeadingContent7Heading={item.blueEightthHeadingContent7Heading}
+              blueEightthHeadingContent7={item.blueEightthHeadingContent7}
+              // blueEightthHeadingContent8={item.blueEightthHeadingContent8}
+              blueNinethHeading={item.blueNinethHeading}
+              blueNinethHeadingImage={item.blueNinethHeadingImage}
+              blueNinethHeadingContent1={item.blueNinethHeadingContent1}
+              blueNinethHeadingContent2_1={item.blueNinethHeadingContent2_1}
+              blueNinethHeadingContent2_2={item.blueNinethHeadingContent2_2}
+              blueNinethHeadingContent2_3={item.blueNinethHeadingContent2_3}
+              blueNinethHeadingContent3={item.blueNinethHeadingContent3}
+              blueTenthHeading={item.blueTenthHeading}
+              blueTenthHeadingContent={item.blueTenthHeadingContent}
+              companies={item.companies}
+              constuctionWorldImage={item.constuctionWorldImage}
+              constuctionWorldText1={item.constuctionWorldText1}
+              constuctionWorldText2={item.constuctionWorldText2}
+              constuctionWorldText3={item.constuctionWorldText3}
+              typesOfSolarPanels={item.typesOfSolarPanels}
+              solarPanelTypesHeading={item.solarPanelTypesHeading}
             />
           ))}
       </div>

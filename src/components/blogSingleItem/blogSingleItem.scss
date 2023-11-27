@@ -86,6 +86,9 @@
 
 .blogSingle_content_wrapper_inner {
   display: flex;
+  @media (max-width: 767px) {
+    display: block;
+  }
 }
 .blogSingle_content_wrapper {
   background-color: #f6f6f6;
@@ -94,6 +97,11 @@
   padding: 16px 0 50px;
   border-radius: 8px;
   margin-left: 8px;
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 20px 0 0;
+  }
 }
 .Tablecontent {
   display: flex;
@@ -192,6 +200,7 @@ h3 {
 }
 .elementor-element-border {
   border-bottom: 1px solid black;
+  width: fit-content;
 }
 .elementor-element-text {
   font-size: 14px;
@@ -221,11 +230,132 @@ h3 {
 }
 .listBtn {
   width: fit-content;
-  margin: 40px 0 ;
+  margin: 40px 0;
 }
 .listBtn a {
   color: white;
   text-decoration: none;
   background: $blue;
   padding: 10px 20px;
+  display: flex;
+  transition: all 0.4s;
+  &:hover {
+    background: $darkBlue;
+    img {
+      transform: translateX(5px);
+    }
+  }
+  img {
+    width: 20px;
+    margin: 0 0 0 10px;
+    transition: all 0.4s;
+  }
+}
+
+.companies_section {
+  .companies {
+    padding: 40px 0;
+    border-bottom: 1px solid $grey4;
+    &:last-child {
+      border: none;
+    }
+    .elementor-element-title-black {
+      font-size: 20px;
+      .company_count {
+        font-size: 16px;
+        padding-right: 5px;
+      }
+    }
+    table {
+      border: 1px solid $black;
+      width: 100%;
+      border-spacing: 0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin: 30px 0 0;
+      @media (max-width: 460px) {
+        overflow: auto;
+        width: 100%;
+        display: block;
+      }
+
+      th {
+        text-align: center;
+        border-right: 1px solid $black;
+        background-color: $blue;
+        color: $white;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 10px 5px;
+        text-transform: uppercase;
+        &:first-child {
+          border-top-left-radius: 10px;
+        }
+        &:nth-child(3n) {
+          border-top-right-radius: 10px;
+          border-right: none;
+        }
+        @media (max-width: 991px) {
+          font-size: 16px;
+          padding: 8px 5px;
+        }
+      }
+      td {
+        text-align: center;
+        border-top: 1px solid $black;
+        border-right: 1px solid $black;
+        padding: 5px 0;
+        font-size: 16px;
+        &:last-child {
+          border-right: none;
+        }
+        @media (max-width: 991px) {
+          font-size: 15px;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}
+.constructionWord {
+  .constructionWord_heading {
+    font-size: 18px;
+    font-weight: 500;
+    a {
+      color: $blue;
+      margin-left: 5px;
+      transition: all 0.4s;
+      &:hover {
+        color: $darkBlue1;
+      }
+    }
+  }
+  .constructionWord_artical_image {
+    margin: 40px 0 50px;
+  }
+}
+.types_of_solar_panel {
+  h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  img {
+    margin: 30px 0 40px;
+  }
+  .advantageHeading {
+    .advantageHeading_wrap {
+      font-size: 18px;
+      font-weight: 500;
+      margin: 10px 0 30px;
+    }
+    ul {
+      list-style: circle;
+      padding-left: 20px;
+      li {
+        font-weight: 400;
+        font-size: 14px;
+        margin: 5px 0;
+      }
+    }
+  }
 }
