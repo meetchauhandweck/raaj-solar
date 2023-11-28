@@ -20,6 +20,7 @@ import mono_perc_advantages from "../../../images/mono_perc_advantages.png";
 import thin_film_panel from "../../../images/thin_film_panel.png";
 import bi_facial_panel from "../../../images/bi_facial_panel.png";
 import hybrid_panel from "../../../images/hybrid_panel.png";
+import electricity_rate_image from "../../../images/electricity_rate_image.png";
 
 const singleBlogData = [
   {
@@ -127,6 +128,36 @@ const singleBlogData = [
       "Sustainable energy sources are much more affordable : ",
     listBottomContent4Heading:
       "Renewable energy infrastructure creates jobs : ",
+    accodrionTitle: "FAQ: Frequently Asked Questions About Solar Panels",
+    accordionText:
+      "You probably have questions about switching to solar power for your home. Here are some common FAQs to help you decide if residential solar panels are right for you.",
+    accordionData: [
+      {
+        title: "How much do solar panels cost?",
+        description:
+          "The average residential solar panel system in India costs between Rs 180K to 250K. The exact price depends on the size of your system, the components used, and installation fees in your area. Many homeowners take out solar loans or leases to pay for their system over time.",
+      },
+      {
+        title: "How long do solar panels last?",
+        description:
+          "Solar panels typically come with 20-30 year performance warranties. Their usable lifespan is estimated to be 25-40 years. A residential solar system can provide free electricity for decades with minimal maintenance.",
+      },
+      {
+        title: "How much can I save with solar panels?",
+        description:
+          "Households that switch to solar power can save thousands per year on utility bills. Your savings depend on system size, energy usage, utility rates, and available tax incentives or rebates. On average, a residential solar system in India can pay for itself in 10-15 years through energy cost savings.",
+      },
+      {
+        title: "Will solar panels work with my roof?",
+        description:
+          "Solar panels can be installed on most roof types, including asphalt shingle, tile, and metal. They require a structurally sound roof with adequate space that faces within 45 degrees south. Your roof’s age, condition, and warranty may also be factors. It’s best to have a solar installer evaluate your roof in person.",
+      },
+      {
+        title: "Do I need batteries?",
+        description:
+          "Solar panel systems can be connected to your home’s electrical grid or use battery storage. Grid-tied systems without batteries are the most affordable. Still, your solar energy is only used when the sun is shining. Battery storage allows you to save excess solar energy for use when the sun is not shining or during power outages, but batteries significantly increase the overall cost of your system. For most homeowners, grid-tied solar without batteries is the most economical choice.",
+      },
+    ],
   },
   {
     name: "Powering-Profit-How-Commercial-Solar-Panels-Supercharge-Businesses",
@@ -190,6 +221,31 @@ const singleBlogData = [
       "Those savings drop straight to your bottom line and can be used to pay off the system, hire more staff, market your business or increase your profits. And since energy prices are only going up, your savings will likely increase over time. Commercial solar panels are really one of the smartest investments a forward-thinking business owner can make.",
     blueFifthHeadingContent5:
       "Reducing and stabilizing your energy bills with solar panels gives you more control over your costs and a competitive advantage. Your customers and clients will also appreciate your commitment to sustainability. It’s really a win-win for your business and the planet.",
+    accodrionTitle: "FAQs on Commercial Solar Panels",
+    accordionText:
+      "Have questions about adding commercial solar panels to your business? Here are some of the most common FAQs and answers:",
+    accordionData: [
+      {
+        title: "How much do commercial solar panels cost?",
+        description:
+          "Solar panel costs have dropped over 80% since 2010, making them more affordable than ever for businesses. The average commercial solar panel system of 100kW costs between Rs 30,00,000/- and Rs 55,00,000/- . The total cost will depend on factors like your location, system size, and components used. Many companies offer financing and incentives to help lower upfront costs.",
+      },
+      {
+        title: "How long do commercial solar panels last?",
+        description:
+          "High-quality commercial solar panels typically last 25-30 years or more. They require little maintenance and the components are built to withstand extreme weather. The inverters that convert the solar energy into usable electricity may need replacement after 10-15 years. But solar panels themselves are very durable.",
+      },
+      {
+        title: "Will solar panels work with my existing roof?",
+        description:
+          "In many cases, yes. As long as your roof is structurally sound, solar panels can be installed on most commercial rooftops. They can be mounted on flat or sloped roofs, and the racking systems are adjustable to the proper angle. If a roof replacement is needed, it’s often best to install the new roof first before adding solar panels.",
+      },
+      {
+        title: "Will I still be on the grid?",
+        description:
+          "Most commercial solar panel systems are grid-tied, meaning you stay connected to your electric utility. The solar panels power your business during the day, and any excess energy is sent to the grid. At night or on cloudy days, you can draw power from the grid as needed. This allows you to significantly lower or eliminate your energy bills while maintaining a reliable power source.",
+      },
+    ],
   },
   {
     name: "Residential-Solar-Panels-Everything-You-Need-to-Know-Before-Going-Solar",
@@ -302,6 +358,37 @@ const singleBlogData = [
       "RAAJ Solar has a distribution network across India to provide local support and service. They work with certified installers in all major cities and regions to survey properties, design customized systems and properly install their solar panels. RAAJ Solar also has dedicated customer support teams to help you through the entire process from purchase to activation.",
     blueNinethHeadingContent3:
       "With high-performance, affordable panels backed by exceptional warranties and service, RAAJ Solar aims to make the benefits of solar energy accessible to all Indian homeowners. Their premium yet budget-friendly panels are a smart choice if you want to go solar. RAAJ Solar has the experience, expertise, and customer-centric approach to make your transition to solar energy seamless.",
+    accodrionTitle:
+      "FAQ: Frequently Asked Question About Residential Solar Panels",
+    accordionText:
+      "You probably have questions about switching to solar power for your home. Here are some common FAQs to help you decide if residential solar panels are right for you.",
+    accordionData: [
+      {
+        title: "How much do solar panels cost?",
+        description:
+          "The average residential solar panel system in India costs between Rs 180K to 250K. The exact price depends on the size of your system, the components used, and installation fees in your area. Many homeowners take out solar loans or leases to pay for their system over time.",
+      },
+      {
+        title: "How long do solar panels last?",
+        description:
+          "Solar panels typically come with 20-30 year performance warranties. Their usable lifespan is estimated to be 25-40 years. A residential solar system can provide free electricity for decades with minimal maintenance.",
+      },
+      {
+        title: "How much can I save with solar panels?",
+        description:
+          "Households that switch to solar power can save thousands per year on utility bills. Your savings depend on system size, energy usage, utility rates, and available tax incentives or rebates. On average, a residential solar system in India can pay for itself in 10-15 years through energy cost savings.",
+      },
+      {
+        title: "Will solar panels work with my roof?",
+        description:
+          "Solar panels can be installed on most roof types, including asphalt shingle, tile, and metal. They require a structurally sound roof with adequate space that faces within 45 degrees south. Your roof’s age, condition, and warranty may also be factors. It’s best to have a solar installer evaluate your roof in person.",
+      },
+      {
+        title: "Do I need batteries?",
+        description:
+          "Solar panel systems can be connected to your home’s electrical grid or use battery storage. Grid-tied systems without batteries are the most affordable. Still, your solar energy is only used when the sun is shining. Battery storage allows you to save excess solar energy for use when the sun is not shining or during power outages, but batteries significantly increase the overall cost of your system. For most homeowners, grid-tied solar without batteries is the most economical choice.",
+      },
+    ],
   },
   {
     name: "Top-10-Solar-Panel-Companies-in-India-you-should-know-them!",
@@ -655,10 +742,10 @@ const singleBlogData = [
       "In this article, we’ll give you some helpful tips to keep in mind. One crucial aspect to consider is the cost, and we’ll explore how Gujarat government subsidies can make solar power more affordable for you.",
     constuctionWorldText3:
       "So let’s start with the subject that brought you here.",
-      solarPanelTypesHeading:"Types of Solar Panels",
+    solarPanelTypesHeading: "Types of Solar Panels",
     typesOfSolarPanels: [
       {
-        id:"forth-header",
+        id: "forth-header",
         solarPanelHeading: "Poly Crystallin",
         solarPanelImage: poly_crystalline_panel,
         solarPanelText1:
@@ -670,7 +757,7 @@ const singleBlogData = [
         advantageImage: poly_cristalline_advantages,
       },
       {
-        id:"fifth-header",
+        id: "fifth-header",
         solarPanelHeading: "Mono Perc",
         solarPanelImage: mono_perc_panel,
         solarPanelText1:
@@ -684,7 +771,7 @@ const singleBlogData = [
         advantageImage: mono_perc_advantages,
       },
       {
-        id:"sixth-header",
+        id: "sixth-header",
         solarPanelHeading: "Thin-film solar panel",
         solarPanelImage: thin_film_panel,
         solarPanelText1:
@@ -702,7 +789,7 @@ const singleBlogData = [
         ],
       },
       {
-        id:"seventh-header",
+        id: "seventh-header",
         solarPanelHeading: "Bifacial Solar panel",
         solarPanelImage: bi_facial_panel,
         solarPanelText1:
@@ -719,7 +806,7 @@ const singleBlogData = [
         ],
       },
       {
-        id:"eighth-header",
+        id: "eighth-header",
         solarPanelHeading: "Hybrid Solar Panels",
         solarPanelImage: hybrid_panel,
         solarPanelText1:
@@ -742,6 +829,74 @@ const singleBlogData = [
           "Higher Temperature Tolerance",
           "Durability",
         ],
+      },
+    ],
+    blueTenthHeading: "Installation Process of Solar Panel",
+    blueTenthHeadingContent1:
+      "Installing solar panels is a great way to harness the power of the sun and generate clean, renewable energy for your home or business. The installation process may seem daunting at first, but it can be straightforward and rewarding. Here’s a user-friendly guide to help you understand the installation process of solar panels:",
+    blueTenthHeadingContent2Heading: "Initial Assessment : ",
+    blueTenthHeadingContent2:
+      "The first step is to assess your property’s suitability for solar panel installation. Consider factors like available roof space, shading from trees or nearby structures, and the orientation and tilt of your roof. You may also want to evaluate your energy needs and budget to determine the size and number of solar panels required.",
+    blueTenthHeadingContent3Heading: "Consultation and Design : ",
+    blueTenthHeadingContent3:
+      "Once you’ve decided to move forward with solar panels, it’s a good idea to consult with a reputable solar installer. They will evaluate your property, discuss your goals, and design a customized solar system that meets your specific requirements. They will also explain the estimated energy savings, financial incentives, and available financing options.",
+    blueTenthHeadingContent4Heading: "Permits and Paperwork : ",
+    blueTenthHeadingContent4:
+      "The solar installer will handle the necessary permits and paperwork required for the installation. This includes obtaining any local building permits and submitting applications for solar incentives or net metering programs. They will guide you through the process and ensure compliance with local regulations.",
+    blueTenthHeadingContent5Heading: "Equipment Procurement : ",
+    blueTenthHeadingContent5:
+      "The solar installer will procure all the necessary equipment for the installation, including solar panels, inverters, racking systems, and electrical components. They will ensure that the equipment meets industry standards and is compatible with your specific solar system design.",
+    blueTenthHeadingContent6Heading: "Roof Preparation : ",
+    blueTenthHeadingContent6:
+      "Before installing the solar panels, your roof may require some preparation. This can involve cleaning the roof, repairing any damage, and reinforcing the structure if needed. The installer will take care of these preparations to ensure a secure and long-lasting installation.",
+    blueTenthHeadingContent7Heading: "Panel Installation : ",
+    blueTenthHeadingContent7:
+      "The solar panels will be mounted on your roof or another suitable location, following the design specifications. The installers will carefully position and secure the panels using racking systems, ensuring optimal sunlight exposure and maximum energy production. The electrical wiring will be connected between the panels, inverters, and electrical panel of your property.",
+    blueTenthHeadingContent8Heading: "Electrical Connection : ",
+    blueTenthHeadingContent8:
+      "Once the panels are securely installed, the electrical connections will be made. This involves connecting the solar panels to the inverters, which convert the direct current (DC) electricity generated by the panels into alternating current (AC) electricity that can be used in your home or business. The inverters will be connected to your property’s electrical panel, allowing the solar energy to power your electrical appliances and offset your electricity consumption.",
+    blueTenthHeadingContent9Heading: "Inspection and Grid Connection : ",
+    blueTenthHeadingContent9:
+      "After the installation is complete, a final inspection may be required to ensure compliance with local codes and regulations. Once approved, the solar system can be connected to the utility grid if applicable. This allows you to take advantage of net metering, where excess solar energy can be sent back to the grid, earning credits or reducing your energy bills.",
+    blueTenthHeadingContent10Heading: "System Activation and Monitoring : ",
+    blueTenthHeadingContent10:
+      "With solar panels installed and connected, your solar system can be activated and start generating clean energy. The installer may provide you with monitoring tools or access to an online monitoring platform to track your system’s performance and energy production. Regular monitoring allows you to ensure optimal operation and address any potential issues promptly.",
+    blueTenthHeadingContent11Heading: "Enjoying the Benefits : ",
+    blueTenthHeadingContent11:
+      "Congratulations! Your solar panels are now installed and ready to generate clean, renewable energy for your home or business. Sit back, relax, and enjoy the benefits of lower electricity bills, reduced reliance on the grid, and a greener, more sustainable energy source.",
+    electricityHeading: "Electricity rate in Ahmedabad",
+    electricityContent:
+      "When considering the installation of solar panels, it’s essential to be aware of the electricity rates in your area. These rates play a crucial role in determining the potential savings and benefits of going solar.",
+    electricityImage: electricity_rate_image,
+    electricityText1:
+      "Based on the above images we just looked at, it’s clear that the cost of electricity for people living in cities can vary depending on whether they are considered low-income (BPL) or above-poverty-line (APL). The rates are also influenced by whether the users are using electricity for commercial purposes or if they are residential customers.",
+    accodrionTitle: "FAQ: Frequently Asked Question",
+    accordionData: [
+      {
+        title: "Can I sell excess solar power back to the grid in Ahmedabad?",
+        description:
+          "Yes, it is possible to sell excess solar power back to the grid in Ahmedabad. This is known as net metering, and it allows you to earn credits for the excess electricity generated by your solar panel system. These credits can be used to offset your electricity bills in the future.",
+      },
+      {
+        title: "How much electricity can a solar panel generate?",
+        description:
+          "The amount of electricity a solar panel can generate depends on various factors, such as the size and capacity of the panel, the orientation and tilt angle of the panel, and the amount of sunlight received in the area. On average, a 1 kW solar panel can generate around 4-5 units of electricity per day.",
+      },
+      {
+        title: "What is the current price of solar panels in Ahmedabad?",
+        description:
+          "The price of solar panels in Ahmedabad varies depending on the brand, capacity, and quality of the panel. As of 2023, the average price of a 1 kW solar panel in Ahmedabad is around ₹30,000 to ₹35,000. However, it’s always recommended to check with different solar panel dealers in Ahmedabad for the latest and most accurate pricing.",
+      },
+      {
+        title: "What is the process of installing solar panels",
+        description:
+          "The process of installing solar panels typically involves the following steps: site assessment, system design, equipment procurement, installation, and commissioning. Choosing a reputable solar panel installer in Ahmedabad is important to ensure that the installation process is carried out properly and safely",
+      },
+      {
+        title:
+          "Is there any government subsidy available for solar installation in Ahmedabad?",
+        description:
+          "Yes, the government of Gujarat offers a subsidy for solar installation under the Gujarat Solar Power Policy. The subsidy amount varies depending on the type of system installed, such as rooftop solar panels, solar water pumps, and solar streetlights. The subsidy can range from 20% to 40% of the project cost. It’s recommended to check with the Gujarat Energy Development Agency (GEDA) for the latest subsidy rates and eligibility criteria.",
       },
     ],
   },
@@ -935,6 +1090,47 @@ const BlogSingle = () => {
               blueNinethHeadingContent3={item.blueNinethHeadingContent3}
               blueTenthHeading={item.blueTenthHeading}
               blueTenthHeadingContent={item.blueTenthHeadingContent}
+              blueTenthHeadingContent1={item.blueTenthHeadingContent1}
+              blueTenthHeadingContent2Heading={
+                item.blueTenthHeadingContent2Heading
+              }
+              blueTenthHeadingContent2={item.blueTenthHeadingContent2}
+              blueTenthHeadingContent3Heading={
+                item.blueTenthHeadingContent3Heading
+              }
+              blueTenthHeadingContent3={item.blueTenthHeadingContent3}
+              blueTenthHeadingContent4Heading={
+                item.blueTenthHeadingContent4Heading
+              }
+              blueTenthHeadingContent4={item.blueTenthHeadingContent4}
+              blueTenthHeadingContent5Heading={
+                item.blueTenthHeadingContent5Heading
+              }
+              blueTenthHeadingContent5={item.blueTenthHeadingContent5}
+              blueTenthHeadingContent6Heading={
+                item.blueTenthHeadingContent6Heading
+              }
+              blueTenthHeadingContent6={item.blueTenthHeadingContent6}
+              blueTenthHeadingContent7Heading={
+                item.blueTenthHeadingContent7Heading
+              }
+              blueTenthHeadingContent7={item.blueTenthHeadingContent7}
+              blueTenthHeadingContent8Heading={
+                item.blueTenthHeadingContent8Heading
+              }
+              blueTenthHeadingContent8={item.blueTenthHeadingContent8}
+              blueTenthHeadingContent9Heading={
+                item.blueTenthHeadingContent9Heading
+              }
+              blueTenthHeadingContent9={item.blueTenthHeadingContent9}
+              blueTenthHeadingContent10Heading={
+                item.blueTenthHeadingContent10Heading
+              }
+              blueTenthHeadingContent10={item.blueTenthHeadingContent10}
+              blueTenthHeadingContent11Heading={
+                item.blueTenthHeadingContent11Heading
+              }
+              blueTenthHeadingContent11={item.blueTenthHeadingContent11}
               companies={item.companies}
               constuctionWorldImage={item.constuctionWorldImage}
               constuctionWorldText1={item.constuctionWorldText1}
@@ -942,6 +1138,13 @@ const BlogSingle = () => {
               constuctionWorldText3={item.constuctionWorldText3}
               typesOfSolarPanels={item.typesOfSolarPanels}
               solarPanelTypesHeading={item.solarPanelTypesHeading}
+              electricityHeading={item.electricityHeading}
+              electricityContent={item.electricityContent}
+              electricityImage={item.electricityImage}
+              electricityText1={item.electricityText1}
+              accordionTitle={item.accodrionTitle}
+              accordionText={item.accordionText}
+              items={item.accordionData}
             />
           ))}
       </div>

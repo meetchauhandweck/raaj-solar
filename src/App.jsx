@@ -17,6 +17,7 @@ import MonoPerc from "./pages/products/productsInnerPages/monoPerc/MonoPerc";
 import MonoBiFacial from "./pages/products/productsInnerPages/monoBiFacial/MonoBiFacial";
 // import BlogSingleItem from "./components/blogSingleItem/BlogSingleItem";
 import BlogSingle from "./pages/blog/blogSingle/BlogSingle";
+import Download from "./pages/download/Download";
 
 function App() {
   useEffect(() => {
@@ -57,6 +58,7 @@ function App() {
         />
         <Route path="/raaj-solar/mono-perc" element={<MonoPerc />} />
         <Route path="/raaj-solar/mono-bi-facial" element={<MonoBiFacial />} />
+        <Route path="/raaj-solar/download" element={<Download />} />
       </Routes>
     </Layout>
   );

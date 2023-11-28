@@ -4,6 +4,8 @@ import { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import rightArrow from "../../images/rightArrowWhite.svg";
+import plusIcon from "../../images/plus.svg";
+import minusIcon from "../../images/minus.svg";
 
 const Headings = ({ headings, activeId }) => (
   <ul>
@@ -139,6 +141,25 @@ const TableOfContents = () => {
     </nav>
   );
 };
+
+const AccordionItem = ({ title, description, isOpen, toggleAccordion }) => {
+  return (
+    <div className={`accordion-item ${isOpen ? "open" : ""}`}>
+      <div className="accordion-header" onClick={toggleAccordion}>
+        <div className="accordion-title">{title}</div>
+        <div className="icon">
+          {isOpen ? (
+            <img src={plusIcon} alt="plueIcon" />
+          ) : (
+            <img src={minusIcon} className="minus" alt="minusIcon" />
+          )}
+        </div>
+      </div>
+      {isOpen && <div className="accordion-description">{description}</div>}
+    </div>
+  );
+};
+
 const BlogSingleItem = ({
   id,
   image,
@@ -266,6 +287,28 @@ const BlogSingleItem = ({
   blueNinethHeadingContent3,
   blueTenthHeading,
   blueTenthHeadingContent,
+  blueTenthHeadingContent1,
+  blueTenthHeadingContent2Heading,
+  blueTenthHeadingContent2,
+  blueTenthHeadingContent3Heading,
+  blueTenthHeadingContent3,
+  blueTenthHeadingContent4Heading,
+  blueTenthHeadingContent4,
+  blueTenthHeadingContent5Heading,
+  blueTenthHeadingContent5,
+  blueTenthHeadingContent6Heading,
+  blueTenthHeadingContent6,
+  blueTenthHeadingContent7Heading,
+  blueTenthHeadingContent7,
+  blueTenthHeadingContent8Heading,
+  blueTenthHeadingContent8,
+  blueTenthHeadingContent9Heading,
+  blueTenthHeadingContent9,
+  blueTenthHeadingContent10Heading,
+  blueTenthHeadingContent10,
+  blueTenthHeadingContent11Heading,
+  blueTenthHeadingContent11,
+
   companies,
   constuctionWorldImage,
   constuctionWorldText1,
@@ -273,7 +316,19 @@ const BlogSingleItem = ({
   constuctionWorldText3,
   typesOfSolarPanels,
   solarPanelTypesHeading,
+  electricityHeading,
+  electricityContent,
+  electricityImage,
+  electricityText1,
+  accordionTitle,
+  items,
+  accordionText,
 }) => {
+  const [openIndex, setOpenIndex] = useState(0);
+
+  const toggleAccordion = (index) => {
+    setOpenIndex(index === openIndex ? -1 : index);
+  };
   return (
     <div className="blogSingle_inner">
       <div className="blogSingleItem_wrapper_banner">
@@ -396,7 +451,7 @@ const BlogSingleItem = ({
                 </>
               ) : null}
 
-              {id !== 1 && (
+              {id !== 1 && id !== 4 && id !== 5 && (
                 <>
                   <h2 id="sixth-header" className="elementor-element-title">
                     <span className="elementor-element-border">
@@ -456,7 +511,7 @@ const BlogSingleItem = ({
                   </p>
                 </>
               ) : null}
-              {id !== 1 && id !== 4 && (
+              {id !== 1 && id !== 3 && id !== 4 && id !== 5 && (
                 <>
                   <p className="elementor-element-border">
                     <h2 id="seventh-header" className="elementor-element-title">
@@ -907,8 +962,99 @@ const BlogSingleItem = ({
                   })}
                 </>
               )}
+              {id === 5 && (
+                <>
+                  <p className="elementor-element-border">
+                    <h2 id="nineth-header" className="elementor-element-title">
+                      {blueTenthHeading}
+                    </h2>
+                  </p>
+                  <p className="elementor-element-text">
+                    {blueTenthHeadingContent1}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent2Heading}</span>
+                    {blueTenthHeadingContent2}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent3Heading}</span>{" "}
+                    {blueTenthHeadingContent3}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent4Heading}</span>{" "}
+                    {blueTenthHeadingContent4}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent5Heading}</span>
+                    {blueTenthHeadingContent5}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent6Heading}</span>
+                    {blueTenthHeadingContent6}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent7Heading}</span>
+                    {blueTenthHeadingContent7}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent8Heading}</span>
+                    {blueTenthHeadingContent8}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent9Heading}</span>
+                    {blueTenthHeadingContent9}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent10Heading}</span>
+                    {blueTenthHeadingContent10}
+                  </p>
+                  <p className="elementor-element-text">
+                    <span>{blueTenthHeadingContent11Heading}</span>
+                    {blueTenthHeadingContent11}
+                  </p>
+                </>
+              )}
+              {id === 5 && (
+                <div className="constructionWord">
+                  <p className="elementor-element-border">
+                    <h2 id="tenth-header" className="elementor-element-title">
+                      {electricityHeading}
+                    </h2>
+                  </p>
+                  <p className="elementor-element-text">{electricityContent}</p>
+                  <div className="constructionWord_heading">
+                    As per the
+                    <Link to="https://www.magicbricks.com/blog/">
+                      Magic bricks Article
+                    </Link>
+                  </div>
+                  <p>
+                    <img
+                      src={electricityImage}
+                      alt={blueNinethHeading}
+                      className="constructionWord_artical_image"
+                    />
+                  </p>
+                  <p className="elementor-element-text">{electricityText1}</p>
+                </div>
+              )}
             </div>
             <TableOfContents />
+          </div>
+          <div className="accordion-section">
+            <h2 className="accordian-main-title">{accordionTitle}</h2>
+            <h3 className="main-text">{accordionText}</h3>
+            <div className="accordion">
+              {items?.map((item, index) => (
+                <AccordionItem
+                  key={index}
+                  title={item.title}
+                  description={item.description}
+                  isOpen={index === openIndex}
+                  toggleAccordion={() => toggleAccordion(index)}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>
