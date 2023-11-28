@@ -16,7 +16,7 @@ const TimelineNew = () => {
       scrollTrigger: {
         trigger: container.current,
         scrub: 1,
-        start: "top 50%",
+        start: "top 60%",
         end: "bottom 80%",
       },
       opacity: 1,
