@@ -1041,21 +1041,23 @@ const BlogSingleItem = ({
             </div>
             <TableOfContents />
           </div>
-          <div className="accordion-section">
-            <h2 className="accordian-main-title">{accordionTitle}</h2>
-            <h3 className="main-text">{accordionText}</h3>
-            <div className="accordion">
-              {items?.map((item, index) => (
-                <AccordionItem
-                  key={index}
-                  title={item.title}
-                  description={item.description}
-                  isOpen={index === openIndex}
-                  toggleAccordion={() => toggleAccordion(index)}
-                />
-              ))}
+          {accordionTitle && (
+            <div className="accordion-section">
+              <h2 className="accordian-main-title">{accordionTitle}</h2>
+              <h3 className="main-text">{accordionText}</h3>
+              <div className="accordion">
+                {items?.map((item, index) => (
+                  <AccordionItem
+                    key={index}
+                    title={item.title}
+                    description={item.description}
+                    isOpen={index === openIndex}
+                    toggleAccordion={() => toggleAccordion(index)}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </div>
