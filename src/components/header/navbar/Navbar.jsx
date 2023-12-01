@@ -48,7 +48,7 @@ const Navbar = () => {
             onClick={() => setShowMenu(!showMenu)}
             className="downloadLogoMObile"
           >
-            <Link>
+            <Link to={"/raaj-solar/download"}>
               Download<span style={{ paddingLeft: "5px" }}> Now</span>
               <img
                 src={downloadLogo}
