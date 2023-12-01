@@ -5,6 +5,7 @@ import "../../variables.scss";
 import DownloadLogo from "./downloadLogo/DownloadLogo";
 
 const Header = () => {
+
   return (
     <div className="header" id="hide-header">
       <div className="header_wrapper">
