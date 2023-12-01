@@ -29,6 +29,16 @@
 
   .banner_slider_wrapper {
     position: relative;
+    margin: 140px 0 0;
+    @media(max-width:1199px){
+      margin: 110px 0 0;
+    }
+    @media(max-width:991px){
+      margin: 93px 0 0;
+    }
+    @media(max-width:767px){
+      margin: 0;
+    }
   }
   .banner_slider_inner {
     height: 87vh;
@@ -40,9 +50,9 @@
     max-width: 100%;
     object-fit: cover;
   }
-video{
-  filter: brightness(0.5);
-}
+  video {
+    filter: brightness(0.5);
+  }
   .text {
     position: absolute;
     top: 70%;
