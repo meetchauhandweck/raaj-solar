@@ -8,7 +8,8 @@
   position: relative;
   display: flex;
   align-items: end;
-  padding: 140px 0 0;
+  top: 140px;
+  margin: 0 0 140px;
   &::before {
     content: "";
     position: absolute;
@@ -18,11 +19,13 @@
   }
   @media (max-width: 1199px) {
     min-height: 600px;
-    padding: 110px 0 0;
+    top: 110px;
+    margin: 0 0 110px;
   }
   @media (max-width: 991px) {
     min-height: 500px;
-    padding: 93px 0 0;
+    top: 93px;
+    margin: 0 0 93px;
   }
   @media (max-width: 767px) {
     min-height: 400px;
