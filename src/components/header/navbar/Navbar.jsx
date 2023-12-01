@@ -5,8 +5,6 @@ import downloadLogo from "../../../images/downloadLogo1.svg";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  console.log(showMenu);
-
   if (showMenu && window.innerWidth < 992) {
     document.body.classList.add("mobile_menu_open");
   } else {
@@ -38,12 +36,6 @@ const Navbar = () => {
           <li onClick={() => setShowMenu(!showMenu)}>
             <Link to="/raaj-solar/products">Products</Link>
           </li>
-          {/* <li>
-            <Link to="/management">Management</Link>
-          </li> */}
-          {/* <li  onClick={() => setShowMenu(!showMenu)}>
-            <Link to="/center">Center</Link>
-          </li> */}
           <li onClick={() => setShowMenu(!showMenu)}>
             <Link to="/raaj-solar/blog">Blog</Link>
           </li>

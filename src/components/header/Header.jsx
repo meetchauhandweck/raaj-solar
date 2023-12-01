@@ -7,14 +7,12 @@ import DownloadLogo from "./downloadLogo/DownloadLogo";
 const Header = () => {
   return (
     <div className="header" id="hide-header">
-      {/* <div className="big_container"> */}
-        <div className="header_wrapper">
-          <Logo />
-          <Navbar />
-          <DownloadLogo />
-        </div>
+      <div className="header_wrapper">
+        <Logo />
+        <Navbar />
+        <DownloadLogo />
       </div>
-    // </div>
+    </div>
   );
 };
 export default Header;

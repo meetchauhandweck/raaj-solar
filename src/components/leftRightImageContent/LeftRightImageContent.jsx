@@ -16,7 +16,7 @@ const propductCardData = [
     image1: productImage1,
     title: "POLY CRYSTALLINE",
     description:
-      "With the development of Technology Poly Modules efficiency has increased up to 18% , where we can make Modules up to 345 WP.Poly Modules are ideally used for Ground Mounted , Industrial ,Commercial , Residential , Water Pumping system &…",
+      "With the development of Technology Poly Modules efficiency has increased up to 18%, where we can make Modules up to 345 WP. Poly Modules are ideally used for Ground Mounted, Industrial, Commercial, Residential, Water Pumping system &…",
     image2: smallImage1,
     link: "/raaj-solar/poly-crystalline",
   },

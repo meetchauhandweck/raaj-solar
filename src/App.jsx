@@ -18,6 +18,7 @@ import MonoBiFacial from "./pages/products/productsInnerPages/monoBiFacial/MonoB
 // import BlogSingleItem from "./components/blogSingleItem/BlogSingleItem";
 import BlogSingle from "./pages/blog/blogSingle/BlogSingle";
 import Download from "./pages/download/Download";
+import ScrollTop from "./components/scrollTop/ScrollTop";
 
 function App() {
   useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <Layout>
+      <ScrollTop />
       <Routes>
         <Route index path="/raaj-solar" element={<Home />} />
         <Route path="/raaj-solar/company" element={<Company />} />
