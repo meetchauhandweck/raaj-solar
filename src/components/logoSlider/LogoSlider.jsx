@@ -6,6 +6,9 @@ import img4 from "../../images/clientLogo4.png";
 import img1 from "../../images/clientLogo1.png";
 import img5 from "../../images/clientLogo5.png";
 import img6 from "../../images/clientLogo6.png";
+import img7 from "../../images/clientLogo7.png";
+import img8 from "../../images/clientLogo8.png";
+import img9 from "../../images/clientLogo9.png";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -82,6 +85,21 @@ const LogoSlider = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo">
+                  <img src={img7} alt="clientLogo" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo">
+                  <img src={img8} alt="clientLogo" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo">
+                  <img src={img9} alt="clientLogo" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo">
                   <img src={img1} alt="clientLogo" />
                 </div>
               </SwiperSlide>
@@ -108,6 +126,21 @@ const LogoSlider = () => {
               <SwiperSlide>
                 <div className="logo">
                   <img src={img6} alt="clientLogo" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo">
+                  <img src={img7} alt="clientLogo" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo">
+                  <img src={img8} alt="clientLogo" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo">
+                  <img src={img9} alt="clientLogo" />
                 </div>
               </SwiperSlide>
             </Swiper>

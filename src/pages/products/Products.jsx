@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <>
       <InnerPageBanner
-        subHeading={"INDIA'S MOST RELIABLE SOLAR PANELSMANUFACTURING COMPANY"}
+        subHeading={"INDIA'S MOST RELIABLE SOLAR PANELS MANUFACTURING COMPANY"}
         image={bannerImage}
       />
       <LeftRightImageContent />

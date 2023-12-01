@@ -182,20 +182,26 @@
       display: flex;
       justify-content: center;
     }
-  }
-  .icon {
-    cursor: pointer;
-    background-color: white;
-    padding: 9px;
-    color: #002d70;
-    font-weight: 700;
-    border-radius: 50%;
-    display: flex;
-    transition: all 0.3s;
-    &:hover {
-      transform: translateY(-10px);
+    .icon {
+      cursor: pointer;
+      background-color: white;
+      padding: 9px;
+      color: #002d70;
+      font-weight: 700;
+      border-radius: 50%;
+      display: flex;
+      transition: all 0.3s;
+      width: 17px;
+      height: 15px;
+      &:hover {
+        transform: translateY(-10px);
+      }
+      a {
+        display: flex;
+      }
     }
   }
+
   .contact_form {
     background: white;
     color: #1e1e1e;

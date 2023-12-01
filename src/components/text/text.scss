@@ -18,10 +18,13 @@
       min-height: 95vh !important;
     }
     .inner {
-      width: 85%;
+      width: 90%;
       display: flex;
       flex-wrap: wrap;
       margin: 0 0 100px;
+      @media (max-width: 1440px) {
+        width: 93%;
+      }
       @media (max-width: 1199px) {
         margin: 0 0 125px;
       }
@@ -35,12 +38,12 @@
         padding: 0 20px;
         color: $mediumBlue;
         @media (max-width: 1199px) {
-          font-size: 114px;
+          font-size: 108px;
           line-height: 120px;
           padding: 0 15px;
         }
         @media (max-width: 991px) {
-          font-size: 99px;
+          font-size: 95px;
           line-height: 110px;
           padding: 0 10px;
         }
@@ -50,13 +53,23 @@
           padding: 0 7px;
         }
         @media (max-width: 610px) {
-          font-size: 60px;
+          font-size: 57px;
           line-height: 70px;
           padding: 0 5px;
         }
         @media (max-width: 460px) {
           font-size: 45px;
           line-height: 60px;
+          padding: 0 5px;
+        }
+        @media (max-width: 355px) {
+          font-size: 40px;
+          line-height: 60px;
+          padding: 0 5px;
+        }
+        @media (max-width: 320px) {
+          font-size: 32px;
+          line-height: 45px;
           padding: 0 5px;
         }
       }

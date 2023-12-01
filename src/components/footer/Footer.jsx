@@ -71,28 +71,48 @@ const Footer = () => {
           </div>
           <div className="copyright">
             <div className="copyright_text">
-              Copyright@ 2023 Raaj Solar, All Right Reserved. Designed &
+              Copyright &copy; 2023 Raaj Solar, All Right Reserved. Designed &
               Developed by
               <span>
-                <Link to="https://www.humbeestudio.com/">{"H/DS"}</Link>
+                <Link target="_blank" to="https://www.humbeestudio.com/">
+                  {"H/DS"}
+                </Link>
               </span>
             </div>
             <div className="icons">
               <div className="icon">
-                <img src={facebook} alt="facebook" />
+                <Link to="https://www.facebook.com/raajsolarpv" target="_blank">
+                  <img src={facebook} alt="facebook" />
+                </Link>
               </div>
               <div className="icon">
-                {/* <i className="fa-brands fa-instagram"></i> */}
-                <img src={instagram} alt="instagram" />
+                <Link to="https://www.instagram.com/raajsolar/" target="_blank">
+                  <img src={instagram} alt="instagram" />
+                </Link>
               </div>
               <div className="icon">
-                <img src={youtube} alt="youtube" />
+                <Link
+                  to="https://www.youtube.com/channel/UClTvd-G682IozFadbSzBz4w"
+                  target="_blank"
+                >
+                  <img src={youtube} alt="youtube" />
+                </Link>
               </div>
               <div className="icon">
-                <img src={whatsapp} alt="whatsapp" />
+                <Link
+                  to="https://api.whatsapp.com/send?phone=https://wa.link/vzs04n&text=Hello%20Raaj%20Solar%20%20I%20am%20Looking%20For%20"
+                  target="_blank"
+                >
+                  <img src={whatsapp} alt="whatsapp" />
+                </Link>
               </div>
               <div className="icon">
-                <img src={linkedin} alt="linkedin" />
+                <Link
+                  to="https://www.linkedin.com/company/66936534/admin/"
+                  target="_blank"
+                >
+                  <img src={linkedin} alt="linkedin" />
+                </Link>
               </div>
             </div>
           </div>

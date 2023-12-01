@@ -17,7 +17,7 @@
         flex-direction: column;
         width: 50%;
         background-color: #ebebeb;
-        padding: 88px 0 75px;
+        padding: 65px 0 52px;
         @media (max-width: 767px) {
           width: 100%;
           padding: 0;
@@ -37,34 +37,40 @@
           z-index: 1;
           @media (max-width: 1199px) {
             padding-left: 32px;
-            padding-bottom: 120px;
+            // padding-bottom: 120px;
             max-width: 460px;
           }
           @media (max-width: 991px) {
             padding-left: 5px;
-            padding-bottom: 120px;
+            // padding-bottom: 120px;
             max-width: 310px;
           }
           @media (max-width: 767px) {
             max-width: 100%;
-            padding: 0 20px 100px;
+            padding: 0 20px 45px;
           }
           .info {
-            margin-top: 271px;
+            margin-top: 250px;
             font-size: 86px;
             font-weight: 600;
             line-height: 75px;
             letter-spacing: -6.02px;
             text-transform: uppercase;
             color: $darkBlue;
+            @media (max-width: 1600px) {
+              margin-top: 200px;
+            }
+            @media (max-width: 1440px) {
+              margin-top: 150px;
+            }
             @media (max-width: 1199px) {
-              margin-top: 222px;
+              margin-top: 120px;
               font-size: 70px;
               letter-spacing: -5.02px;
               line-height: 70px;
             }
             @media (max-width: 991px) {
-              margin-top: 188px;
+              margin-top: 90px;
               font-size: 56px;
               letter-spacing: -4.02px;
               line-height: 63px;
@@ -125,14 +131,21 @@
             transform: translateX(-50%);
             z-index: -1;
             letter-spacing: -6.02px;
+            @media (max-width: 1360px) {
+              font-size: 459px;
+            }
             @media (max-width: 1199px) {
-              font-size: 480px;
+              font-size: 385px;
             }
             @media (max-width: 991px) {
-              font-size: 450px;
+              font-size: 310px;
+              top: 25%;
+            }
+            @media (max-width: 767px) {
+              top: 36%;
             }
             @media (max-width: 575px) {
-              font-size: 340px;
+              font-size: 245px;
               top: 20%;
             }
           }
@@ -155,7 +168,7 @@
         }
         img {
           max-width: 100%;
-          padding: 100px;
+          // padding: 100px;
           @media (max-width: 767px) {
             width: 35%;
             padding: 50px 0;
