@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import rightArrow from "../../images/rightArrowWhite.svg";
 import plusIcon from "../../images/plus.svg";
 import minusIcon from "../../images/minus.svg";
+import upArrow from "../../images/upArrow.svg";
 
 const Headings = ({ headings, activeId }) => (
   <ul>
@@ -131,8 +132,13 @@ const TableOfContents = () => {
         <div className="Tablecontent">
           <p onClick={() => setShow(!show)}>Table of content</p>
           <button className="btn" onClick={() => setShow(!show)}>
-            <i
+            {/* <i
               className={`fas ${show ? "fa-chevron-down" : "fa-chevron-up"}`}
+            /> */}
+            <img
+              src={upArrow}
+              alt="upArrow"
+              className={`${show ? "up" : "down"}`}
             />
           </button>
         </div>
