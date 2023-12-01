@@ -52,7 +52,7 @@ const HeroBanner = () => {
             </div>
             <div className="text">
               INDIA'S MOST RELIABLE <br />
-              SOLAR PANELSMANUFACTURING COMPANY
+              SOLAR PANELS MANUFACTURING COMPANY
             </div>
           </div>
         </SwiperSlide>

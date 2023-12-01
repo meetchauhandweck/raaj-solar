@@ -45,7 +45,7 @@ const ProductSlider = () => {
                   </div>
                   <div className="details">
                     {
-                      "With the development of Technology Poly Modules efficiency has increased up to 18% , where we can make Modules up to 345 WP.Poly Modules are ideally used for Ground Mounted , Industrial ,Commercial , Residential , Water Pumping system & Street Lights. Poly Modules are cost effective & easily available."
+                      "With the development of Technology Poly Modules efficiency has increased up to 18%, where we can make Modules up to 345 WP. Poly Modules are ideally used for Ground Mounted, Industrial, Commercial, Residential, Water Pumping system & Street Lights. Poly Modules are cost effective & easily available."
                     }
                   </div>
                   <div className="link">

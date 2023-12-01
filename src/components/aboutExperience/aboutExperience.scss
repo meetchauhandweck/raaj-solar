@@ -40,12 +40,15 @@
         }
         .content {
           color: $white;
-          font-size: 14px;
+          font-size: 16px;
           font-style: normal;
           font-weight: 400;
           line-height: 163.523%; /* 22.893px */
           letter-spacing: 0.21px;
           text-transform: capitalize;
+          @media (max-width: 767px) {
+            font-size: 14px;
+          }
         }
       }
     }
@@ -70,8 +73,7 @@
           padding: 16px 32px;
         }
         @media (max-width: 767px) {
-           
-            justify-content: center;
+          justify-content: center;
           padding: 16px 20px;
         }
       }

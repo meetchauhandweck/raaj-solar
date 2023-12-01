@@ -94,7 +94,7 @@ const Text = ({ text, smallText }) => {
                 is headquartered in Ahmedabad , Gujarat . “RAAJ” has a fully
                 automated state-of-the-art manufacturing line with a capacity of
                 300 MW and is expanding its manufacturing facility up to 500 MW
-                by 2025 in TOP- CORN (N-Type) & HJT(Hytrojunction Technology).`}
+                by 2025 in TOP - CORN (N-Type) & HJT(Hytrojunction Technology).`}
                 </p>
                 <p>
                   {` “RAAJ” Manufacturer Solar Panels NON DCR & DCR (DOMESTIC CELL

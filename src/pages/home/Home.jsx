@@ -17,7 +17,7 @@ const Home = () => {
       <Text
         text={"The Reliable Solar PV Module Manufacturing Company in India"}
         smallText={
-          "“RAAJ” is a reliable MBB – Solar PV Module Manufacturer in India that specialises in Manufacturing MONO PERC Half Cut Cell (Bi-Facial / Mono Facial ) & Poly-crystalline solar panels and is headquartered in Ahmedabad , Gujarat . “RAAJ” has a fully automated state-of-the-art manufacturing line with a capacity of 300 MW and is expanding its manufacturing facility up to 500 MW by 2025 in TOP- CORN (N-Type) & HJT(Hytrojunction Technology)."
+          "“RAAJ” is a reliable MBB – Solar PV Module Manufacturer in India that specialises in Manufacturing MONO PERC Half Cut Cell (Bi-Facial / Mono Facial ) & Poly-crystalline solar panels and is headquartered in Ahmedabad , Gujarat . “RAAJ” has a fully automated state-of-the-art manufacturing line with a capacity of 300 MW and is expanding its manufacturing facility up to 500 MW by 2025 in TOP - CORN (N-Type) & HJT(Hytrojunction Technology)."
         }
       />
       <ProductSlider />

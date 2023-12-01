@@ -13,15 +13,11 @@ const DownloadItem = ({ title, cardsData }) => {
             <div className="cards_inner">
               <Link to={card.file} target="_blank">
                 <div className="card">
-                  <h3 className="downloadtext">
-                    Download
-                    <br />
-                    Now
-                  </h3>
+                  <h3 className="downloadtext">{card.title}</h3>
                   <img src={downloadIcon} alt="downloadItem" />
                 </div>
               </Link>
-              <p className="cardtitle">{card.title}</p>
+              {/* <p className="cardtitle">{card.title}</p> */}
             </div>
           </div>
         ))}

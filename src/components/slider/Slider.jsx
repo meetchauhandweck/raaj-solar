@@ -18,7 +18,7 @@ const SliderSection = () => {
       pic: pic1,
       heading: "ASV Energy – Dealer Gujarat",
       content:
-        "“RAAJ” has Excellent Manufacturing Facility who offer MBB solar PV Modules with Quality &amp; timely Supply to the customers. Team is knowledgeable , Experienced &amp; supportive for all the queries. That’s why I preferred to RAAJ compared to other Manufacturer.",
+        "“RAAJ” has Excellent Manufacturing Facility who offer MBB solar PV Modules with Quality & timely Supply to the customers. Team is knowledgeable, Experienced & supportive for all the queries. That’s why I preferred to RAAJ compared to other Manufacturer.",
     },
     {
       pic: pic1,
@@ -36,7 +36,7 @@ const SliderSection = () => {
       pic: pic1,
       heading: "Nes Energy – Dealer Gujarat",
       content:
-        "“RAAJ” – is continuously Working to develop their products according to market standards to fulfill their customer’s requirements. Panels have high quality &amp; proven generation to convince the customers. We are extremely satisfied with the panels supplied by RAAJ.",
+        "“RAAJ” – is continuously Working to develop their products according to market standards to fulfill their customer’s requirements. Panels have high quality & proven generation to convince the customers. We are extremely satisfied with the panels supplied by RAAJ.",
     },
 
     // pic2,

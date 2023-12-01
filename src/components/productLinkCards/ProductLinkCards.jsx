@@ -11,7 +11,7 @@ const productLinkCardsData = [
   {
     text1: "mono",
     text2: "perc",
-    link: "/raaj-solar/mono-perc   ",
+    link: "/raaj-solar/mono-perc",
   },
   {
     text1: "MONO",

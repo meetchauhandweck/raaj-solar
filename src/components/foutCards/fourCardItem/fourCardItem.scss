@@ -37,6 +37,13 @@
     &_link {
       background-color: $lightBlue1;
       text-align: center;
+      transition: all 0.4s;
+      &:hover {
+        background-color: $darkBlue;
+        a {
+          color: $white;
+        }
+      }
       a {
         color: $black;
         font-size: 15px;
@@ -48,6 +55,7 @@
         text-decoration: none;
         width: 100%;
         display: block;
+        transition: all 0.4s;
       }
     }
   }

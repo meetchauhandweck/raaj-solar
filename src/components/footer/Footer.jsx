@@ -80,40 +80,40 @@ const Footer = () => {
               </span>
             </div>
             <div className="icons">
-              <div className="icon">
-                <Link to="https://www.facebook.com/raajsolarpv" target="_blank">
+              <Link to="https://www.facebook.com/raajsolarpv" target="_blank">
+                <div className="icon">
                   <img src={facebook} alt="facebook" />
-                </Link>
-              </div>
-              <div className="icon">
-                <Link to="https://www.instagram.com/raajsolar/" target="_blank">
+                </div>
+              </Link>
+              <Link to="https://www.instagram.com/raajsolar/" target="_blank">
+                <div className="icon">
                   <img src={instagram} alt="instagram" />
-                </Link>
-              </div>
-              <div className="icon">
-                <Link
-                  to="https://www.youtube.com/channel/UClTvd-G682IozFadbSzBz4w"
-                  target="_blank"
-                >
+                </div>
+              </Link>
+              <Link
+                to="https://www.youtube.com/channel/UClTvd-G682IozFadbSzBz4w"
+                target="_blank"
+              >
+                <div className="icon">
                   <img src={youtube} alt="youtube" />
-                </Link>
-              </div>
-              <div className="icon">
-                <Link
-                  to="https://api.whatsapp.com/send?phone=https://wa.link/vzs04n&text=Hello%20Raaj%20Solar%20%20I%20am%20Looking%20For%20"
-                  target="_blank"
-                >
+                </div>
+              </Link>
+              <Link
+                to="https://api.whatsapp.com/send?phone=https://wa.link/vzs04n&text=Hello%20Raaj%20Solar%20%20I%20am%20Looking%20For%20"
+                target="_blank"
+              >
+                <div className="icon">
                   <img src={whatsapp} alt="whatsapp" />
-                </Link>
-              </div>
-              <div className="icon">
-                <Link
-                  to="https://www.linkedin.com/company/66936534/admin/"
-                  target="_blank"
-                >
+                </div>
+              </Link>
+              <Link
+                to="https://www.linkedin.com/company/66936534/admin/"
+                target="_blank"
+              >
+                <div className="icon">
                   <img src={linkedin} alt="linkedin" />
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

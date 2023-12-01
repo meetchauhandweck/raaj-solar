@@ -23,12 +23,12 @@ const textWithIconData = [
   {
     id: 2,
     icon: icon3,
-    text: "Legacy withover 2500+ cr turnover",
+    text: "Legacy with over 2500+cr turnover",
   },
   {
     id: 3,
     icon: icon4,
-    text: "Single point of Contactfor sales & Service support",
+    text: "Single point of Contact for sales & Service support",
   },
   {
     id: 4,

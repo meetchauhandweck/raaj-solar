@@ -174,9 +174,15 @@
   //   .swiper-pagination-bullet.custom-bullet.swiper-pagination-bullet-active
   .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
     position: absolute;
-    top: 20%;
+    top: 27%;
     left: 20%;
     height: fit-content;
+    @media (max-width: 767px) {
+      top: 22%;
+    }
+    @media (max-width: 420px) {
+      left: 12%;
+    }
   }
   @media only screen and (max-width: 600px) {
     .prevnavbar {
