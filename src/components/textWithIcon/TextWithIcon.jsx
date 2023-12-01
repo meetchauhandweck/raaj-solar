@@ -13,7 +13,7 @@ const textWithIconData = [
   {
     id: 0,
     icon: icon1,
-    text: "12 + years of Manufacturing Experience",
+    text: "12+ years of Manufacturing Experience",
   },
   {
     id: 1,
@@ -38,7 +38,7 @@ const textWithIconData = [
   {
     id: 5,
     icon: icon6,
-    text: "No moq Required",
+    text: "No MOQ Required",
   },
 ];
 
