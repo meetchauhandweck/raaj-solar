@@ -36,7 +36,7 @@
     }
   }
   .card {
-    padding: 20px;
+    padding: 10px 0;
     background-color: #007dc5;
     color: white;
     display: flex;
@@ -45,9 +45,7 @@
     height: 100%;
     flex-direction: column-reverse;
     transition: all 0.4s;
-    @media (max-width: 767px) {
-      justify-content: space-between;
-    }
+
     &:hover {
       background-color: $darkBlue;
     }
@@ -61,12 +59,8 @@
     text-align: left;
     padding: 0 20px;
 
-    @media (max-width: 1199px) {
-      font-size: 20px;
-    }
-    @media (max-width: 991px) {
-      font-size: 20px;
-      line-height: 22px;
+    @media (max-width: 767px) {
+      padding: 0 15px;
     }
   }
   img {
