@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import "./navbar.scss";
-import { useState } from "react";
 import downloadLogo from "../../../images/downloadLogo1.svg";
+import PropTypes from "prop-types";
 
 const Navbar = ({ handleMenu, open }) => {
-
   return (
     <div className="navbar">
       <div
@@ -56,3 +55,8 @@ const Navbar = ({ handleMenu, open }) => {
 };
 
 export default Navbar;
+
+Navbar.propTypes = {
+  handleMenu: PropTypes.any,
+  open: PropTypes.any,
+};
