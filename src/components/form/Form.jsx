@@ -23,7 +23,6 @@ const Form = () => {
       console.log("value", value);
     },
   });
-  console.log(values);
   return (
     <div className="contact_form">
       <div className="contact_form_wrapper">

@@ -28,7 +28,6 @@ const Text = ({ text, smallText }) => {
     document.body.classList.remove("popup");
   }
 
-  console.log("popup", popup);
   const createAnimation = () => {
     gsap.to(refs.current, {
       scrollTrigger: {

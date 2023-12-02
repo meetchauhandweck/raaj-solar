@@ -3,7 +3,7 @@ import "./navbar.scss";
 import { useState } from "react";
 import downloadLogo from "../../../images/downloadLogo1.svg";
 
-const Navbar = () => {
+const Navbar = ({ handleMenu, open }) => {
   const [showMenu, setShowMenu] = useState(false);
   if (showMenu && window.innerWidth < 992) {
     document.body.classList.add("mobile_menu_open");
@@ -13,41 +13,38 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div
-        className={`mobileMenu_icon ${showMenu ? "active" : null}`}
-        onClick={() => setShowMenu(!showMenu)}
+        className={`mobileMenu_icon ${open ? "active" : null}`}
+        onClick={handleMenu}
       >
         {/* Menu */}
         <span className="line1"></span>
         <span className="line2"></span>
       </div>
-      <div className={`navbar_wrapper ${showMenu ? "active" : null}`}>
+      <div className={`navbar_wrapper ${open ? "active" : null}`}>
         <ul>
-          <li onClick={() => setShowMenu(!showMenu)} className="mobile_home">
+          <li onClick={handleMenu} className="mobile_home">
             <Link to="/raaj-solar">Home</Link>
           </li>
-          <li onClick={() => setShowMenu(!showMenu)}>
+          <li onClick={handleMenu}>
             <Link to="/raaj-solar/about-us">
               About<span style={{ paddingLeft: "5px" }}>us</span>
             </Link>
           </li>
-          <li onClick={() => setShowMenu(!showMenu)}>
+          <li onClick={handleMenu}>
             <Link to="/raaj-solar/management">Management</Link>
           </li>
-          <li onClick={() => setShowMenu(!showMenu)}>
+          <li onClick={handleMenu}>
             <Link to="/raaj-solar/products">Products</Link>
           </li>
-          <li onClick={() => setShowMenu(!showMenu)}>
+          <li onClick={handleMenu}>
             <Link to="/raaj-solar/blog">Blog</Link>
           </li>
-          <li onClick={() => setShowMenu(!showMenu)}>
+          <li onClick={handleMenu}>
             <Link to="/raaj-solar/contact-us">
               Contact<span style={{ paddingLeft: "5px" }}>Us</span>
             </Link>
           </li>
-          <li
-            onClick={() => setShowMenu(!showMenu)}
-            className="downloadLogoMObile"
-          >
+          <li onClick={handleMenu} className="downloadLogoMObile">
             <Link to={"/raaj-solar/download"}>
               Download<span style={{ paddingLeft: "5px" }}> Now</span>
               <img
