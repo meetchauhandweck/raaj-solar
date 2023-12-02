@@ -10,7 +10,7 @@ import ContactUs from "./pages/contactUs/ContactUs";
 import Layout from "./components/layout/Layout";
 import AboutUs from "./pages/aboutUs/AboutUs";
 import Management from "./pages/management/Management";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 // import LocomotiveScroll from "locomotive-scroll";
 import PolyCrystalline from "./pages/products/productsInnerPages/polyCrystalline/PolyCrystalline";
 import MonoPerc from "./pages/products/productsInnerPages/monoPerc/MonoPerc";
@@ -19,13 +19,15 @@ import MonoBiFacial from "./pages/products/productsInnerPages/monoBiFacial/MonoB
 import BlogSingle from "./pages/blog/blogSingle/BlogSingle";
 import Download from "./pages/download/Download";
 import ScrollTop from "./components/scrollTop/ScrollTop";
+import LocomotoveScroll from "locomotive-scroll";
 
 function App() {
+  const scrollRef = useRef(null);
   useEffect(() => {
-    (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
-      const locomotiveScroll = new LocomotiveScroll();
-    })();
+    const scroll = new LocomotoveScroll({
+      el: scrollRef.current,
+      smooth: true,
+    });
 
     var prevScrollpos = window.pageXOffset;
     window.onscroll = function () {

@@ -58,7 +58,6 @@ const TimelineNew = () => {
               </div>
             </div>
             <div className={styles.section}>
-              
               <div className={`${styles.contentX} triggered-element`}>
                 <hgroup>
                   <h2>2013</h2>
@@ -72,7 +71,6 @@ const TimelineNew = () => {
               </div>
             </div>
             <div className={styles.section}>
-              
               <div className={`${styles.contentX} triggered-element`}>
                 <hgroup>
                   <h2>2016</h2>
@@ -87,7 +85,6 @@ const TimelineNew = () => {
               </div>
             </div>
             <div className={styles.section}>
-              
               <div className={`${styles.contentX} triggered-element`}>
                 <hgroup>
                   <h2>2018</h2>
@@ -101,7 +98,6 @@ const TimelineNew = () => {
               </div>
             </div>
             <div className={styles.section}>
-              
               <div className={`${styles.contentX} triggered-element`}>
                 <hgroup>
                   <h2>2021</h2>
@@ -116,24 +112,9 @@ const TimelineNew = () => {
               </div>
             </div>
             <div className={styles.section}>
-              
               <div className={`${styles.contentX} triggered-element`}>
                 <hgroup>
                   <h2>2022</h2>
-                  <p>
-                    Manufacturing Capacity
-                    <div className={styles.grey_text}>
-                      Aim to Reach 1 GW Manufacturing Capacity
-                    </div>
-                  </p>
-                </hgroup>
-              </div>
-            </div>
-            <div className={styles.section}>
-              
-              <div className={`${styles.contentX} triggered-element`}>
-                <hgroup>
-                  <h2>2023</h2>
                   <p>
                     AIMING TO EXPAND PRODUCTION ADDITIONALLY 300MW
                     <div className={styles.grey_text}>
@@ -144,7 +125,20 @@ const TimelineNew = () => {
               </div>
             </div>
             <div className={styles.section}>
-              
+              <div className={`${styles.contentX} triggered-element`}>
+                <hgroup>
+                  <h2>2023</h2>
+                  <p>
+                    EXPANDED MANUFACTURING CAPACITY
+                    <div className={styles.grey_text}>
+                      Established state-of-the-art manufacturing facility with
+                      300+ MW of capacity
+                    </div>
+                  </p>
+                </hgroup>
+              </div>
+            </div>
+            <div className={styles.section}>
               <div className={`${styles.contentX} triggered-element`}>
                 <hgroup>
                   <h2>2025</h2>

@@ -10,6 +10,11 @@ const Header = () => {
   function handleMobileMenu() {
     setShowMenu(!showMenu);
   }
+  if (showMenu && window.innerWidth < 992) {
+    document.body.classList.add("mobile_menu_open");
+  } else {
+    document.body.classList.remove("mobile_menu_open");
+  }
   return (
     <div className="header" id="hide-header">
       <div className="header_wrapper">
@@ -21,19 +26,5 @@ const Header = () => {
   );
 };
 export default Header;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // onClick={handleWidth < 991 ? handleMenu : null}

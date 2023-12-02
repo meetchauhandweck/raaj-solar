@@ -107,7 +107,7 @@ const ProductSlider = () => {
                   </div>
                   <div className="details">
                     {
-                      "Assembled with MBB PERC cells, the half-cell configuration of the modules offers the advantages of higher power output, better temperature-dependent performance, reduced shading effect on the energy generation, lower risk of hot spot, as well as enhanced tolerance for mechanical loading. Reduce BoS & Ideally used for Ground Mounted, Industrial & Commercial Projects."
+                      "Bifacial solar panels represent a type of photovoltaic module designed to capture sunlight from both the front and rear sides, maximizing energy production.  The front side of a bifacial solar panel operates similarly to traditional monofacial panels, absorbing sunlight and converting it into electricity through the photovoltaic effect. What distinguishes bifacial panels is their ability to capture additional sunlight from the rear side, which reflects off surfaces such as the ground or nearby structures. To optimize rear-side light absorption, bifacial solar panels are often installed on surfaces that reflect light well, such as white gravel or a reflective material."
                     }
                   </div>
                   <div className="link">

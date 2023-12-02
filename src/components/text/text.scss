@@ -169,12 +169,13 @@
       @media (max-width: 767px) {
         width: 75%;
         padding: 50px;
+        margin: 0;
       }
       @media (max-width: 575px) {
         padding: 25px;
       }
       @media (max-width: 320px) {
-        padding: 25px;
+        padding: 35px 20px 25px;
         height: 400px;
         overflow-y: scroll;
       }
