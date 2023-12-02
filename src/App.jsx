@@ -10,7 +10,7 @@ import ContactUs from "./pages/contactUs/ContactUs";
 import Layout from "./components/layout/Layout";
 import AboutUs from "./pages/aboutUs/AboutUs";
 import Management from "./pages/management/Management";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 // import LocomotiveScroll from "locomotive-scroll";
 import PolyCrystalline from "./pages/products/productsInnerPages/polyCrystalline/PolyCrystalline";
 import MonoPerc from "./pages/products/productsInnerPages/monoPerc/MonoPerc";
@@ -22,12 +22,23 @@ import ScrollTop from "./components/scrollTop/ScrollTop";
 import LocomotoveScroll from "locomotive-scroll";
 
 function App() {
-  const scrollRef = useRef(null);
+  const [handleScroll, setHandleScroll] = useState(window.innerWidth);
+  function handleSmoothScroll() {
+    setHandleScroll(window.innerWidth);
+  }
+  window.addEventListener("resize", handleSmoothScroll);
+  // const scrollRef = useRef(null);
+  console.log(handleScroll);
+
   useEffect(() => {
-    // const scroll = new LocomotoveScroll({
-    //   el: scrollRef.current,
-    //   smooth: true,
-    // });
+    if (handleScroll > 991) {
+      const scroll = new LocomotoveScroll({
+        smooth: true,
+      });
+    }
+  });
+
+  useEffect(() => {
     var prevScrollpos = window.pageXOffset;
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
@@ -39,7 +50,7 @@ function App() {
       }
       prevScrollpos = currentScrollPos;
     };
-  }, []);
+  }, [handleScroll]);
 
   return (
     <Layout>
