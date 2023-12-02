@@ -24,11 +24,10 @@ import LocomotoveScroll from "locomotive-scroll";
 function App() {
   const scrollRef = useRef(null);
   useEffect(() => {
-    const scroll = new LocomotoveScroll({
-      el: scrollRef.current,
-      smooth: true,
-    });
-
+    // const scroll = new LocomotoveScroll({
+    //   el: scrollRef.current,
+    //   smooth: true,
+    // });
     var prevScrollpos = window.pageXOffset;
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
