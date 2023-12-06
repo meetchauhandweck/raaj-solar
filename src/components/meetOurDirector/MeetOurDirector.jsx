@@ -1,10 +1,11 @@
 import image from "../../images/director.png";
+// import image from "../../images/raajSolar3.jpeg";
 import "./meetOurDirector.scss";
 
 const MeetOurDirector = () => {
   return (
     <div className="meetOurDirector">
-      <div className="container">
+      <div className="meetOurDirector_container">
         <div className="meetOurDirector_wrapper">
           <div className="heading">
             <h4>Meet Our Director</h4>
