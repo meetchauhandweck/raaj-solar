@@ -64,6 +64,33 @@ const blogCardsData = [
       "If you’re looking to harness the power of the sun in the bustling city of Ahmedabad, you’re in the right place! Located in the heart of Gujarat, it has a rich cultural heritage and a strong entrepreneurial spirit. But did you know that Ahmedabad is also a great place to go for solar panels?",
     buttonText: "Read More",
   },
+  {
+    name: "Bring-Solar-Power-Home-Why-Solar-Panels-are-the-best-investment",
+    image: blogimg6,
+    heading: "Bring Solar Power Home: Why Solar Panels are the best investment.",
+    date: "October 28, 2023",
+    content:
+      "You’ve been thinking about going solar for a while now, and it’s time to make it happen! Installing residential solar panels is one of the best investments you can make for your home and your wallet. Not only will you save thousands each year on your electric bills, but you’ll be doing your part for the environment by using clean, renewable energy.",
+    buttonText: "Read More",
+  },
+  {
+    name: "How-Does-Solar-Panels-Work",
+    image: blogimg6,
+    heading: "How Does Solar Panels Work?",
+    date: "November 12, 2023",
+    content:
+      "In an era dominated by climate change concerns and the pursuit of sustainable energy solutions, solar panels have emerged as a beacon of hope for a cleaner, greener future. These innovative devices are designed to harness the inexhaustible power of the sun and convert it into usable electricity. In this comprehensive guide, we will explore the intricate workings of solar panels, providing an in-depth understanding of each step in the process.",
+    buttonText: "Read More",
+  },
+  {
+    name: "Solar-Panel-Maintenance-Guide",
+    image: blogimg6,
+    heading: "Solar Panel Maintenance Guide",
+    date: "December 19, 2023",
+    content:
+      "So you’ve decided to go solar - congratulations! You’re doing your part for the environment and saving money in the long run. But now that the panels are up and running, do you actually know how to properly maintain them? There are some key terms and concepts you’ll want to understand to keep your system performing at its best for decades to come.",
+    buttonText: "Read More",
+  },
 ];
 const BlogCards = () => {
   return (
