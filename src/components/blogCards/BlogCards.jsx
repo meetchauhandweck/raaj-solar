@@ -74,7 +74,7 @@ const blogCardsData = [
     buttonText: "Read More",
   },
   {
-    name: "How-Does-Solar-Panels-Work?",
+    name: "How-Does-Solar-Panels-Work",
     image: blogimg6,
     heading: "How Does Solar Panels Work?",
     date: "November 12, 2023",
