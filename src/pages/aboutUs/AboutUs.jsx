@@ -15,7 +15,7 @@ import PageTitle from "../../components/pageTitle/PageTitle";
 const AboutUs = () => {
   return (
     <>
-    <PageTitle pageTitle={"Raaj Solar - About Us"} />
+    <PageTitle pageTitle={"Ahmedabad - Solar Panel Manufacturing Company | Raaj Solar"} />
       {/* <AboutUsBanner /> */}
       <InnerPageBanner heading={"About us"} image={bannerImage} />
       <AboutExperience />

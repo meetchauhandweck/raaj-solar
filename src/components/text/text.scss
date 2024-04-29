@@ -44,18 +44,18 @@
         width: 100%;
       }
       p {
-        font-size: 122px;
+        font-size: 108px;
         line-height: 145px;
         font-weight: 250;
         padding: 0 20px;
         color: $mediumBlue;
         @media (max-width: 1199px) {
-          font-size: 108px;
+          font-size: 98px;
           line-height: 120px;
           padding: 0 15px;
         }
         @media (max-width: 991px) {
-          font-size: 95px;
+          font-size: 90px;
           line-height: 110px;
           padding: 0 10px;
         }

@@ -14,6 +14,7 @@ import { useEffect, useRef, useState } from "react";
 // import LocomotiveScroll from "locomotive-scroll";
 import PolyCrystalline from "./pages/products/productsInnerPages/polyCrystalline/PolyCrystalline";
 import MonoPerc from "./pages/products/productsInnerPages/monoPerc/MonoPerc";
+import Topcon from "./pages/products/productsInnerPages/topcon/Topcon";
 import MonoBiFacial from "./pages/products/productsInnerPages/monoBiFacial/MonoBiFacial";
 // import BlogSingleItem from "./components/blogSingleItem/BlogSingleItem";
 import BlogSingle from "./pages/blog/blogSingle/BlogSingle";
@@ -74,6 +75,7 @@ function App() {
         />
         <Route path="/raaj-solar/mono-perc" element={<MonoPerc />} />
         <Route path="/raaj-solar/mono-bi-facial" element={<MonoBiFacial />} />
+        <Route path="/raaj-solar/topcon" element={<Topcon />} />
         <Route path="/raaj-solar/download" element={<Download />} />
         <Route path="/raaj-solar/career" element={<Career />} />
       </Routes>

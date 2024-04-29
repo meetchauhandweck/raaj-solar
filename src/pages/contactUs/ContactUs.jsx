@@ -6,7 +6,7 @@ import bannerImage from "../../images/contactBanner.png";
 const ContactUs = () => {
   return (
     <>
-    <PageTitle pageTitle={"Raaj Solar - Contact Us"} />
+    <PageTitle pageTitle={"Ahmedabad - Solar Panel Manufacturing Company | Raaj Solar"} />
       <InnerPageBanner heading={"CONTACT US"} image={bannerImage} />
       <ContactUsForm />
     </>

@@ -4,6 +4,9 @@
   background-size: cover;
   .wrapper {
     padding: 96px 0 121px;
+    .homePageCommonHeading{
+      margin: 0 auto;
+    }
     @media(max-width:991px){
         padding: 75px 0 92px;
     }

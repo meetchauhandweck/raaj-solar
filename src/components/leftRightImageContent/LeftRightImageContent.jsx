@@ -14,11 +14,11 @@ const propductCardData = [
   {
     id: 1,
     image1: productImage1,
-    title: "POLY CRYSTALLINE",
+    title: "Topcon",
     description:
-      "With the development of Technology Poly Modules efficiency has increased up to 18%, where we can make Modules up to 345 WP. Poly Modules are ideally used for Ground Mounted, Industrial, Commercial, Residential, Water Pumping system &…",
+      "TOPCon Solar Modules utilize Half-Cut Cells produced using Non-Destructive Cell Cutting (NDC). TOPCon cells convert more sunlight that P-type cells, which results in a higher cell and module efficiency. TOPCon cells can reach 28% efficiency (the PERC cell maximum efficiency is around 24%).",
     image2: smallImage1,
-    link: "/raaj-solar/poly-crystalline",
+    link: "/raaj-solar/topcon",
   },
   {
     id: 2,

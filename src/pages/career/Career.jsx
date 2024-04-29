@@ -50,7 +50,7 @@ const Career = () => {
 
   return (
     <>
-      <PageTitle pageTitle={"Raaj Solar - Career"} />
+      <PageTitle pageTitle={"Ahmedabad - Solar Panel Manufacturing Company | Raaj Solar"} />
       <div className="career">
         <InnerPageBanner heading={"Career"} image={bannerImage} />
         <div className="contactUsForm">

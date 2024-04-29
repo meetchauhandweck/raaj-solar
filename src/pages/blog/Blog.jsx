@@ -6,7 +6,7 @@ import bannerImage from "../../images/blogBannerImage.png";
 const Blog = () => {
   return (
     <>
-    <PageTitle pageTitle={"Raaj Solar - Blogs"} />
+    <PageTitle pageTitle={"Ahmedabad - Solar Panel Manufacturing Company | Raaj Solar"} />
       <InnerPageBanner heading={"Blogs"} image={bannerImage} />
       <BlogCards />
     </>
