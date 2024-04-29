@@ -5,7 +5,15 @@
   @media (max-width: 767px) {
     margin: 0 0 50px;
   }
-  &_wrapper {
+  .productForm_container{
+    max-width: 1199px;
+    margin: 0 auto;
+    padding: 0 20px;
+    @media(max-width:1199px){
+      max-width: 991px;
+    }
+  }
+  .productForm_wrapper {
     display: flex;
     justify-content: space-between;
     @media (max-width: 767px) {

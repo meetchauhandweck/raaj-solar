@@ -80,6 +80,9 @@ const HomePageVerticalSlider = () => {
           direction={screen < 600 ? "horizontal" : "vertical"}
           slidesPerView={1}
           speed={1000}
+          autoplay={{
+            delay: 3000,
+          }}
           navigation={{
             nextEl: ".homePageVerticalSlider_wrapper_item_slider .right",
             prevEl: ".homePageVerticalSlider_wrapper_item_slider .left",

@@ -4,9 +4,9 @@ import "./productLinkCards.scss";
 
 const productLinkCardsData = [
   {
-    text1: "POLY",
-    text2: "Crystalline",
-    link: "/raaj-solar/poly-crystalline",
+    text1: "TOP",
+    text2: "CON",
+    link: "/raaj-solar/topcon",
   },
   {
     text1: "mono",

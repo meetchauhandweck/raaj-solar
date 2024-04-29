@@ -1,6 +1,6 @@
 import "./heroBanner.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { A11y, Navigation, Pagination } from "swiper/modules";
+import { A11y, Navigation, Pagination,Autoplay } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
@@ -20,7 +20,11 @@ const HeroBanner = () => {
     <div className="heroBanner">
       <Swiper
         loop={true}
-        modules={[Navigation, Pagination, A11y]}
+        speed={1000}
+        modules={[Navigation, Pagination, A11y, Autoplay]}
+        autoplay={{
+          delay: 3000,
+        }}
         className="mySwiper"
         pagination={{
           clickable: true,

@@ -51,6 +51,8 @@ const SliderSection = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
     focusOnSelect: true,
     beforeChange: (current, next) => setImgIndex(next),
     responsive: [
@@ -60,6 +62,7 @@ const SliderSection = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: false,
+         
         },
       },
     ],

@@ -5,7 +5,7 @@ import productFormImage from "../../images/productFormImage.png";
 function ProductForm() {
   return (
     <div className="productForm">
-      <div className="container">
+      <div className="productForm_container">
         <div className="productForm_wrapper">
           <div className="productForm_wrapper_image">
             <img src={productFormImage} className="productimage" />

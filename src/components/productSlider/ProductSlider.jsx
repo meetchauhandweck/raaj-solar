@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, EffectFade } from "swiper/modules";
+import { Navigation, EffectFade, Autoplay } from "swiper/modules";
 import img1 from "../../images/productImage1.png";
 import img2 from "../../images/productImage2.png";
 import img3 from "../../images/productImage3.png";
@@ -23,13 +23,16 @@ const ProductSlider = () => {
           fadeEffect={{
             crossFade: true,
           }}
-          speed={800}
+          autoplay={{
+            delay: 3000,
+          }}
+          speed={1000}
           navigation={{
             nextEl: ".productSlider .right",
             prevEl: ".productSlider .left",
             // disabledClass: "swiper-button-disabled",
           }}
-          modules={[Navigation, EffectFade]}
+          modules={[Navigation, EffectFade, Autoplay]}
           loop={true}
           className="mySwiper"
         >
