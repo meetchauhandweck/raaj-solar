@@ -42,17 +42,17 @@ const ProductSlider = () => {
                 <HomePageCommonHeading heading={"Our Product"} />
                 <div className="card1_inner">
                   <div className="info">
-                    {"POLY"}
+                    {"TOPCON"}
                     <br />
-                    {"CRYSTALLINE"}
+                    {/* {"CRYSTALLINE"} */}
                   </div>
                   <div className="details">
                     {
-                      "With the development of Technology Poly Modules efficiency has increased up to 18%, where we can make Modules up to 345 WP. Poly Modules are ideally used for Ground Mounted, Industrial, Commercial, Residential, Water Pumping system & Street Lights. Poly Modules are cost effective & easily available."
+                      "TOPCon Solar Modules Utilize Half-Cut Cells Produced Using Non-Destructive Cell Cutting (NDC). TOPCon Cells Convert More Sunlight That P-Type Cells, Which Results In A Higher Cell And Module Efficiency. TOPCon Cells Can Reach 28% Efficiency (The PERC Cell Maximum Efficiency Is Around 24%)."
                     }
                   </div>
                   <div className="link">
-                    <Link to="/raaj-solar/poly-crystalline">
+                    <Link to="/raaj-solar/topcon">
                       See more
                       <span>
                         <img src={arrow} alt="arrow" />
