@@ -46,6 +46,9 @@ const Footer = () => {
                 <Link to="/raaj-solar/products">Products</Link>
               </div>
               <div className="f3">
+                <Link to="/raaj-solar/career">Career</Link>
+              </div>
+              <div className="f3">
                 <Link to="/raaj-solar/contact-us">Contact Us</Link>
               </div>
               {/* <div className="f3">

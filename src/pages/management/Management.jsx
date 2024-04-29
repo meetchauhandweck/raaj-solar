@@ -10,7 +10,7 @@ import formBannerImage from "../../images/managementFormImage.png";
 const Management = () => {
   return (
     <>
-      <PageTitle pageTitle={"Raaj Solar - Management"} />
+      <PageTitle pageTitle={"Ahmedabad - Solar Panel Manufacturing Company | Raaj Solar"} />
       <InnerPageBanner image={image} heading={"Management"} />
       <MeetOurDirector />
       <OurTeam />

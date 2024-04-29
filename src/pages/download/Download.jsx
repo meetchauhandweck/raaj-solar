@@ -82,7 +82,7 @@ const Download = () => {
   ];
   return (
     <>
-    <PageTitle pageTitle={"Raaj Solar - Download"} />
+    <PageTitle pageTitle={"Ahmedabad - Solar Panel Manufacturing Company | Raaj Solar"} />
       <InnerPageBanner heading={"Downloads"} image={bannerImage} />
       <div className="download_sec">
         <div className="container">

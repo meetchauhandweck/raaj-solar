@@ -35,7 +35,7 @@ const productModuleData = {
 const MonoPerc = () => {
   return (
     <>
-    <PageTitle pageTitle={"Raaj Solar - MONO PERC"} />
+    <PageTitle pageTitle={"Ahmedabad - Solar Panel Manufacturing Company | Raaj Solar"} />
       <ProductsPageBanner
         image={bannerImage}
         heading={"MONO PERC"}
@@ -44,7 +44,15 @@ const MonoPerc = () => {
         }
         link={file}
       />
-      <Table />
+      <Table row1col1={"R540M"} row1col2={"R54M"} row1col3={"R550M"} 
+      row2col1={"42.26"} row2col2={"42.34"} row2col3 ={"42.55"}
+      row3col1={"12.78"} row3col2={"12.87"} row3col3={"12.93"}  
+      row4col1={"49.54"} row4col2={"49.61"} row4col3={"49.82"} 
+      row5col1={"13.35"} row5col2={"13.45"} row5col3={"13.51"} 
+      row6col1={"20.89"} row6col2={"21.09"} row6col3={"21.28"} 
+      notes={"STC: Irradiances of 1000 W/m²,spectrum AM 1.5and cell temperature of 25°C"}
+      celltypes={"Mono PERK 144 half cut cells (72*72)"}
+       />
       <ProductInnerCards />
       <Warranty />
       <ProductModule

@@ -7,7 +7,7 @@ import bannerImage from "../../images/productBanner.png";
 const Products = () => {
   return (
     <>
-      <PageTitle pageTitle={"Raaj Solar - Products"} />
+      <PageTitle pageTitle={"Ahmedabad - Solar Panel Manufacturing Company | Raaj Solar"} />
       <InnerPageBanner
         subHeading={"INDIA'S MOST RELIABLE SOLAR PANELS MANUFACTURING COMPANY"}
         image={bannerImage}
