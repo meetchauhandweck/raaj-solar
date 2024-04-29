@@ -4,6 +4,9 @@ import blogimg3 from "../../images/blogimg3.png";
 import blogimg4 from "../../images/blogimg4.png";
 import blogimg5 from "../../images/blogimg5.png";
 import blogimg6 from "../../images/blogimg6.png";
+import blogimg7 from "../../images/blogimg7.png";
+import blogimg8 from "../../images/blogimg8.png";
+import blogimg9 from "../../images/blogimg9.png";
 import BlogCardsItem from "./BlogCardsItem";
 import "./blogCards.scss";
 
@@ -66,7 +69,7 @@ const blogCardsData = [
   },
   {
     name: "Bring-Solar-Power-Home-Why-Solar-Panels-are-the-best-investment",
-    image: blogimg6,
+    image: blogimg7,
     heading: "Bring Solar Power Home: Why Solar Panels are the best investment.",
     date: "October 28, 2023",
     content:
@@ -75,7 +78,7 @@ const blogCardsData = [
   },
   {
     name: "How-Does-Solar-Panels-Work",
-    image: blogimg6,
+    image: blogimg8,
     heading: "How Does Solar Panels Work?",
     date: "November 12, 2023",
     content:
@@ -84,7 +87,7 @@ const blogCardsData = [
   },
   {
     name: "Solar-Panel-Maintenance-Guide",
-    image: blogimg6,
+    image: blogimg9,
     heading: "Solar Panel Maintenance Guide",
     date: "December 19, 2023",
     content:

@@ -6,6 +6,9 @@ import blogimg3 from "../../../images/blogimg3.png";
 import blogimg4 from "../../../images/blogimg4.png";
 import blogimg5 from "../../../images/blogimg5.png";
 import blogimg6 from "../../../images/blogimg6.png";
+import blogimg7 from "../../../images/blogimg7.png";
+import blogimg8 from "../../../images/blogimg8.png";
+import blogimg9 from "../../../images/blogimg9.png";
 import image1_id3 from "../../../images/benefitsOfInstallingSolar.jpg";
 import image2_id3 from "../../../images/stepByStepGuid.jpg";
 import image3_id3 from "../../../images/choosingSolarPanel.jpg";
@@ -905,7 +908,7 @@ const singleBlogData = [
   {
     name: "Bring-Solar-Power-Home-Why-Solar-Panels-are-the-best-investment",
     id: 6,
-    image: blogimg6,
+    image: blogimg7,
     heading:
       "Bring Solar Power Home: Why Solar Panels are the best investment.",
     date: "October 28, 2023",
@@ -1015,7 +1018,7 @@ const singleBlogData = [
   {
     name: "How-Does-Solar-Panels-Work",
     id: 7,
-    image: blogimg6,
+    image: blogimg8,
     heading: "How Does Solar Panels Work?",
     date: "November 12, 2023",
     intro: "Introduction",
@@ -1136,7 +1139,7 @@ const singleBlogData = [
   {
     name: "Solar-Panel-Maintenance-Guide",
     id: 8,
-    image: blogimg6,
+    image: blogimg9,
     heading: "Solar Panel Maintenance Guide",
     date: "December 19, 2023",
     intro: "Solar Panel Maintenance Guide",

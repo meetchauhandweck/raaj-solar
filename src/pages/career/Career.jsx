@@ -13,15 +13,17 @@ const Career = () => {
     name: "",
     email: "",
     phone: "",
+    file: null,
     message: "",
-    file: "",
   };
 
   const baseUrl = "http://localhost:8000";
 
   const { values, errors, touched, handleChange, handleSubmit } = useFormik({
     initialValues: initialValue,
-    validationSchema: ContactSchema,
+    // validationSchema: ContactSchema,
+
+  
     onSubmit: (value, action) => {
       action.resetForm();
       console.log("value", value);
@@ -44,6 +46,7 @@ const Career = () => {
       sendEmail();
     },
   });
+  console.log(values);
 
   return (
     <>
@@ -73,10 +76,9 @@ const Career = () => {
                   placeholder="Email"
                   onChange={handleChange}
                   value={values.email}
-                  required
                 />
-                {errors.Mail && touched.Mail ? (
-                <div className="error">{errors.Mail}</div>
+                {errors.email && touched.email ? (
+                <div className="error">{errors.email}</div>
               ) : null}
               </div>
               <div className="contactFormField">
@@ -116,7 +118,7 @@ const Career = () => {
               <div className="contactFormField">
                 <input
                   type="textarea"
-                  name="messages"
+                  name="message"
                   placeholder="Message"
                   onChange={handleChange}
                   value={values.message}
