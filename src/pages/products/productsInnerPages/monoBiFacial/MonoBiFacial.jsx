@@ -10,6 +10,7 @@ import moduleImage from "../../../../images/productImage1.png";
 import ProductModule from "../../../../components/productModule/ProductModule";
 import Table2 from "../../../../components/table2/Table2";
 import file from "../../../../files/product-bi-facial.pdf";
+import PageTitle from "../../../../components/pageTitle/PageTitle";
 
 const productModuleData = {
   title: "OTHER PRODUCT Poly Crystalline PV MODULES",
@@ -35,6 +36,7 @@ const productModuleData = {
 const MonoBiFacial = () => {
   return (
     <>
+    <PageTitle pageTitle={"Raaj Solar - MONO BI-Facial"} />
       <ProductsPageBanner
         image={bannerImage}
         heading={"MONO BI-Facial"}

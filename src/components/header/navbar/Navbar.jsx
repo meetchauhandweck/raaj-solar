@@ -34,6 +34,9 @@ const Navbar = ({ handleMenu, open }) => {
             <Link to="/raaj-solar/blog">Blog</Link>
           </li>
           <li onClick={handleMenu}>
+            <Link to="/raaj-solar/career">Career</Link>
+          </li>
+          <li onClick={handleMenu}>
             <Link to="/raaj-solar/contact-us">
               Contact<span style={{ paddingLeft: "5px" }}>Us</span>
             </Link>

@@ -21,6 +21,7 @@ import thin_film_panel from "../../../images/thin_film_panel.png";
 import bi_facial_panel from "../../../images/bi_facial_panel.png";
 import hybrid_panel from "../../../images/hybrid_panel.png";
 import electricity_rate_image from "../../../images/electricity_rate_image.png";
+import PageTitle from "../../../components/pageTitle/PageTitle";
 
 const singleBlogData = [
   {
@@ -826,7 +827,7 @@ const singleBlogData = [
           "Load Prioritization",
           "Integration with other Renewable Energy",
           "Eco-friendly",
-          "Higher Temperature Tolerance" ,
+          "Higher Temperature Tolerance",
           "Durability",
         ],
       },
@@ -900,12 +901,13 @@ const singleBlogData = [
       },
     ],
   },
-// Blogs seven
+  // Blogs seven
   {
     name: "Bring-Solar-Power-Home-Why-Solar-Panels-are-the-best-investment",
     id: 6,
     image: blogimg6,
-    heading: "Bring Solar Power Home: Why Solar Panels are the best investment.",
+    heading:
+      "Bring Solar Power Home: Why Solar Panels are the best investment.",
     date: "October 28, 2023",
     intro: "Bring Solar Power Home: Why Solar Panels are the best investment.",
     introP1:
@@ -930,8 +932,9 @@ const singleBlogData = [
     constuctionWorldText3:
       "Stop dreaming about a solar-powered home and start living the reality. With RAAJ Solar powering your home, you’ll be reducing your dependence on fossil fuels, lowering your bills, and increasing the value of your property. Going green has never been so rewarding. Make the switch to residential solar today!",
     // solarPanelTypesHeading: "Why Solar Panel is the best investment for your home or business",
-    
-    blueTenthHeading: "Why Solar Panel is the best investment for your home or business",
+
+    blueTenthHeading:
+      "Why Solar Panel is the best investment for your home or business",
     blueTenthHeadingContent1:
       "Why Solar Panel is the Best Investment for Your Home",
     // blueTenthHeadingContent2Heading: "Premium Panels, Premium Power : ",
@@ -953,32 +956,32 @@ const singleBlogData = [
     blueTenthHeadingContent7:
       "Incentives and rebates make solar even more affordable. Federal tax credits, state rebates, and other incentives can reduce the cost of solar panels by up to 50-75%. Take advantage of these offers to maximize your savings and shorten the payback period.",
     // blueTenthHeadingContent8Heading: "Electrical Connection : ",
-    blueTenthHeadingContent8: 
+    blueTenthHeadingContent8:
       "What are you waiting for? Go solar today and start enjoying reliable, eco-friendly energy and more money in your pocket. The sun is shining-it’s time to capture its power! Let the experts at RAAJ Solar help you install high-quality solar panels and transform the way you power your home. A bright future is within your reach. Seize it!",
-      
-      // Why Solar Panel is the best investment for your home or business
-      blueElevenHeading: "RAAJ Solar: A Leading Solar Panel Manufacturer in Gujarat",
-      blueElevenHeadingContent1:
-        "Solar power is the energy of the future, and the future is now! With RAAJ Solar, you can harness the power of the sun and bring affordable, renewable energy right to your home.",
-      blueElevenHeadingContent2:
-        "Solar power is the energy of the future, and the future is now! With RAAJ Solar, you can harness the power of the sun and bring affordable, renewable energy right to your home        ",
-      blueElevenHeadingContent3Heading: "Premium Panels, Premium Power : ",
-      blueElevenHeadingContent3:
-        "RAAJ Solar manufactures top-of-the-line monocrystalline and polycrystalline solar panels that provide maximum efficiency and performance. Their panels are built to withstand extreme weather and last for decades. RAAJ Solar uses the highest quality materials and rigorous testing to ensure their panels produce abundant, long-lasting energy for your home or business.",
-      blueElevenHeadingContent4Heading: "Save Money, Help the Planet : ",
-      blueElevenHeadingContent4:
-        "By switching to solar, you’ll reduce or even eliminate your electric bill. RAAJ Solar’s affordable panels have a fast payback period, often just a few years, thanks to government incentives and the money you’ll save on utilities. You’ll also feel good knowing you’re using clean, green energy and reducing your carbon footprint. Every kilowatt of power from the sun means less pollution in the air and water.",
-      blueElevenHeadingContent5Heading: "Custom Solutions : ",
-      blueElevenHeadingContent5:
-        "RAAJ Solar offers customized solar solutions for homes and businesses of any size. Their experienced installers will assess your property and energy needs to design a solar system that’s just right for you. They handle everything from permits to installation and provide ongoing service and support.        ",
-        blueElevenHeadingContent6:
-        "RAAJ Solar makes it easy and affordable to harness the abundant power of the sun. Their high-quality, long-lasting panels will provide you with free and renewable energy for years to come while benefiting the environment. The future is bright at RAAJ Solar! Switch to solar today for a sustainable tomorrow.        ",
-        ConclusionTitle: "Conclusion :",
-        Conclusioncontent:
-        "You&#039;ve seen the many benefits of going solar and how RAAJ Solar makes it easy and affordable. What are you waiting for? This is your chance to take control of your energy costs and do your part for the planet. Make the call today to get a free consultation and estimate. In just a few weeks, you&#039;ll be generating your own clean, renewable power and watching your meter spin backwards. You&#039;ll have an energy system that&#039;s inflation-proof, and adds value to your home. Join the solar revolution and be part of the solution. The sun is shining and the savings are yours for the taking. Make 2019 the year you went solar with RAAJ - you&#039;ll be glad you did!",
-        
-        
-        accodrionTitle: "FAQ: Frequently Asked Question",
+
+    // Why Solar Panel is the best investment for your home or business
+    blueElevenHeading:
+      "RAAJ Solar: A Leading Solar Panel Manufacturer in Gujarat",
+    blueElevenHeadingContent1:
+      "Solar power is the energy of the future, and the future is now! With RAAJ Solar, you can harness the power of the sun and bring affordable, renewable energy right to your home.",
+    blueElevenHeadingContent2:
+      "Solar power is the energy of the future, and the future is now! With RAAJ Solar, you can harness the power of the sun and bring affordable, renewable energy right to your home        ",
+    blueElevenHeadingContent3Heading: "Premium Panels, Premium Power : ",
+    blueElevenHeadingContent3:
+      "RAAJ Solar manufactures top-of-the-line monocrystalline and polycrystalline solar panels that provide maximum efficiency and performance. Their panels are built to withstand extreme weather and last for decades. RAAJ Solar uses the highest quality materials and rigorous testing to ensure their panels produce abundant, long-lasting energy for your home or business.",
+    blueElevenHeadingContent4Heading: "Save Money, Help the Planet : ",
+    blueElevenHeadingContent4:
+      "By switching to solar, you’ll reduce or even eliminate your electric bill. RAAJ Solar’s affordable panels have a fast payback period, often just a few years, thanks to government incentives and the money you’ll save on utilities. You’ll also feel good knowing you’re using clean, green energy and reducing your carbon footprint. Every kilowatt of power from the sun means less pollution in the air and water.",
+    blueElevenHeadingContent5Heading: "Custom Solutions : ",
+    blueElevenHeadingContent5:
+      "RAAJ Solar offers customized solar solutions for homes and businesses of any size. Their experienced installers will assess your property and energy needs to design a solar system that’s just right for you. They handle everything from permits to installation and provide ongoing service and support.        ",
+    blueElevenHeadingContent6:
+      "RAAJ Solar makes it easy and affordable to harness the abundant power of the sun. Their high-quality, long-lasting panels will provide you with free and renewable energy for years to come while benefiting the environment. The future is bright at RAAJ Solar! Switch to solar today for a sustainable tomorrow.        ",
+    ConclusionTitle: "Conclusion :",
+    Conclusioncontent:
+      "You&#039;ve seen the many benefits of going solar and how RAAJ Solar makes it easy and affordable. What are you waiting for? This is your chance to take control of your energy costs and do your part for the planet. Make the call today to get a free consultation and estimate. In just a few weeks, you&#039;ll be generating your own clean, renewable power and watching your meter spin backwards. You&#039;ll have an energy system that&#039;s inflation-proof, and adds value to your home. Join the solar revolution and be part of the solution. The sun is shining and the savings are yours for the taking. Make 2019 the year you went solar with RAAJ - you&#039;ll be glad you did!",
+
+    accodrionTitle: "FAQ: Frequently Asked Question",
     accordionData: [
       {
         title: "Can I sell excess solar power back to the grid in Ahmedabad?",
@@ -1010,10 +1013,10 @@ const singleBlogData = [
   },
   // blogs eight
   {
-    name:"How-Does-Solar-Panels-Work",
+    name: "How-Does-Solar-Panels-Work",
     id: 7,
     image: blogimg6,
-    heading:"How Does Solar Panels Work?",
+    heading: "How Does Solar Panels Work?",
     date: "November 12, 2023",
     intro: "Introduction",
     introP1:
@@ -1038,63 +1041,68 @@ const singleBlogData = [
     // constuctionWorldText3:
     //   "Stop dreaming about a solar-powered home and start living the reality. With RAAJ Solar powering your home, you’ll be reducing your dependence on fossil fuels, lowering your bills, and increasing the value of your property. Going green has never been so rewarding. Make the switch to residential solar today!",
     // // solarPanelTypesHeading: "Why Solar Panel is the best investment for your home or business",
-    
+
     blueTenthHeading: "Steps of How Solar Panels Work",
-    blueTenthHeadingContent1:
-      "Why Solar Panel is the Best Investment for Your Home",
-    blueTenthHeadingContent2Heading: "Step 1: Solar Panels Capture Solar Energy",
+    // blueTenthHeadingContent1:
+    //   "Why Solar Panel is the Best Investment for Your Home",
+    blueTenthHeadingContent2Heading:
+      "Step 1: Solar Panels Capture Solar Energy",
     blueTenthHeadingContent2:
       "The heart of any solar panel system lies in its ability to capture solar energy effectively. The photovoltaic cells embedded in solar panels are responsible for this crucial task. These cells are arranged in a grid-like pattern across the surface of the panel, optimizing the absorption of sunlight.",
-   
+
     blueTenthHeadingContent1:
-    "When sunlight, composed of photons, reaches the surface of the solar panel, the photovoltaic cells absorb these photons. This absorption triggers the release of electrons from the semiconductor material, creating an electric current. This direct current (DC) electricity is the initial product of the solar panel's interaction with sunlight.",
-   
+      "When sunlight, composed of photons, reaches the surface of the solar panel, the photovoltaic cells absorb these photons. This absorption triggers the release of electrons from the semiconductor material, creating an electric current. This direct current (DC) electricity is the initial product of the solar panel's interaction with sunlight.",
+
     blueTenthHeadingContent4Heading: "Step 2: Solar Inverters Convert DC to AC",
     blueTenthHeadingContent4:
       "While the electricity generated by solar panels is in the form of DC, most household appliances and the power grid operate on alternating current (AC). Therefore, an essential component of any solar panel system is the solar inverter. The solar inverter's primary function is to convert the DC electricity produced by the solar panels into AC electricity, making it compatible with the electrical systems of homes and businesses.",
-      blueTenthHeadingContent3:
+    blueTenthHeadingContent3:
       "Inverters come in various types, including string inverters, microinverters, and power optimizers. String inverters are commonly used in residential setups, converting DC electricity from multiple solar panels connected in series. Microinverters, on the other hand, are attached to individual solar panels, offering greater efficiency and flexibility. Power optimizers, often used in conjunction with string inverters, maximize the performance of each solar panel independently.",
-      blueTenthHeadingContent5Heading: "Step 3: Electrical Panel Distributes Electricity",
+    blueTenthHeadingContent5Heading:
+      "Step 3: Electrical Panel Distributes Electricity",
     blueTenthHeadingContent5:
       "Once the DC electricity is converted into AC by the solar inverter, it is directed to the electrical panel of the building or facility. The electrical panel serves as the central distribution point for electricity within the structure, ensuring that the solar-generated power seamlessly integrates with the grid or is utilized to power various devices and appliances.",
-  
+
     blueTenthHeadingContent6:
       "The electrical panel allows for the prioritization of solar-generated electricity over grid electricity when available. This integration ensures a reliable and continuous power supply, even during periods of low sunlight.",
-    blueTenthHeadingContent7Heading: "Step 4: Electric Meter Records Consumption and Production",
+    blueTenthHeadingContent7Heading:
+      "Step 4: Electric Meter Records Consumption and Production",
     blueTenthHeadingContent7:
       "To monitor the electricity consumption and production of a solar panel system, an electric meter is installed. This meter plays a crucial role in recording the amount of electricity drawn from the grid and, equally important, the surplus electricity generated by the solar panels and fed back into the grid.",
-  
-    blueTenthHeadingContent8: 
+
+    blueTenthHeadingContent8:
       "This two-way metering system enables a practice known as net metering. During times of excess solar production, the surplus electricity is fed back into the grid, effectively running the electric meter backward. This allows users to receive credits or compensation for the surplus energy they contribute to the grid, creating a symbiotic relationship between solar panel owners and utility providers. ",
     blueTenthHeadingContent3Heading: "Step 5: Batteries Store Excess Energy ",
-     blueTenthHeadingContent6Heading: "In scenarios where the solar panels produce more electricity than is currently needed, excess energy can be stored for later use. Energy storage solutions, such as batteries, play a pivotal role in this aspect of solar panel systems. ",
-    blueTenthHeadingContent8Heading: "Batteries are capable of storing surplus energy generated during peak production times, typically when sunlight is abundant. These stored reserves can then be utilized during periods of low sunlight or high energy demand. This not only ensures a continuous and reliable power supply but also enhances the overall efficiency of the solar panel system.",
-    
-    
+    blueTenthHeadingContent6Heading:
+      "In scenarios where the solar panels produce more electricity than is currently needed, excess energy can be stored for later use. Energy storage solutions, such as batteries, play a pivotal role in this aspect of solar panel systems. ",
+    blueTenthHeadingContent8Heading:
+      "Batteries are capable of storing surplus energy generated during peak production times, typically when sunlight is abundant. These stored reserves can then be utilized during periods of low sunlight or high energy demand. This not only ensures a continuous and reliable power supply but also enhances the overall efficiency of the solar panel system.",
+
     // Why Solar Panel is the best investment for your home or business
-      blueElevenHeading: "Key Takeaways",
-      blueElevenHeadingContent1:
-        "Solar panels utilize photovoltaic cells to capture sunlight and convert it into electricity.",
-      blueElevenHeadingContent2:
-        "Solar power is the energy of the future, and the future is now! With RAAJ Solar, you can harness the power of the sun and bring affordable, renewable energy right to your home        ",
-      // blueElevenHeadingContent3Heading: "Premium Panels, Premium Power : ",
-      blueElevenHeadingContent3:
-        "The electrical panel facilitates the distribution of solar-generated electricity within the building or facility.",
+    blueElevenHeading: "Key Takeaways",
+    blueElevenHeadingContent1:
+      "Solar panels utilize photovoltaic cells to capture sunlight and convert it into electricity.",
+    blueElevenHeadingContent2:
+      "Solar power is the energy of the future, and the future is now! With RAAJ Solar, you can harness the power of the sun and bring affordable, renewable energy right to your home        ",
+    // blueElevenHeadingContent3Heading: "Premium Panels, Premium Power : ",
+    blueElevenHeadingContent3:
+      "The electrical panel facilitates the distribution of solar-generated electricity within the building or facility.",
 
-      blueElevenHeadingContent4:
-        "Electric meters record both electricity consumption and surplus production, enabling net metering.",
+    blueElevenHeadingContent4:
+      "Electric meters record both electricity consumption and surplus production, enabling net metering.",
 
-      blueElevenHeadingContent5:
-        "Batteries store excess energy, ensuring a continuous power supply during periods of low sunlight or high demand.        ",
-       blueElevenHeadingContent5Heading: "Get Solar Panels from RAAJ Solar",
-        blueElevenHeadingContent6:
-        "When considering the adoption of solar panels, choosing a reliable and reputable provider is paramount. RAAJ Solar stands out as a leading provider of cutting-edge solar solutions, catering to both residential and commercial needs. With a commitment to sustainability, RAAJ Solar ensures that your transition to solar energy is not only efficient but also environmentally conscious. ",
-        ConclusionTitle: "Conclusion :",
-        Conclusioncontent:
-        "Understanding the intricate workings of solar panels is fundamental for individuals and businesses looking to embrace renewable energy sources. By harnessing the power of the sun, solar panels contribute to a cleaner and more sustainable future. The detailed exploration of each step in the solar panel process provides insights into the technology's capabilities and advantages.",
-        blueElevenHeadingContent4Heading: "As the world continues to prioritize environmentally friendly practices, the role of solar panels in the global energy landscape becomes increasingly significant. Consider RAAJ Solar for your solar panel needs and take a decisive step towards a greener, more sustainable tomorrow. The investment in solar energy not only benefits the environment but also offers long-term economic advantages and energy independence.",
-        
-        accodrionTitle: "FAQ: Frequently Asked Question",
+    blueElevenHeadingContent5:
+      "Batteries store excess energy, ensuring a continuous power supply during periods of low sunlight or high demand.        ",
+    blueElevenHeadingContent5Heading: "Get Solar Panels from RAAJ Solar",
+    blueElevenHeadingContent6:
+      "When considering the adoption of solar panels, choosing a reliable and reputable provider is paramount. RAAJ Solar stands out as a leading provider of cutting-edge solar solutions, catering to both residential and commercial needs. With a commitment to sustainability, RAAJ Solar ensures that your transition to solar energy is not only efficient but also environmentally conscious. ",
+    ConclusionTitle: "Conclusion :",
+    Conclusioncontent:
+      "Understanding the intricate workings of solar panels is fundamental for individuals and businesses looking to embrace renewable energy sources. By harnessing the power of the sun, solar panels contribute to a cleaner and more sustainable future. The detailed exploration of each step in the solar panel process provides insights into the technology's capabilities and advantages.",
+    blueElevenHeadingContent4Heading:
+      "As the world continues to prioritize environmentally friendly practices, the role of solar panels in the global energy landscape becomes increasingly significant. Consider RAAJ Solar for your solar panel needs and take a decisive step towards a greener, more sustainable tomorrow. The investment in solar energy not only benefits the environment but also offers long-term economic advantages and energy independence.",
+
+    accodrionTitle: "FAQ: Frequently Asked Question",
     accordionData: [
       {
         title: "Can I sell excess solar power back to the grid in Ahmedabad?",
@@ -1132,51 +1140,38 @@ const singleBlogData = [
     heading: "Solar Panel Maintenance Guide",
     date: "December 19, 2023",
     intro: "Solar Panel Maintenance Guide",
-    introP1:
-      "Demystifying Solar Panel Maintenance:",
-      introP2:"   Key Terms You Need to Know So you’ve decided to go solar - congratulations! You’re doing your part for the environment and saving money in the long run. But now that the panels are up and running, do you actually know how to properly maintain them? There are some key terms and concepts you’ll want to understand to keep your system performing at its best for decades to come. Don’t worry, we’ve got you covered. In this guide, we’ll demystify solar panel maintenance and walk you through the basics. By the end, you’ll feel confident overseeing your own solar array or working with professionals to service the system. Ready to become fluent in the language of solar? Let’s dive in.",
+    introP1: "Demystifying Solar Panel Maintenance:",
+    introP2:
+      "   Key Terms You Need to Know So you’ve decided to go solar - congratulations! You’re doing your part for the environment and saving money in the long run. But now that the panels are up and running, do you actually know how to properly maintain them? There are some key terms and concepts you’ll want to understand to keep your system performing at its best for decades to come. Don’t worry, we’ve got you covered. In this guide, we’ll demystify solar panel maintenance and walk you through the basics. By the end, you’ll feel confident overseeing your own solar array or working with professionals to service the system. Ready to become fluent in the language of solar? Let’s dive in.",
     blueSecondHeading: "Understanding the Anatomy of a Solar Panel System",
     // blueSecondHeadingImage: image_id5,
     blueSecondHeadingContent1:
       "Understanding the anatomy of a solar panel system will help you better maintain your system and communicate with installers or technicians. Let’s break down the key components:",
-    blueSecondHeadingContent2:
-      "Solar Panels",
+    blueSecondHeadingContent2: "Solar Panels",
     blueSecondHeadingContent3:
       "The panels contain photovoltaic cells that convert sunlight into electricity. Typically made of monocrystalline or polycrystalline silicon, the more panels you have, the more energy you can produce.",
-    blueSecondHeadingContent4:
-      "﻿Mounting Equipment",
+    blueSecondHeadingContent4: "﻿Mounting Equipment",
     blueSecondHeadingContent5:
       "Rails and racking securely attach the panels to your roof. They are made of aluminum and steel and are bolted to your roof and the panels. ",
     // constuctionWorldImage: constuctionWorldImage,
-    constuctionWorldText1:
-      "Inverter",
-     constuctionWorldText2:
+    constuctionWorldText1: "Inverter",
+    constuctionWorldText2:
       "The inverter converts the direct current (DC) electricity from the panels into alternating current (AC) used in your home. Central inverters service the whole system while microinverters are installed on each panel.",
-    constuctionWorldText3:
-      "Utility Meter",
-     solarPanelTypesHeading: "Your utility meter measures the energy used from the grid and excess energy exported to the grid. Many solar homeowners now have a second meter installed that only measures the energy from your solar panels.",
-    
-     blueForthHeading: "Breakers and Wiring",
-     blueForthHeadingContent1:
-       "Breakers and wiring connect the system components and transport the energy into your home’s electrical panel and onto the grid. Properly rated for solar, they ensure safe operation of your system.",
-     blueForthHeadingContent2Heading: "﻿Monitoring Equipment (optional) ",
-     blueForthHeadingContent2:
-       "Monitoring equipment like solar production meters help you keep track of how much energy your system is producing and your home is using. Some systems have built-in web monitoring and phone apps.",
-     blueForthHeadingContent3:
-       "Battery (optional)",
-     blueForthHeadingContent3Heading: "Batteries store excess solar energy for use when your panels aren’t producing, like at night. They provide backup power in outages and can help reduce your dependence on the grid.",
-     blueForthHeadingContent4:
-       "Keeping all these components in good working order with regular inspections and maintenance will help maximize energy production from your solar panels. Performing preventative care and understanding how each part functions will give you peace of mind in your solar investment.",
-     
-     
-     
- 
-    
+    constuctionWorldText3: "Utility Meter",
+    solarPanelTypesHeading:
+      "Your utility meter measures the energy used from the grid and excess energy exported to the grid. Many solar homeowners now have a second meter installed that only measures the energy from your solar panels.",
 
-
-
-
-
+    blueForthHeading: "Breakers and Wiring",
+    blueForthHeadingContent1:
+      "Breakers and wiring connect the system components and transport the energy into your home’s electrical panel and onto the grid. Properly rated for solar, they ensure safe operation of your system.",
+    blueForthHeadingContent2Heading: "﻿Monitoring Equipment (optional) ",
+    blueForthHeadingContent2:
+      "Monitoring equipment like solar production meters help you keep track of how much energy your system is producing and your home is using. Some systems have built-in web monitoring and phone apps.",
+    blueForthHeadingContent3: "Battery (optional)",
+    blueForthHeadingContent3Heading:
+      "Batteries store excess solar energy for use when your panels aren’t producing, like at night. They provide backup power in outages and can help reduce your dependence on the grid.",
+    blueForthHeadingContent4:
+      "Keeping all these components in good working order with regular inspections and maintenance will help maximize energy production from your solar panels. Performing preventative care and understanding how each part functions will give you peace of mind in your solar investment.",
 
     blueTenthHeading: "Must-Know Terminology for Solar Panel Maintenance",
     blueTenthHeadingContent1:
@@ -1200,45 +1195,48 @@ const singleBlogData = [
     blueTenthHeadingContent7:
       "Solar panels typically require minimal maintenance but should still be checked once a year. Inspect panels for any visible damage or dirt/debris and have them cleaned if needed. Check that all panels are securely mounted.",
     // blueTenthHeadingContent8Heading: "Electrical Connection : ",
-    blueTenthHeadingContent8: 
+    blueTenthHeadingContent8:
       "Keeping on top of these key elements will help maximize the efficiency and lifespan of your solar power system. Be sure to schedule annual inspections and maintenance with a qualified solar technician. They can thoroughly test all components of your system and perform any necessary repairs or part replacements to keep your solar panels working their best. ",
-      
-      // Why Solar Panel is the best investment for your home or business
-      blueElevenHeading: "DIY Solar Panel Cleaning vs Professional Maintenance",
-      blueElevenHeadingContent1:
-        "When it comes to keeping your solar panels in working order, you have two options: do-it- yourself maintenance or professional servicing. Which path you choose depends on your technical skills and how hands-on you want to be.",
-      // blueElevenHeadingContent2:
-      //   "Solar power is the energy of the future, and the future is now! With RAAJ Solar, you can harness the power of the sun and bring affordable, renewable energy right to your home        ",
-      blueElevenHeadingContent3Heading: "﻿DIY Solar Panel Cleaning :",
-      blueElevenHeadingContent3:
-        "If you’re pretty handy and want to save money, cleaning and inspecting your own solar panels may be a good choice. The necessary steps are actually quite straightforward:",
-        blueSixthHeadingContent7:
-          "Purchase a telescoping pole, soft brush, and hose to reach and clean off your panels a few times a year. ",
-        blueElevenHeadingContent4Heading: "Gently brush away any dirt or debris and then rinse with water. Make sure all panels are cleared of any grease, grime, or residue which can hamper their efficiency.",
-      blueElevenHeadingContent4:
-        "Do a visual check for any damage like cracks or dents and test that all connections are secure.",
-      blueElevenHeadingContent5Heading: "Tighten or replace any loose wires or parts. ",
-      blueElevenHeadingContent5:
-        "You’ll need to be comfortable working on a roof and taking proper safety precautions. If this sounds daunting, professional servicing is probably smarter.           ",
-        blueSixthHeadingContent6:"Professional Solar Panel Maintenance :",
-        blueElevenHeadingContent6:
-        "For many homeowners, hiring a professional solar company to handle maintenance is worthwhile for both safety and performance reasons. Professionals will:      ",
-       
-        blueSixthHeadingContent4Heading: " Conduct an annual servicing visit to thoroughly clean all panels, check connections, test inverters and optimizers, and ensure maximum efficiency.",
-        blueSixthHeadingContent4:
-          " Have the proper safety equipment and experience to work on rooftops and with the electrical components of solar panels.",
-        blueSixthHeadingContent5Heading: "Spot any issues early and perform necessary repairs or part replacements to avoid disruption or downtime.",
-        blueSixthHeadingContent5:
-          "Provide service reports and recommendations to keep your system running optimally for decades.",
-        blueSixthHeadingContent6Heading: "While professional servicing does cost more upfront, it can help extend the lifetime of your solar panels and avoid expensive repairs down the road. For most homeowners, the peace of mind and system performance benefits outweigh the DIY savings. In the end, you need to weigh the pros and cons for your own situation. But with regular maintenance, either DIY or professional, your solar panels can provide clean energy for years to come.",
-       
-       
-        ConclusionTitle: "Conclusion :",
-        Conclusioncontent:
-        "So there you have it, the key terms and concepts you need to know to properly maintain your solar panels. While it may seem complicated, keeping your system running efficiently mainly comes down to inspecting components regularly, cleaning panels when needed, and paying attention to any error codes that may pop up. Now you can schedule service calls with confidence, understand what technicians are recommending, and make the right decisions to maximize the energy production and financial benefits of your solar investment. The sun is shining-your panels are working hard-so sit back and enjoy all that solar power has to offer!",
-        
-        
-        accodrionTitle: "FAQ: Frequently Asked Question",
+
+    // Why Solar Panel is the best investment for your home or business
+    blueElevenHeading: "DIY Solar Panel Cleaning vs Professional Maintenance",
+    blueElevenHeadingContent1:
+      "When it comes to keeping your solar panels in working order, you have two options: do-it- yourself maintenance or professional servicing. Which path you choose depends on your technical skills and how hands-on you want to be.",
+    // blueElevenHeadingContent2:
+    //   "Solar power is the energy of the future, and the future is now! With RAAJ Solar, you can harness the power of the sun and bring affordable, renewable energy right to your home        ",
+    blueElevenHeadingContent3Heading: "﻿DIY Solar Panel Cleaning :",
+    blueElevenHeadingContent3:
+      "If you’re pretty handy and want to save money, cleaning and inspecting your own solar panels may be a good choice. The necessary steps are actually quite straightforward:",
+    blueSixthHeadingContent7:
+      "Purchase a telescoping pole, soft brush, and hose to reach and clean off your panels a few times a year. ",
+    blueElevenHeadingContent4Heading:
+      "Gently brush away any dirt or debris and then rinse with water. Make sure all panels are cleared of any grease, grime, or residue which can hamper their efficiency.",
+    blueElevenHeadingContent4:
+      "Do a visual check for any damage like cracks or dents and test that all connections are secure.",
+    blueElevenHeadingContent5Heading:
+      "Tighten or replace any loose wires or parts. ",
+    blueElevenHeadingContent5:
+      "You’ll need to be comfortable working on a roof and taking proper safety precautions. If this sounds daunting, professional servicing is probably smarter.           ",
+    blueSixthHeadingContent6: "Professional Solar Panel Maintenance :",
+    blueElevenHeadingContent6:
+      "For many homeowners, hiring a professional solar company to handle maintenance is worthwhile for both safety and performance reasons. Professionals will:      ",
+
+    blueSixthHeadingContent4Heading:
+      " Conduct an annual servicing visit to thoroughly clean all panels, check connections, test inverters and optimizers, and ensure maximum efficiency.",
+    blueSixthHeadingContent4:
+      " Have the proper safety equipment and experience to work on rooftops and with the electrical components of solar panels.",
+    blueSixthHeadingContent5Heading:
+      "Spot any issues early and perform necessary repairs or part replacements to avoid disruption or downtime.",
+    blueSixthHeadingContent5:
+      "Provide service reports and recommendations to keep your system running optimally for decades.",
+    blueSixthHeadingContent6Heading:
+      "While professional servicing does cost more upfront, it can help extend the lifetime of your solar panels and avoid expensive repairs down the road. For most homeowners, the peace of mind and system performance benefits outweigh the DIY savings. In the end, you need to weigh the pros and cons for your own situation. But with regular maintenance, either DIY or professional, your solar panels can provide clean energy for years to come.",
+
+    ConclusionTitle: "Conclusion :",
+    Conclusioncontent:
+      "So there you have it, the key terms and concepts you need to know to properly maintain your solar panels. While it may seem complicated, keeping your system running efficiently mainly comes down to inspecting components regularly, cleaning panels when needed, and paying attention to any error codes that may pop up. Now you can schedule service calls with confidence, understand what technicians are recommending, and make the right decisions to maximize the energy production and financial benefits of your solar investment. The sun is shining-your panels are working hard-so sit back and enjoy all that solar power has to offer!",
+
+    accodrionTitle: "FAQ: Frequently Asked Question",
     accordionData: [
       {
         title: "Can I sell excess solar power back to the grid in Ahmedabad?",
@@ -1268,7 +1266,6 @@ const singleBlogData = [
       },
     ],
   },
-  
 ];
 
 const BlogSingle = () => {
@@ -1276,276 +1273,277 @@ const BlogSingle = () => {
   console.log(name);
 
   return (
-    <div className="blogSingle">
-      <div className="blogSingle_wrapper">
-        {singleBlogData
-          .filter((item) => item.name === name)
-          .map((item, index) => (
-            <BlogSingleItem
-              key={index}
-              id={item.id}
-              heading={item.heading}
-              image={item.image}
-              date={item.date}
-              intro={item.intro}
-              introP1={item.introP1}
-              introP2={item.introP2}
-              introP3={item.introP3}
-              blueSecondHeading={item.blueSecondHeading}
-              blueSecondHeadingImage={item.blueSecondHeadingImage}
-              blueSecondHeadingContent={item.blueSecondHeadingContent}
-              blueSecondHeadingContent1={item.blueSecondHeadingContent1}
-              blueSecondHeadingContent2={item.blueSecondHeadingContent2}
-              blueSecondHeadingContent3={item.blueSecondHeadingContent3}
-              blueSecondHeadingContent4={item.blueSecondHeadingContent4}
-              blueSecondHeadingContent5={item.blueSecondHeadingContent5}
-              l1={item.l1}
-              l2={item.l2}
-              l3={item.l3}
-              l4={item.l4}
-              l5={item.l5}
-              l6={item.l6}
-              l7={item.l7}
-              listBottomContent1={item.listBottomContent1}
-              listBottomContent2={item.listBottomContent2}
-              listBottomContent3={item.listBottomContent3}
-              listBottomContent4={item.listBottomContent4}
-              listBottomContent5={item.listBottomContent5}
-              listBottomContent6={item.listBottomContent6}
-              listBottomContent7={item.listBottomContent7}
-              listBottomContent2Heading={item.listBottomContent2Heading}
-              listBottomContent3Heading={item.listBottomContent3Heading}
-              listBottomContent4Heading={item.listBottomContent4Heading}
-              blackHeading1={item.blackHeading1}
-              blackHeading1Content={item.blackHeading1Content}
-              blackHeading2={item.blackHeading2}
-              blackHeading2Content={item.blackHeading2Content}
-              blackHeading3={item.blackHeading3}
-              blackHeading3Content1={item.blackHeading3Content1}
-              blackHeading3Content2={item.blackHeading3Content2}
-              blueThirdHeading={item.blueThirdHeading}
-              blueThirdHeadingContent1={item.blueThirdHeadingContent1}
-              blueThirdHeadingContent2={item.blueThirdHeadingContent2}
-              blueThirdHeadingContent3={item.blueThirdHeadingContent3}
-              blueThirdHeadingContent4={item.blueThirdHeadingContent4}
-              blueThirdHeadingContent5={item.blueThirdHeadingContent5}
-              blueThirdHeadingContent6={item.blueThirdHeadingContent6}
-              blueThirdHeadingContent2Heading={
-                item.blueThirdHeadingContent2Heading
-              }
-              blueThirdHeadingContent3Heading={
-                item.blueThirdHeadingContent3Heading
-              }
-              blueThirdHeadingContent4Heading={
-                item.blueThirdHeadingContent4Heading
-              }
-              blueThirdHeadingContent5Heading={
-                item.blueThirdHeadingContent5Heading
-              }
-              blueForthHeading={item.blueForthHeading}
-              blueForthHeadingContent2Heading={
-                item.blueForthHeadingContent2Heading
-              }
-              blueForthHeadingContent3Heading={
-                item.blueForthHeadingContent3Heading
-              }
-              blueForthHeadingContent4Heading={
-                item.blueForthHeadingContent4Heading
-              }
-              blueForthHeadingContent5Heading={
-                item.blueForthHeadingContent5Heading
-              }
-              blueForthHeadingContent6Heading={
-                item.blueForthHeadingContent6Heading
-              }
-              blueForthHeadingContent1={item.blueForthHeadingContent1}
-              blueForthHeadingContent2={item.blueForthHeadingContent2}
-              blueForthHeadingContent3={item.blueForthHeadingContent3}
-              blueForthHeadingContent4={item.blueForthHeadingContent4}
-              blueForthHeadingContent5_1={item.blueForthHeadingContent5_1}
-              blueForthHeadingContent5_2={item.blueForthHeadingContent5_2}
-              blueForthHeadingContent6={item.blueForthHeadingContent6}
-              blueFifthHeading={item.blueFifthHeading}
-              blueFifthHeadingContent1={item.blueFifthHeadingContent1}
-              blueFifthHeadingContent2={item.blueFifthHeadingContent2}
-              blueFifthHeadingContent3={item.blueFifthHeadingContent3}
-              blueFifthHeadingContent4={item.blueFifthHeadingContent4}
-              blueFifthHeadingContent5={item.blueFifthHeadingContent5}
-              blueSixthHeading={item.blueSixthHeading}
-              blueSixthHeadingImage={item.blueSixthHeadingImage}
-              blueSixthHeadingContent1={item.blueSixthHeadingContent1}
-              blueSixthHeadingContent2Heading={
-                item.blueSixthHeadingContent2Heading
-              }
-              blueSixthHeadingContent2={item.blueSixthHeadingContent2}
-              blueSixthHeadingContent3Heading={
-                item.blueSixthHeadingContent3Heading
-              }
-              blueSixthHeadingContent3={item.blueSixthHeadingContent3}
-              blueSixthHeadingContent4Heading={
-                item.blueSixthHeadingContent4Heading
-              }
-              blueSixthHeadingContent4={item.blueSixthHeadingContent4}
-              blueSixthHeadingContent5Heading={
-                item.blueSixthHeadingContent5Heading
-              }
-              blueSixthHeadingContent5={item.blueSixthHeadingContent5}
-              blueSixthHeadingContent6Heading={
-                item.blueSixthHeadingContent6Heading
-              }
-              blueSixthHeadingContent6={item.blueSixthHeadingContent6}
-              blueSixthHeadingContent7Heading={
-                item.blueSixthHeadingContent7Heading
-              }
-              blueSixthHeadingContent7={item.blueSixthHeadingContent7}
-              blueSixthHeadingContent8={item.blueSixthHeadingContent8}
-              blueSeventhHeading={item.blueSeventhHeading}
-              blueSeventhHeadingImage={item.blueSeventhHeadingImage}
-              blueSeventhHeadingContent1={item.blueSeventhHeadingContent1}
-              blueSeventhHeadingContent2Heading={
-                item.blueSeventhHeadingContent2Heading
-              }
-              blueSeventhHeadingContent2={item.blueSeventhHeadingContent2}
-              blueSeventhHeadingContent3Heading={
-                item.blueSeventhHeadingContent3Heading
-              }
-              blueSeventhHeadingContent3={item.blueSeventhHeadingContent3}
-              bluSevenxthHeadingContent4Heading={
-                item.blueSeventhHeadingContent4Heading
-              }
-              blueSeventhHeadingContent4={item.blueSeventhHeadingContent4}
-              blueSeventhHeadingContent5Heading={
-                item.blueSeventhHeadingContent5Heading
-              }
-              blueSeventhHeadingContent5={item.blueSeventhHeadingContent5}
-              blueSeventhHeadingContent6Heading={
-                item.blueSeventhHeadingContent6Heading
-              }
-              blueSeventhHeadingContent6={item.blueSeventhHeadingContent6}
-              // blueSeventhHeadingContent7Heading={item.blueSeventhHeadingContent7Heading}
-              blueSeventhHeadingContent7={item.blueSeventhHeadingContent7}
-              // blueSeventhHeadingContent8={item.blueSeventhHeadingContent8}
-              blueEightthHeading={item.blueEightthHeading}
-              blueEightthHeadingImage={item.blueEightthHeadingImage}
-              blueEightthHeadingContent1={item.blueEightthHeadingContent1}
-              blueEightthHeadingContent2Heading={
-                item.blueEightthHeadingContent2Heading
-              }
-              blueEightthHeadingContent2={item.blueEightthHeadingContent2}
-              blueEightthHeadingContent3Heading={
-                item.blueEightthHeadingContent3Heading
-              }
-              blueEightthHeadingContent3={item.blueEightthHeadingContent3}
-              bluEightxthHeadingContent4Heading={
-                item.blueEightthHeadingContent4Heading
-              }
-              blueEightthHeadingContent4={item.blueEightthHeadingContent4}
-              blueEightthHeadingContent5Heading={
-                item.blueEightthHeadingContent5Heading
-              }
-              blueEightthHeadingContent5={item.blueEightthHeadingContent5}
-              blueEightthHeadingContent6Heading={
-                item.blueEightthHeadingContent6Heading
-              }
-              blueEightthHeadingContent6={item.blueEightthHeadingContent6}
-              // blueEightthHeadingContent7Heading={item.blueEightthHeadingContent7Heading}
-              blueEightthHeadingContent7={item.blueEightthHeadingContent7}
-              // blueEightthHeadingContent8={item.blueEightthHeadingContent8}
-              blueNinethHeading={item.blueNinethHeading}
-              blueNinethHeadingImage={item.blueNinethHeadingImage}
-              blueNinethHeadingContent1={item.blueNinethHeadingContent1}
-              blueNinethHeadingContent2_1={item.blueNinethHeadingContent2_1}
-              blueNinethHeadingContent2_2={item.blueNinethHeadingContent2_2}
-              blueNinethHeadingContent2_3={item.blueNinethHeadingContent2_3}
-              blueNinethHeadingContent3={item.blueNinethHeadingContent3}
-              blueTenthHeading={item.blueTenthHeading}
-              blueTenthHeadingContent={item.blueTenthHeadingContent}
-              blueTenthHeadingContent1={item.blueTenthHeadingContent1}
-              blueTenthHeadingContent2Heading={
-                item.blueTenthHeadingContent2Heading
-              }
-              blueTenthHeadingContent2={item.blueTenthHeadingContent2}
-              blueTenthHeadingContent3Heading={
-                item.blueTenthHeadingContent3Heading
-              }
-              blueTenthHeadingContent3={item.blueTenthHeadingContent3}
-              blueTenthHeadingContent4Heading={
-                item.blueTenthHeadingContent4Heading
-              }
-              blueTenthHeadingContent4={item.blueTenthHeadingContent4}
-              blueTenthHeadingContent5Heading={
-                item.blueTenthHeadingContent5Heading
-              }
-              blueTenthHeadingContent5={item.blueTenthHeadingContent5}
-              blueTenthHeadingContent6Heading={
-                item.blueTenthHeadingContent6Heading
-              }
-              blueTenthHeadingContent6={item.blueTenthHeadingContent6}
-              blueTenthHeadingContent7Heading={
-                item.blueTenthHeadingContent7Heading
-              }
-              blueTenthHeadingContent7={item.blueTenthHeadingContent7}
-              blueTenthHeadingContent8Heading={
-                item.blueTenthHeadingContent8Heading
-              }
-              blueTenthHeadingContent8={item.blueTenthHeadingContent8}
-              blueTenthHeadingContent9Heading={
-                item.blueTenthHeadingContent9Heading
-              }
-              blueTenthHeadingContent9={item.blueTenthHeadingContent9}
-              blueTenthHeadingContent10Heading={
-                item.blueTenthHeadingContent10Heading
-              }
-              blueTenthHeadingContent10={item.blueTenthHeadingContent10}
-              blueTenthHeadingContent11Heading={
-                item.blueTenthHeadingContent11Heading
-              }
-              blueTenthHeadingContent11={item.blueTenthHeadingContent11}
-              // 
-              blueElevenHeading={item.blueElevenHeading}
-              // blueElevenHeadingContent={item.blueElevenHeadingContent}
+    <>
+    <PageTitle pageTitle={name} />
+      <div className="blogSingle">
+        <div className="blogSingle_wrapper">
+          {singleBlogData
+            .filter((item) => item.name === name)
+            .map((item, index) => (
+              <BlogSingleItem
+                key={index}
+                id={item.id}
+                heading={item.heading}
+                image={item.image}
+                date={item.date}
+                intro={item.intro}
+                introP1={item.introP1}
+                introP2={item.introP2}
+                introP3={item.introP3}
+                blueSecondHeading={item.blueSecondHeading}
+                blueSecondHeadingImage={item.blueSecondHeadingImage}
+                blueSecondHeadingContent={item.blueSecondHeadingContent}
+                blueSecondHeadingContent1={item.blueSecondHeadingContent1}
+                blueSecondHeadingContent2={item.blueSecondHeadingContent2}
+                blueSecondHeadingContent3={item.blueSecondHeadingContent3}
+                blueSecondHeadingContent4={item.blueSecondHeadingContent4}
+                blueSecondHeadingContent5={item.blueSecondHeadingContent5}
+                l1={item.l1}
+                l2={item.l2}
+                l3={item.l3}
+                l4={item.l4}
+                l5={item.l5}
+                l6={item.l6}
+                l7={item.l7}
+                listBottomContent1={item.listBottomContent1}
+                listBottomContent2={item.listBottomContent2}
+                listBottomContent3={item.listBottomContent3}
+                listBottomContent4={item.listBottomContent4}
+                listBottomContent5={item.listBottomContent5}
+                listBottomContent6={item.listBottomContent6}
+                listBottomContent7={item.listBottomContent7}
+                listBottomContent2Heading={item.listBottomContent2Heading}
+                listBottomContent3Heading={item.listBottomContent3Heading}
+                listBottomContent4Heading={item.listBottomContent4Heading}
+                blackHeading1={item.blackHeading1}
+                blackHeading1Content={item.blackHeading1Content}
+                blackHeading2={item.blackHeading2}
+                blackHeading2Content={item.blackHeading2Content}
+                blackHeading3={item.blackHeading3}
+                blackHeading3Content1={item.blackHeading3Content1}
+                blackHeading3Content2={item.blackHeading3Content2}
+                blueThirdHeading={item.blueThirdHeading}
+                blueThirdHeadingContent1={item.blueThirdHeadingContent1}
+                blueThirdHeadingContent2={item.blueThirdHeadingContent2}
+                blueThirdHeadingContent3={item.blueThirdHeadingContent3}
+                blueThirdHeadingContent4={item.blueThirdHeadingContent4}
+                blueThirdHeadingContent5={item.blueThirdHeadingContent5}
+                blueThirdHeadingContent6={item.blueThirdHeadingContent6}
+                blueThirdHeadingContent2Heading={
+                  item.blueThirdHeadingContent2Heading
+                }
+                blueThirdHeadingContent3Heading={
+                  item.blueThirdHeadingContent3Heading
+                }
+                blueThirdHeadingContent4Heading={
+                  item.blueThirdHeadingContent4Heading
+                }
+                blueThirdHeadingContent5Heading={
+                  item.blueThirdHeadingContent5Heading
+                }
+                blueForthHeading={item.blueForthHeading}
+                blueForthHeadingContent2Heading={
+                  item.blueForthHeadingContent2Heading
+                }
+                blueForthHeadingContent3Heading={
+                  item.blueForthHeadingContent3Heading
+                }
+                blueForthHeadingContent4Heading={
+                  item.blueForthHeadingContent4Heading
+                }
+                blueForthHeadingContent5Heading={
+                  item.blueForthHeadingContent5Heading
+                }
+                blueForthHeadingContent6Heading={
+                  item.blueForthHeadingContent6Heading
+                }
+                blueForthHeadingContent1={item.blueForthHeadingContent1}
+                blueForthHeadingContent2={item.blueForthHeadingContent2}
+                blueForthHeadingContent3={item.blueForthHeadingContent3}
+                blueForthHeadingContent4={item.blueForthHeadingContent4}
+                blueForthHeadingContent5_1={item.blueForthHeadingContent5_1}
+                blueForthHeadingContent5_2={item.blueForthHeadingContent5_2}
+                blueForthHeadingContent6={item.blueForthHeadingContent6}
+                blueFifthHeading={item.blueFifthHeading}
+                blueFifthHeadingContent1={item.blueFifthHeadingContent1}
+                blueFifthHeadingContent2={item.blueFifthHeadingContent2}
+                blueFifthHeadingContent3={item.blueFifthHeadingContent3}
+                blueFifthHeadingContent4={item.blueFifthHeadingContent4}
+                blueFifthHeadingContent5={item.blueFifthHeadingContent5}
+                blueSixthHeading={item.blueSixthHeading}
+                blueSixthHeadingImage={item.blueSixthHeadingImage}
+                blueSixthHeadingContent1={item.blueSixthHeadingContent1}
+                blueSixthHeadingContent2Heading={
+                  item.blueSixthHeadingContent2Heading
+                }
+                blueSixthHeadingContent2={item.blueSixthHeadingContent2}
+                blueSixthHeadingContent3Heading={
+                  item.blueSixthHeadingContent3Heading
+                }
+                blueSixthHeadingContent3={item.blueSixthHeadingContent3}
+                blueSixthHeadingContent4Heading={
+                  item.blueSixthHeadingContent4Heading
+                }
+                blueSixthHeadingContent4={item.blueSixthHeadingContent4}
+                blueSixthHeadingContent5Heading={
+                  item.blueSixthHeadingContent5Heading
+                }
+                blueSixthHeadingContent5={item.blueSixthHeadingContent5}
+                blueSixthHeadingContent6Heading={
+                  item.blueSixthHeadingContent6Heading
+                }
+                blueSixthHeadingContent6={item.blueSixthHeadingContent6}
+                blueSixthHeadingContent7Heading={
+                  item.blueSixthHeadingContent7Heading
+                }
+                blueSixthHeadingContent7={item.blueSixthHeadingContent7}
+                blueSixthHeadingContent8={item.blueSixthHeadingContent8}
+                blueSeventhHeading={item.blueSeventhHeading}
+                blueSeventhHeadingImage={item.blueSeventhHeadingImage}
+                blueSeventhHeadingContent1={item.blueSeventhHeadingContent1}
+                blueSeventhHeadingContent2Heading={
+                  item.blueSeventhHeadingContent2Heading
+                }
+                blueSeventhHeadingContent2={item.blueSeventhHeadingContent2}
+                blueSeventhHeadingContent3Heading={
+                  item.blueSeventhHeadingContent3Heading
+                }
+                blueSeventhHeadingContent3={item.blueSeventhHeadingContent3}
+                bluSevenxthHeadingContent4Heading={
+                  item.blueSeventhHeadingContent4Heading
+                }
+                blueSeventhHeadingContent4={item.blueSeventhHeadingContent4}
+                blueSeventhHeadingContent5Heading={
+                  item.blueSeventhHeadingContent5Heading
+                }
+                blueSeventhHeadingContent5={item.blueSeventhHeadingContent5}
+                blueSeventhHeadingContent6Heading={
+                  item.blueSeventhHeadingContent6Heading
+                }
+                blueSeventhHeadingContent6={item.blueSeventhHeadingContent6}
+                // blueSeventhHeadingContent7Heading={item.blueSeventhHeadingContent7Heading}
+                blueSeventhHeadingContent7={item.blueSeventhHeadingContent7}
+                // blueSeventhHeadingContent8={item.blueSeventhHeadingContent8}
+                blueEightthHeading={item.blueEightthHeading}
+                blueEightthHeadingImage={item.blueEightthHeadingImage}
+                blueEightthHeadingContent1={item.blueEightthHeadingContent1}
+                blueEightthHeadingContent2Heading={
+                  item.blueEightthHeadingContent2Heading
+                }
+                blueEightthHeadingContent2={item.blueEightthHeadingContent2}
+                blueEightthHeadingContent3Heading={
+                  item.blueEightthHeadingContent3Heading
+                }
+                blueEightthHeadingContent3={item.blueEightthHeadingContent3}
+                bluEightxthHeadingContent4Heading={
+                  item.blueEightthHeadingContent4Heading
+                }
+                blueEightthHeadingContent4={item.blueEightthHeadingContent4}
+                blueEightthHeadingContent5Heading={
+                  item.blueEightthHeadingContent5Heading
+                }
+                blueEightthHeadingContent5={item.blueEightthHeadingContent5}
+                blueEightthHeadingContent6Heading={
+                  item.blueEightthHeadingContent6Heading
+                }
+                blueEightthHeadingContent6={item.blueEightthHeadingContent6}
+                // blueEightthHeadingContent7Heading={item.blueEightthHeadingContent7Heading}
+                blueEightthHeadingContent7={item.blueEightthHeadingContent7}
+                // blueEightthHeadingContent8={item.blueEightthHeadingContent8}
+                blueNinethHeading={item.blueNinethHeading}
+                blueNinethHeadingImage={item.blueNinethHeadingImage}
+                blueNinethHeadingContent1={item.blueNinethHeadingContent1}
+                blueNinethHeadingContent2_1={item.blueNinethHeadingContent2_1}
+                blueNinethHeadingContent2_2={item.blueNinethHeadingContent2_2}
+                blueNinethHeadingContent2_3={item.blueNinethHeadingContent2_3}
+                blueNinethHeadingContent3={item.blueNinethHeadingContent3}
+                blueTenthHeading={item.blueTenthHeading}
+                blueTenthHeadingContent={item.blueTenthHeadingContent}
+                blueTenthHeadingContent1={item.blueTenthHeadingContent1}
+                blueTenthHeadingContent2Heading={
+                  item.blueTenthHeadingContent2Heading
+                }
+                blueTenthHeadingContent2={item.blueTenthHeadingContent2}
+                blueTenthHeadingContent3Heading={
+                  item.blueTenthHeadingContent3Heading
+                }
+                blueTenthHeadingContent3={item.blueTenthHeadingContent3}
+                blueTenthHeadingContent4Heading={
+                  item.blueTenthHeadingContent4Heading
+                }
+                blueTenthHeadingContent4={item.blueTenthHeadingContent4}
+                blueTenthHeadingContent5Heading={
+                  item.blueTenthHeadingContent5Heading
+                }
+                blueTenthHeadingContent5={item.blueTenthHeadingContent5}
+                blueTenthHeadingContent6Heading={
+                  item.blueTenthHeadingContent6Heading
+                }
+                blueTenthHeadingContent6={item.blueTenthHeadingContent6}
+                blueTenthHeadingContent7Heading={
+                  item.blueTenthHeadingContent7Heading
+                }
+                blueTenthHeadingContent7={item.blueTenthHeadingContent7}
+                blueTenthHeadingContent8Heading={
+                  item.blueTenthHeadingContent8Heading
+                }
+                blueTenthHeadingContent8={item.blueTenthHeadingContent8}
+                blueTenthHeadingContent9Heading={
+                  item.blueTenthHeadingContent9Heading
+                }
+                blueTenthHeadingContent9={item.blueTenthHeadingContent9}
+                blueTenthHeadingContent10Heading={
+                  item.blueTenthHeadingContent10Heading
+                }
+                blueTenthHeadingContent10={item.blueTenthHeadingContent10}
+                blueTenthHeadingContent11Heading={
+                  item.blueTenthHeadingContent11Heading
+                }
+                blueTenthHeadingContent11={item.blueTenthHeadingContent11}
+                //
+                blueElevenHeading={item.blueElevenHeading}
+                // blueElevenHeadingContent={item.blueElevenHeadingContent}
 
-              blueElevenHeadingContent1={item.blueElevenHeadingContent1}
-              // blueElevenHeadingContent2Heading={
-              //   item.blueElevenHeadingContent2Heading
-              // }
-              blueElevenHeadingContent2={item.blueElevenHeadingContent2}
-              blueElevenHeadingContent3Heading={
-                item.blueElevenHeadingContent3Heading
-              }
-              blueElevenHeadingContent3={item.blueElevenHeadingContent3}
-              blueElevenHeadingContent4Heading={
-                item.blueElevenHeadingContent4Heading
-              }
-              blueElevenHeadingContent4={item.blueElevenHeadingContent4}
-              blueElevenHeadingContent5Heading={
-                item.blueElevenHeadingContent5Heading
-              }
-              blueElevenHeadingContent5={item.blueElevenHeadingContent5}
-              blueElevenHeadingContent6={item.blueElevenHeadingContent6}
-              ConclusionTitle={item.ConclusionTitle}
-              Conclusioncontent={item.Conclusioncontent}
-
-              //
-              companies={item.companies}
-              constuctionWorldImage={item.constuctionWorldImage}
-              constuctionWorldText1={item.constuctionWorldText1}
-              constuctionWorldText2={item.constuctionWorldText2}
-              constuctionWorldText3={item.constuctionWorldText3}
-              typesOfSolarPanels={item.typesOfSolarPanels}
-              solarPanelTypesHeading={item.solarPanelTypesHeading}
-              electricityHeading={item.electricityHeading}
-              electricityContent={item.electricityContent}
-              electricityImage={item.electricityImage}
-              electricityText1={item.electricityText1}
-            
-              accordionTitle={item.accodrionTitle}
-              accordionText={item.accordionText}
-              items={item.accordionData}
-            />
-          ))}
+                blueElevenHeadingContent1={item.blueElevenHeadingContent1}
+                // blueElevenHeadingContent2Heading={
+                //   item.blueElevenHeadingContent2Heading
+                // }
+                blueElevenHeadingContent2={item.blueElevenHeadingContent2}
+                blueElevenHeadingContent3Heading={
+                  item.blueElevenHeadingContent3Heading
+                }
+                blueElevenHeadingContent3={item.blueElevenHeadingContent3}
+                blueElevenHeadingContent4Heading={
+                  item.blueElevenHeadingContent4Heading
+                }
+                blueElevenHeadingContent4={item.blueElevenHeadingContent4}
+                blueElevenHeadingContent5Heading={
+                  item.blueElevenHeadingContent5Heading
+                }
+                blueElevenHeadingContent5={item.blueElevenHeadingContent5}
+                blueElevenHeadingContent6={item.blueElevenHeadingContent6}
+                ConclusionTitle={item.ConclusionTitle}
+                Conclusioncontent={item.Conclusioncontent}
+                //
+                companies={item.companies}
+                constuctionWorldImage={item.constuctionWorldImage}
+                constuctionWorldText1={item.constuctionWorldText1}
+                constuctionWorldText2={item.constuctionWorldText2}
+                constuctionWorldText3={item.constuctionWorldText3}
+                typesOfSolarPanels={item.typesOfSolarPanels}
+                solarPanelTypesHeading={item.solarPanelTypesHeading}
+                electricityHeading={item.electricityHeading}
+                electricityContent={item.electricityContent}
+                electricityImage={item.electricityImage}
+                electricityText1={item.electricityText1}
+                accordionTitle={item.accodrionTitle}
+                accordionText={item.accordionText}
+                items={item.accordionData}
+              />
+            ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 export default BlogSingle;

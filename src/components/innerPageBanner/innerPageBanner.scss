@@ -8,7 +8,7 @@
   position: relative;
   display: flex;
   align-items: end;
-  top: 140px;
+  top: 100px;
   margin: 0 0 140px;
   &::before {
     content: "";
@@ -19,12 +19,12 @@
   }
   @media (max-width: 1199px) {
     min-height: calc(100vh - 110px);
-    top: 110px;
+    // top: 110px;
     margin: 0 0 110px;
   }
   @media (max-width: 991px) {
     min-height: calc(100vh - 93px);
-    top: 93px;
+    top: 80px;
     margin: 0 0 93px;
   }
   @media (max-width: 767px) {

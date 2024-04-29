@@ -10,10 +10,12 @@ import aboutInnerFormImage from "../../images/aboutInnerImage.png";
 import bannerImage from "../../images/aboutUsBanner.png";
 import Form from "../../components/form/Form";
 import TimelineNew from "../../components/timelineNew/TimelineNew";
+import PageTitle from "../../components/pageTitle/PageTitle";
 
 const AboutUs = () => {
   return (
     <>
+    <PageTitle pageTitle={"Raaj Solar - About Us"} />
       {/* <AboutUsBanner /> */}
       <InnerPageBanner heading={"About us"} image={bannerImage} />
       <AboutExperience />

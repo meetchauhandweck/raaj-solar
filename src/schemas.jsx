@@ -15,15 +15,15 @@ export const ProductFormSchemas = Yup.object({
   selectOption: Yup.string().required("Required"),
 });
 
-export const ContactSchema = Yup.object().shape({
+export const ContactSchema = Yup.object({
   name: Yup.string()
     .min(2, "Too Short!")
     .max(50, "Too Long!")
     .required("Name is required"),
-  email: Yup.string().email("Invalid email").required("Email is required"),
-  phoneNumber: Yup.string()
+    Mail: Yup.string().email("Invalid email").required("Email is required"),
+  phone: Yup.string()
     .min(10, "Phone number too short!")
     .required("Phone number is required"),
-  subject: Yup.string().required("Subject is required"),
+  file:Yup.string().required("Select file")
   // message: Yup.string().min(5, "Message too short!").required("Required"),
 });

@@ -16,6 +16,7 @@ import cardData3File3 from "../../files/STC-Test-Report.pdf";
 import cardData4File1 from "../../files/ISO-9001-Raajratna-Ventures-Ltd.pdf";
 import cardData4File2 from "../../files/ISO-14001-Raajratna-Ventures-Ltd.pdf";
 import cardData4File3 from "../../files/ISO-45001-Raajratna-Ventures-Ltd.pdf";
+import PageTitle from "../../components/pageTitle/PageTitle";
 
 const Download = () => {
   const cardData = [
@@ -81,6 +82,7 @@ const Download = () => {
   ];
   return (
     <>
+    <PageTitle pageTitle={"Raaj Solar - Download"} />
       <InnerPageBanner heading={"Downloads"} image={bannerImage} />
       <div className="download_sec">
         <div className="container">

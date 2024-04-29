@@ -8,7 +8,7 @@ import FourCardItem from "./fourCardItem/FourCardItem";
 import "./fourCards.scss";
 
 const fourCardData = [
-  { id: 0, image: logo1, link: "https://www.raajventures.com/" },
+  { id: 0, image: logo1, link: "https://raajratnaelectrodes.com/" },
   { id: 1, image: logo2, link: "https://raajratna.com/" },
   { id: 2, image: logo3, link: "/" },
   { id: 3, image: logo4, link: "https://www.raajratnaelectrodes.com/" },

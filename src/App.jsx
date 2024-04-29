@@ -20,6 +20,7 @@ import BlogSingle from "./pages/blog/blogSingle/BlogSingle";
 import Download from "./pages/download/Download";
 import ScrollTop from "./components/scrollTop/ScrollTop";
 import LocomotoveScroll from "locomotive-scroll";
+import Career from "./pages/career/Career";
 
 function App() {
   const [handleScroll, setHandleScroll] = useState(window.innerWidth);
@@ -52,6 +53,7 @@ function App() {
     };
   }, [handleScroll]);
 
+
   return (
     <Layout>
       <ScrollTop />
@@ -73,6 +75,7 @@ function App() {
         <Route path="/raaj-solar/mono-perc" element={<MonoPerc />} />
         <Route path="/raaj-solar/mono-bi-facial" element={<MonoBiFacial />} />
         <Route path="/raaj-solar/download" element={<Download />} />
+        <Route path="/raaj-solar/career" element={<Career />} />
       </Routes>
     </Layout>
   );

@@ -9,6 +9,7 @@ import Warranty from "../../../../components/warranty/Warranty";
 import bannerImage from "../../../../images/productImage2.png";
 import moduleImage from "../../../../images/productImage4.png";
 import file from "../../../../files/product-mono.pdf"
+import PageTitle from "../../../../components/pageTitle/PageTitle";
 
 const productModuleData = {
   title: "OTHER PRODUCT Mono Bi Facial PV MODULES",
@@ -34,6 +35,7 @@ const productModuleData = {
 const MonoPerc = () => {
   return (
     <>
+    <PageTitle pageTitle={"Raaj Solar - MONO PERC"} />
       <ProductsPageBanner
         image={bannerImage}
         heading={"MONO PERC"}

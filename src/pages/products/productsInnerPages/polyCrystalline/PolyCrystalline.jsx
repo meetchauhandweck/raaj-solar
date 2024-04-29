@@ -9,6 +9,7 @@ import Warranty from "../../../../components/warranty/Warranty";
 import bannerImage from "../../../../images/productImage1.png";
 import moduleImage from "../../../../images/productImage2.png";
 import file from "../../../../files/product-poly.pdf";
+import PageTitle from "../../../../components/pageTitle/PageTitle";
 
 const productModuleData = {
   title: "OTHER PRODUCT MONO PERC PV MODULES",
@@ -34,6 +35,7 @@ const productModuleData = {
 const PolyCrystalline = () => {
   return (
     <>
+    <PageTitle pageTitle={"Raaj Solar - POLY Crystalline"} />
       <ProductsPageBanner
         image={bannerImage}
         heading={"POLY Crystalline"}
