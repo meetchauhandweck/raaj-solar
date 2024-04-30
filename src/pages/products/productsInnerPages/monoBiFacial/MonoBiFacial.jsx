@@ -13,7 +13,7 @@ import file from "../../../../files/product-bi-facial.pdf";
 import PageTitle from "../../../../components/pageTitle/PageTitle";
 
 const productModuleData = {
-  title: "OTHER PRODUCT Poly Crystalline PV MODULES",
+  title: "TAPCon PV MODULES",
   images: [
     {
       src: moduleImage,
@@ -52,7 +52,7 @@ const MonoBiFacial = () => {
       row5col1={"13.22"} row5col2={"13.27"} row5col3={"13.35"} row5col4={"13.45"} row5col5={"13.51"}  
        row6col1={"20.51"} row6col2={"20.70"} row6col3={"20.89"} row6col4={"21.09"} row6col5={"21.28"} 
        notes={"STC: Irradiances of 1000 W/m²,spectrum AM 1.5and cell temperature of 25°C"}
-       celltypes={"Mono PERK 144 half cut cells (72*72)"}
+       celltypes={"Mono PERC 144 half cut cells (72*72)"}
        />
       <Table2 />
       <ProductInnerCards />

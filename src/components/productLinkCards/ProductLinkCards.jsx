@@ -5,12 +5,12 @@ import "./productLinkCards.scss";
 const productLinkCardsData = [
   {
     text1: "TOP",
-    text2: "CON",
+    text2: "Con",
     link: "/raaj-solar/topcon",
   },
   {
-    text1: "mono",
-    text2: "perc",
+    text1: "MONO",
+    text2: "PERC",
     link: "/raaj-solar/mono-perc",
   },
   {

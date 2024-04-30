@@ -3,7 +3,7 @@ import InnerPageBanner from "../../components/innerPageBanner/InnerPageBanner";
 import bannerImage from "../../images/downloadBanner.png";
 import cardDataFile1 from "../../files/mono_perc_file.pdf";
 import cardDataFile2 from "../../files/bi_facial_file.pdf";
-import cardDataFile3 from "../../files/Poly-Crystalline_file.pdf";
+import cardDataFile3 from "../../files/Bi-Facial TOPCON_Leaflet.pdf";
 import cardData1File1 from "../../files/Solar_Panel_Catalogue_All.pdf";
 import cardData2File1 from "../../files/BIS-MONO.pdf";
 import cardData2File2 from "../../files/BIS-MBB-Inclusion.pdf";
@@ -22,7 +22,7 @@ const Download = () => {
   const cardData = [
     { title: "Mono PERC", file: cardDataFile1 },
     { title: "Bi-Facial", file: cardDataFile2 },
-    { title: "Poly Crystalline", file: cardDataFile3 },
+    { title: "TAPCon", file: cardDataFile3 },
   ];
   const cardData1 = [
     { title: "RAAJ Solar Panels - Catalog", file: cardData1File1 },

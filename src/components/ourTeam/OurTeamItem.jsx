@@ -14,9 +14,9 @@ const OurTeamItem = ({ image, title, subTitle, mailLink, linkedInLink }) => {
           <div className="title">{title}</div>
           <div className="sub_title">{subTitle}</div>
           <div className="links">
-            <Link to={mailLink} className="mail">
+            {/* <Link to={mailLink} className="mail">
               <img src={mailImage} alt="mail" />
-            </Link>
+            </Link> */}
             <Link to={linkedInLink} className="linkedin">
               <img src={linkedinImage} alt="linkedin" />
             </Link>
@@ -31,6 +31,6 @@ OurTeamItem.propTypes = {
   image: PropTypes.any,
   title: PropTypes.string,
   subTitle: PropTypes.string,
-  mailLink: PropTypes.string,
+  // mailLink: PropTypes.string,
   linkedInLink: PropTypes.string,
 };

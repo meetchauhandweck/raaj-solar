@@ -12,7 +12,7 @@ import file from "../../../../files/product-poly.pdf";
 import PageTitle from "../../../../components/pageTitle/PageTitle";
 
 const productModuleData = {
-  title: "OTHER PRODUCT MONO PERC PV MODULES",
+  title: "MONO PERC PV MODULES",
   images: [
     {
       src: moduleImage,

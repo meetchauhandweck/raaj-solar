@@ -42,7 +42,7 @@ const ProductSlider = () => {
                 <HomePageCommonHeading heading={"Our Product"} />
                 <div className="card1_inner">
                   <div className="info">
-                    {"TOPCON"}
+                    {"TOPCon"}
                     <br />
                     {/* {"CRYSTALLINE"} */}
                   </div>
