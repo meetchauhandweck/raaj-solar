@@ -45,10 +45,11 @@ const LeftRightImageContentItem = ({
               <p>{description}</p>
             </div>
             <div>
-              <p className="button_text">
-                <Link to={link}>Read more</Link>
+                <Link to={link}>
+              <p className="button_text">Read more
                 <img src={arrowIcon} alt="Read more arrow" />
               </p>
+              </Link>
             </div>
           </div>
 

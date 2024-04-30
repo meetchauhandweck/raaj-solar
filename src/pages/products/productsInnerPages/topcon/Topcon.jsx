@@ -12,7 +12,7 @@ import file from "../../../../files/product-poly.pdf";
 import PageTitle from "../../../../components/pageTitle/PageTitle";
 
 const productModuleData = {
-  title: "OTHER PRODUCT MONO PERC PV MODULES",
+  title: "MONO PERC PV MODULES",
   images: [
     {
       src: moduleImage,
@@ -38,7 +38,7 @@ const Topcon = () => {
     <PageTitle pageTitle={"Ahmedabad - Solar Panel Manufacturing Company | Raaj Solar"} />
       <ProductsPageBanner
         image={bannerImage}
-        heading={"Topcon"}
+        heading={"TOPCon"}
         text={
           "With the development of Technology Poly Modules efficiency has increased up to 18% , where we can make Modules up to 345 WP.Poly Modules are ideally used for Ground Mounted , Industrial ,Commercial , Residential , Water Pumping system &…"
         }
@@ -51,7 +51,7 @@ const Topcon = () => {
         row5col1={"13.76"} row5col2={"13.79"} row5col3={"13.86"} row5col4={"13.91"}
         row6col1={"22.64"} row6col2={"22.83"} row6col3={"23.02"} row6col4={"23.22"} 
         notes={"STC: Irradiances of 1000 W/m², cell temperature 25°C,Air Mass AM1.5"}
-        celltypes={"Topcon 144 half cut (72*72)"}
+        celltypes={"TOPCon 144 half cut (72*72)"}
        />
       <ProductInnerCards />
       <Warranty />

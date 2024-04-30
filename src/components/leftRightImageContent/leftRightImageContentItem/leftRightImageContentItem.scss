@@ -103,6 +103,7 @@
         .button_text {
           display: flex;
           border: 1px solid $black;
+          color: black;
           padding: 9px;
           width: 8rem;
           margin: 1.5rem 0 2rem;
@@ -125,7 +126,7 @@
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-            text-decoration: none;
+            text-decoration: none !important;
             text-transform: capitalize;
           }
         }

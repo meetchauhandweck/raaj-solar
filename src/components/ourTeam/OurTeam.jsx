@@ -56,7 +56,7 @@ const OurTeam = () => {
               image={item.image}
               title={item.title}
               subTitle={item.subTitle}
-              mailLink={item.mailLink}
+              // mailLink={item.mailLink}
               linkedInLink={item.linkedinLink}
             />
           ))}

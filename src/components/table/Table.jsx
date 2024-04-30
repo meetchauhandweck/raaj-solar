@@ -88,7 +88,7 @@ const Table = ({
                   <td>{row5col1}</td>
                   <td>{row5col2}</td>
                   <td>{row5col3}</td>
-                  {row5col5 && <td>{row5col5}</td>}
+                  {row5col4 && <td>{row5col4}</td>}
                   {row5col5 && <td>{row5col5}</td>}
                 </tr>
                 {(row6col1 || row6col2 || row6col3 || row6col4 || row6col5) && (
