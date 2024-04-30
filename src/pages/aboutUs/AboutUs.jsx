@@ -11,6 +11,7 @@ import bannerImage from "../../images/aboutUsBanner.png";
 import Form from "../../components/form/Form";
 import TimelineNew from "../../components/timelineNew/TimelineNew";
 import PageTitle from "../../components/pageTitle/PageTitle";
+import ContactForm from "../../components/form/Form";
 
 const AboutUs = () => {
   return (
@@ -25,7 +26,8 @@ const AboutUs = () => {
       {/* <NewTimeLine /> */}
       <OurCommitment />
       <ImageWithForm image={aboutInnerFormImage} />
-      <Form />
+      {/* <Form /> */}
+      <ContactForm />
     </>
   );
 };

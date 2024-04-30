@@ -64,7 +64,7 @@ const Table = ({
                   <td>{row2col1}</td>
                   <td>{row2col2}</td>
                   <td>{row2col3}</td>
-                  {row2col4 && <td>{row2col4}</td>}
+                  {row2col4 && <td>{row2col4}</td> }
                   {row2col5 && <td>{row2col5}</td>}
                 </tr>
                 <tr>
