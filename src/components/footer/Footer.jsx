@@ -4,9 +4,11 @@ import instagram from "../../images/instagram.svg";
 import youtube from "../../images/youtube.svg";
 import whatsapp from "../../images/whatsapp.svg";
 import linkedin from "../../images/linkedin.svg";
-import { Link } from "react-router-dom";
-// import Form from "../form/Form";
+import { Link, useLocation } from "react-router-dom";
+import Form from "../form/Form";
 const Footer = () => {
+  const location = useLocation();
+  console.log(location);
   return (
     <div className="footer">
       <div className="container">
@@ -33,15 +35,10 @@ const Footer = () => {
               <div className="f3">
                 <Link to="/raaj-solar/blog">Blogs</Link>
               </div>
-              {/* <div className="f3">
-                <Link to="/raaj-solar/contact-us">Contact Us</Link>
-              </div> */}
             </div>
             <div className="col2">
               <h2>Quick Links</h2>
-              {/* <div className="f3">
-                <Link to="/raaj-solar/career">Career</Link>
-              </div> */}
+
               <div className="f3">
                 <Link to="/raaj-solar/products">Products</Link>
               </div>
@@ -51,12 +48,6 @@ const Footer = () => {
               <div className="f3">
                 <Link to="/raaj-solar/contact-us">Contact Us</Link>
               </div>
-              {/* <div className="f3">
-                <Link to="/raaj-solar/experience">Experience</Link>
-              </div> */}
-              {/* <div className="f3">
-                <Link to="/raaj-solar/center">Center</Link>
-              </div> */}
             </div>
             <div className="col3">
               <h2>Contact</h2>
@@ -121,7 +112,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <Form /> */}
+      {location.pathname === "/raaj-solar" && <Form />}
     </div>
   );
 };
