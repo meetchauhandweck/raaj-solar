@@ -11,7 +11,10 @@
 
   .map-section {
     flex: 6;
-    max-width: 60%;
+    max-width: 65%;
+    @media (max-width: 1600px) {
+      max-width: 60%;
+    }
     @media (max-width: 991px) {
       max-width: 55%;
     }
@@ -24,18 +27,26 @@
   .form-section {
     flex: 1;
     flex: 4;
-    max-width: 40%;
+    max-width: 35%;
     display: flex;
     flex-direction: column;
-    background-color: #007dc5;
     color: white;
     justify-content: center;
-    padding: 0 0 20px;
+    @media (max-width: 1600px) {
+      max-width: 40%;
+    }
     @media (max-width: 991px) {
       max-width: 45%;
     }
     @media (max-width: 767px) {
       max-width: 100%;
+    }
+    .contact_form {
+      display: block;
+      width: 100%;
+      form {
+        padding: 0;
+      }
     }
   }
 
@@ -50,90 +61,6 @@
       height: 350px;
     }
   }
-
-  form {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 100px;
-    @media (max-width: 1199px) {
-      padding: 20px 60px;
-    }
-    @media (max-width: 575px) {
-      padding: 20px 40px;
-    }
-  }
-
-  input,
-  textarea {
-    padding: 20px;
-    border: 1px solid white;
-    background-color: #007dc5;
-    color: white;
-    border-radius: 5px;
-    outline: none;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    text-align: left;
-    width: 89%;
-  }
-
-  ::placeholder {
-    color: white;
-  }
-  .contactFormField {
-    margin: 0 0 30px;
-    input {
-      font-family: "Poppins";
-    }
-    textarea{
-      font-family: "Poppins";
-    }
-  }
-  button {
-    padding: 20px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: white;
-    color: $darkBlue;
-    font-family: Poppins;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s;
-    &:hover {
-      color: $blue;
-      img {
-        transform: translateX(10px);
-      }
-    }
-    img {
-      padding: 0 0 0 10px;
-      transition: all 0.3s;
-    }
-  }
-
-  .contactformtitle {
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 58px;
-    letter-spacing: 0.015em;
-    text-align: left;
-    margin: 40px 0;
-    @media (max-width: 1199px) {
-      font-size: 38px;
-    }
-    @media (max-width: 767px) {
-      line-height: 48px;
-    }
-  }
 }
 @media screen and (max-width: 768px) and (min-width: 426px) {
   .contact-container {
@@ -143,12 +70,10 @@
   .map-section {
     flex: 0 0 100%;
     max-width: 100%;
-    /* padding: 20px 150px; */
   }
   .form-section {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 20px 150px;
   }
 
   .mapframe {

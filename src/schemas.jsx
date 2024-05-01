@@ -1,10 +1,10 @@
 import * as Yup from "yup";
 export const FormSchemas = Yup.object({
-  fullName: Yup.string().required("Full name is required"),
+  name: Yup.string().required("Full name is required"),
   message: Yup.string().required("Message is required"),
   email: Yup.string().email().required("Email is required"),
   phone: Yup.string().required("Phone number is required"),
-  selectOption: Yup.string().required("Required"),
+  select: Yup.string().required("Select option"),
 });
 
 export const ProductFormSchemas = Yup.object({

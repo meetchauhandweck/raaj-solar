@@ -2,6 +2,7 @@ import { Formik, Form, Field } from "formik";
 import "./contactUsForm.scss";
 import { ContactSchema } from "../../schemas";
 import arrow from "../../images/submitArrow.svg";
+import FormSec from "../../components/form/Form";
 
 function ContactUsForm() {
   return (
@@ -18,66 +19,7 @@ function ContactUsForm() {
           ></iframe>
         </div>
         <div className="form-section">
-          <Formik
-            initialValues={{
-              name: "",
-              email: "",
-              phoneNumber: "",
-              subject: "",
-              message: "",
-            }}
-            validationSchema={ContactSchema}
-            onSubmit={(values) => {
-              console.log(values);
-            }}
-          >
-            {({ errors, touched }) => (
-              <Form>
-                <h2 className="contactformtitle">How To Reach US</h2>
-                <div className="contactFormField">
-                  <Field name="name" type="text" placeholder="Name" />
-                  {errors.name && touched.name ? (
-                    <div className="error">{errors.name}</div>
-                  ) : null}
-                </div>
-                <div className="contactFormField">
-                  <Field name="email" type="email" placeholder="Email" />
-                  {errors.email && touched.email ? (
-                    <div className="error">{errors.email}</div>
-                  ) : null}
-                </div>
-                <div className="contactFormField">
-                  <Field
-                    name="phoneNumber"
-                    type="tel"
-                    placeholder="Phone Number"
-                  />
-                  {errors.phoneNumber && touched.phoneNumber ? (
-                    <div className="error">{errors.phoneNumber}</div>
-                  ) : null}
-                </div>
-                <div className="contactFormField">
-                  <Field
-                    name="subject"
-                    type="text"
-                    placeholder="Subject: I Would Like to Discuss"
-                  />
-                  {errors.subject && touched.subject ? (
-                    <div className="error">{errors.subject}</div>
-                  ) : null}
-                </div>
-                <div className="contactFormField">
-                  <Field as="textarea" name="message" placeholder="Message" />
-                  {/* {errors.message && touched.message ? (
-                    <div className="error">{errors.message}</div>
-                  ) : null} */}
-                </div>
-                <button type="submit">
-                  Send Message <img src={arrow} alt="submitArrow" />
-                </button>
-              </Form>
-            )}
-          </Formik>
+          <FormSec />
         </div>
       </div>
     </div>

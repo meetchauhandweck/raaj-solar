@@ -13,8 +13,8 @@ const Map = () => {
           referrerPolicy="no-referrer-when-downgrade"
           className="map"
         ></iframe>
+        {/* <Form /> */}
       </div>
-      <Form />
     </div>
   );
 };
