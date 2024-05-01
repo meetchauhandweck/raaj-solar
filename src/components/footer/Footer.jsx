@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
           <div className="copyright">
             <div className="copyright_text">
-              Copyright &copy; 2023 Raaj Solar, All Right Reserved. Designed &
+              Copyright &copy; 2024 Raaj Solar, All Right Reserved. Designed &
               Developed by
               <span>
                 <Link target="_blank" to="https://www.humbeestudio.com/">

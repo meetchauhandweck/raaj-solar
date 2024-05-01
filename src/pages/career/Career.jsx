@@ -162,7 +162,7 @@ const Career = () => {
     name: Yup.string().required("Name is required"),
     phone: Yup.number().required("Phone number is required"),
     message: Yup.string().required("Message is required"),
-    image: Yup.mixed().required("File is required"),
+    // image: Yup.mixed().required("File is required"),
   });
 
   return (

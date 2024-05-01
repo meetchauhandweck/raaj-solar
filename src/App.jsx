@@ -10,7 +10,7 @@ import ContactUs from "./pages/contactUs/ContactUs";
 import Layout from "./components/layout/Layout";
 import AboutUs from "./pages/aboutUs/AboutUs";
 import Management from "./pages/management/Management";
-import { useEffect, useRef, useState } from "react";
+import { useEffect,  useState } from "react";
 // import LocomotiveScroll from "locomotive-scroll";
 import PolyCrystalline from "./pages/products/productsInnerPages/polyCrystalline/PolyCrystalline";
 import MonoPerc from "./pages/products/productsInnerPages/monoPerc/MonoPerc";

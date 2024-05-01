@@ -5,7 +5,7 @@ import "./leftRightImageContent.scss";
 import smallImage1 from "../../images/productCardSmallImage1.png";
 import smallImage2 from "../../images/productCardSmallImage2.png";
 import smallImage3 from "../../images/productCardSmallImage3.png";
-import productImage1 from "../../images/productImage1.png";
+import productImage1 from "../../images/productImage4.png";
 import productImage2 from "../../images/productImage2.png";
 import productImage3 from "../../images/productImage4.png";
 import LeftRightImageContentItem from "./leftRightImageContentItem/LeftRightImageContentItem";

@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectFade, Autoplay } from "swiper/modules";
-import img1 from "../../images/productImage1.png";
+import img1 from "../../images/productImage4.png";
 import img2 from "../../images/productImage2.png";
 import img3 from "../../images/productImage3.png";
 import "swiper/css";

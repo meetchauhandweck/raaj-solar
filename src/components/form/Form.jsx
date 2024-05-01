@@ -148,29 +148,10 @@ const Form = () => {
 export default Form;
 
 // import { Formik, Form, Field, ErrorMessage } from "formik";
-// import { useState } from "react";
 
 // const ContactForm = () => {
-//   const [resetSelect, setResetSelect] = useState(null);
-//   const [fieldValue, setFieldValue] = useState(null);
-//   // const validationSchema = Yup.object().shape({
-//   //   email: Yup.string()
-//   //     .email("Invalid email address")
-//   //     .required("Email is required"),
-//   //   name: Yup.string().required("Name is required"),
-//   //   phone: Yup.number().required("Phone number is required"),
-//   //   message: Yup.string().required("Message is required"),
-//   //   image: Yup.mixed().required("File is required"),
-//   // });
-//   const options = [
-//     { value: "business inquiry", label: "Business Inquiry" },
-//     { value: "feedback", label: "Feedback" },
-//     { value: "other", label: "Other" },
-//   ];
-//   const handleSelectChange = (selectedOption) => {
-//     setResetSelect(selectedOption);
-//     setFieldValue("select", selectedOption.value); // Update the formik field value
-//   };
+
+
 
 //   return (
 //     <>
