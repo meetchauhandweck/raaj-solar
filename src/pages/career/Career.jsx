@@ -6,8 +6,12 @@ import PageTitle from "../../components/pageTitle/PageTitle";
 import formImage from "../../images/careerFormImg.png";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import "./career.scss";
+import uploadIcon from "../../images/uploadFile.svg";
+import { useState } from "react";
 
 const Career = () => {
+  const [uplpadedFileName, setUploadedFileName] = useState("");
+
   const validationSchema = Yup.object().shape({
     email: Yup.string()
       .email("Invalid email address")
@@ -48,6 +52,7 @@ const Career = () => {
                     formData.append("image", values.image);
                     formData.append("message", values.message);
                     console.log("Form Data", formData);
+                    console.log("file", values.image.name);
                     const response = await fetch(
                       "http://localhost:8000/sendmail",
                       {
@@ -60,8 +65,9 @@ const Career = () => {
                     console.log("response", response);
                   } finally {
                     setSubmitting(false);
-                    resetForm();
                     document.getElementById("formFile").value = "";
+                    setUploadedFileName("")
+                    resetForm();
                   }
                 }}
               >
@@ -107,16 +113,25 @@ const Career = () => {
                         className="error"
                       />
                     </div>
-                    <div className="contactFormField">
-                      <input
-                        type="file"
-                        name="image"
-                        onChange={(event) => {
-                          setFieldValue("image", event.currentTarget.files[0]);
-                        }}
-                        className=""
-                        id="formFile"
-                      />
+                    <div className="contactFormField fileFiled">
+                      <div className="fileIconWithText">
+                        <input
+                          type="file"
+                          name="image"
+                          onChange={(event) => {
+                            setFieldValue(
+                              "image",
+                              event.currentTarget.files[0]
+                            );
+                            setUploadedFileName(
+                              event.currentTarget.files[0].name
+                            );
+                          }}
+                          className="uploadFile"
+                          id="formFile"
+                        />
+                        <p>{uplpadedFileName === "" ? "Upload File" : uplpadedFileName }</p>
+                      </div>
                       <ErrorMessage
                         name="image"
                         component="div"
